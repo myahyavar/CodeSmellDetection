@@ -18,16 +18,16 @@
 #   recommended to use a multi-core machine for the preprocessing 
 #   step and set this value to the number of cores.
 # PYTHON - python3 interpreter alias.
-TRAIN_DIR=my_train_dir
-VAL_DIR=my_val_dir
-TEST_DIR=my_test_dir
-DATASET_NAME=my_dataset
+TRAIN_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec-master/data/java-small/train
+VAL_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec-master/data/java-small/val
+TEST_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec-master/data/java-small/test
+DATASET_NAME=java-small
 MAX_CONTEXTS=200
 WORD_VOCAB_SIZE=1301136
 PATH_VOCAB_SIZE=911417
 TARGET_VOCAB_SIZE=261245
 NUM_THREADS=64
-PYTHON=python3
+PYTHON=python
 ###########################################################
 
 TRAIN_DATA_FILE=${DATASET_NAME}.train.raw.txt
