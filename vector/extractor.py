@@ -1,6 +1,6 @@
 import subprocess
 
-
+#doesnt need anything
 class Extractor:
     def __init__(self, config, jar_path, max_path_length, max_path_width):
         self.config = config

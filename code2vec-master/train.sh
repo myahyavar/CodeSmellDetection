@@ -6,7 +6,7 @@
 # test_data: by default, points to the validation set, since this is the set that
 #   will be evaluated after each training iteration. If you wish to test
 #   on the final (held-out) test set, change 'val' to 'test'.
-type=javajava-small
+type=java-small
 dataset_name=java-small
 data_dir=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec-master/data/${dataset_name}
 data=${data_dir}/${dataset_name}

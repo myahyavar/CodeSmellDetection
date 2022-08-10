@@ -24,7 +24,7 @@ class InteractivePredictor:
             return file.readlines()
 
     def predict(self):
-        input_filename = 'Input.java'
+        input_filename = 'input.java'
         print('Starting interactive prediction...')
         while True:
             print(
