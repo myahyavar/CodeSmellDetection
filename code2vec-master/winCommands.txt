@@ -1,5 +1,5 @@
-python code2vec.py --load models/java-small/saved_model_iter1 --release
+python code2vec.py --load models/java-small/saved_model --release
 
-python code2vec.py --load models/java-small/saved_model_iter1.release --test data/java-small/java-small.test.c2v
+python code2vec.py --load models/java-small/saved_model.release --test data/java-small/java-small.test.c2v
 
-python code2vec.py --load models/java-small/saved_model_iter1.release --predict
+python code2vec.py --load models/java-small/saved_model.release --predict

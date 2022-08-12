@@ -1,7 +1,9 @@
-int f(int n) {
-    if (n == 0) {
-        return 1;
-    } else {
-        return n * f(n-1);
+int f(String target, ArrayList<String> array) {
+    int count = 0;
+    for (String str: array) {
+        if (target.equals(str)) {
+            count++;
+        }
     }
+    return count;
 }
