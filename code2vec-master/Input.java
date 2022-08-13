@@ -6,4 +6,4 @@ int f(String target, ArrayList<String> array) {
         }
     }
     return count;
-}
+}q

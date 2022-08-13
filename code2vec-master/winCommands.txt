@@ -3,3 +3,7 @@ python code2vec.py --load models/java-small/saved_model --release
 python code2vec.py --load models/java-small/saved_model.release --test data/java-small/java-small.test.c2v
 
 python code2vec.py --load models/java-small/saved_model.release --predict
+
+python code2vec.py --load models/java-small/saved_model.release --save_w2v models/java-small/tokens.txt
+
+python code2vec.py --load models/java-small/saved_model.release --save_t2v models/java-small/targets.txt
