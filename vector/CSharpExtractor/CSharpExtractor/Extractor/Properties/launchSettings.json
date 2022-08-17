@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Extractor": {
+      "commandName": "Project",
+      "commandLineArgs": "--path C:\\Users\\YAHYA\\Desktop\\Software_Stuff\\LSTM\\DeepLearningPractice\\code2vec-master\\CSharpExtractor\\CSharpExtractor\\Extractor --no_hash"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    }
+  }
+}
