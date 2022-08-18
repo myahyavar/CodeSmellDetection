@@ -13,6 +13,7 @@ namespace Extractor
         [Option('t', "threads", Default = 1, HelpText = "How many threads to use <1>")]
         public int Threads { get; set; }
 
+        //doesnt work for some reason, had to append manually on Program.cs
         [Option('p', "path", Default = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/vector/CSharpExtractor/CSharpExtractor/Extractor/data/", HelpText = "Where to find code files. <.>")]
         public string Path { get; set; }
 
@@ -22,10 +23,11 @@ namespace Extractor
         [Option('l', "max_width", Default = 300, HelpText = "Max path length")]
         public int MaxWidth { get; set; }
 
-        [Option('o', "ofile_name", Default = "test.txt", HelpText = "Output file name")]
+        [Option('o', "ofile_name", Default = "results.txt", HelpText = "Output file name")]
         public String OFileName { get; set; }
 
-        [Option('h', "no_hash", Default = true, HelpText = "When enabled, prints the whole path strings (not hashed)")]
+        //hashing doesnt change anything, wonder why
+        [Option('h', "no_hash", Default = false, HelpText = "When enabled, prints the whole path strings (not hashed)")]
         public Boolean NoHash { get; set; }
 
         [Option('l', "max_contexts", Default = 30000, HelpText = "Max number of path contexts to sample. Affects only very large snippets")]

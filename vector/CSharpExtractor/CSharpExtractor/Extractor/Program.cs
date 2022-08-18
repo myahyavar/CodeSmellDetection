@@ -1,5 +1,4 @@
 ﻿using CommandLine;
-using CommandLine.Text;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -27,7 +26,6 @@ namespace Extractor
                     Console.WriteLine(errors);
                     return;
                 });
-            Console.WriteLine("1");
             string path = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/vector/CSharpExtractor/CSharpExtractor/Extractor/data/";
             string[] files;
             if (Directory.Exists(path))
@@ -43,7 +41,7 @@ namespace Extractor
 
             IEnumerable<string> results = null;
             results = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSingleFile(filename, options));
-            using (StreamWriter sw = new StreamWriter(options.OFileName, append: true))
+            using (StreamWriter sw = new StreamWriter(options.OFileName, append: false))
             {
                 foreach (var res in results)
                 {
