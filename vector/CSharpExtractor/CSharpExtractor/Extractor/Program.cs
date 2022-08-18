@@ -28,11 +28,13 @@ namespace Extractor
                     return;
                 });
             Console.WriteLine("1");
-            string path = options.Path;
+            string path = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/vector/CSharpExtractor/CSharpExtractor/Extractor/data/";
             string[] files;
             if (Directory.Exists(path))
             {
-                files = Directory.GetFiles(path, "*.cs", SearchOption.AllDirectories);
+                files = Directory.GetFiles(path, "*.cs", SearchOption.TopDirectoryOnly);
+                Console.WriteLine("*******************************************************************************************");
+
             }
             else
             {

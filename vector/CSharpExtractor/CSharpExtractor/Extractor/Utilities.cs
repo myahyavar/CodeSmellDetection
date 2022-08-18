@@ -13,7 +13,7 @@ namespace Extractor
         [Option('t', "threads", Default = 1, HelpText = "How many threads to use <1>")]
         public int Threads { get; set; }
 
-        [Option('p', "path", Default = "C:/Users/YAHYA/Desktop/Software_Stuf/LSTM/DeepLearningPractice/vector/CSharpExtractor/CSharpExtractor/Extractor/data/", HelpText = "Where to find code files. <.>")]
+        [Option('p', "path", Default = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/vector/CSharpExtractor/CSharpExtractor/Extractor/data/", HelpText = "Where to find code files. <.>")]
         public string Path { get; set; }
 
         [Option('l', "max_length", Default = 300, HelpText = "Max path length")]
@@ -28,7 +28,7 @@ namespace Extractor
         [Option('h', "no_hash", Default = true, HelpText = "When enabled, prints the whole path strings (not hashed)")]
         public Boolean NoHash { get; set; }
 
-        [Option('l', "max_contexts", Default = 3000000, HelpText = "Max number of path contexts to sample. Affects only very large snippets")]
+        [Option('l', "max_contexts", Default = 30000, HelpText = "Max number of path contexts to sample. Affects only very large snippets")]
         public int MaxContexts { get; set; }
     }
 
