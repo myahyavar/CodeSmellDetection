@@ -35,7 +35,7 @@ namespace Extractor
 		{
             LengthLimit = opts.MaxLength;
             WidthLimit = opts.MaxWidth;
-            ShouldHash = true;
+            ShouldHash = false;
             MaxContexts = opts.MaxContexts;
             Code = code;
 		}

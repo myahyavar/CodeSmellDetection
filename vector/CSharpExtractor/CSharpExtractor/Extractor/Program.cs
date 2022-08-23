@@ -41,12 +41,15 @@ namespace Extractor
 
             IEnumerable<string> results = null;
             results = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSingleFile(filename, options));
-            using (StreamWriter sw = new StreamWriter(options.OFileName, append: true))
+            using (StreamWriter sw = new StreamWriter(options.OFileName, append: false))
             {
+                sw.WriteLine("ASTS");
                 foreach (var res in results)
                 {
                     sw.WriteLine(res);
+                    sw.WriteLine("");
                     Console.WriteLine(res);
+                    Console.WriteLine("");
                 }
             }
         }
