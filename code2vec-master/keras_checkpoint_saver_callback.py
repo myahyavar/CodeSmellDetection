@@ -3,8 +3,6 @@ import datetime
 import logging
 from typing import Optional, Dict
 from collections import defaultdict
-import tensorflow as tf
-from tensorflow.python import keras
 from tensorflow.python.keras.callbacks import Callback
 
 from config import Config
