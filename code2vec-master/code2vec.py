@@ -4,6 +4,7 @@ from interactive_predict import InteractivePredictor
 from model_base import Code2VecModelBase
 
 
+# loads the model, nothing too suspicious
 def load_model_dynamically(config: Config) -> Code2VecModelBase:
     assert config.DL_FRAMEWORK in {'tensorflow', 'keras'}
     if config.DL_FRAMEWORK == 'tensorflow':
@@ -12,15 +13,18 @@ def load_model_dynamically(config: Config) -> Code2VecModelBase:
         from keras_model import Code2VecModel
     return Code2VecModel(config)
 
-
+#le main
 if __name__ == '__main__':
     config = Config(set_defaults=True, load_from_args=True, verify=True)
 
+    #calls the upper function
     model = load_model_dynamically(config)
     config.log('Done creating code2vec model')
 
+    # trains
     if config.is_training:
         model.train()
+    # saves word2vec format
     if config.SAVE_W2V is not None:
         model.save_word2vec_format(config.SAVE_W2V, VocabType.Token)
         config.log('Origin word vectors saved in word2vec text format in: %s' % config.SAVE_W2V)
