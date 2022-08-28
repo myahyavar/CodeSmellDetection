@@ -121,6 +121,7 @@ class Code2VecModel(Code2VecModelBase):
             self.eval_input_iterator_reset_op = input_iterator.initializer
             input_tensors = input_iterator.get_next()
 
+            #vectorilazation?
             self.eval_top_words_op, self.eval_top_values_op, self.eval_original_names_op, _, _, _, _, \
                 self.eval_code_vectors = self._build_tf_test_graph(input_tensors)
             if self.saver is None:
