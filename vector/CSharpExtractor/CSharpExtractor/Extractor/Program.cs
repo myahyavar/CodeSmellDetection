@@ -43,13 +43,11 @@ namespace Extractor
             results = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSingleFile(filename, options));
             using (StreamWriter sw = new StreamWriter(options.OFileName, append: false))
             {
-                sw.WriteLine("ASTS");
+                sw.WriteLine("MethodName,ASTS");
                 foreach (var res in results)
                 {
                     sw.WriteLine(res);
-                    sw.WriteLine("");
-                    Console.WriteLine(res);
-                    Console.WriteLine("");
+
                 }
             }
         }
