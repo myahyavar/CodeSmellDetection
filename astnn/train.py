@@ -24,7 +24,7 @@ if __name__ == '__main__':
     root = 'data/'
     train_data = pd.read_pickle(root+'train/blocks.pkl')
     val_data = pd.read_pickle(root + 'dev/blocks.pkl')
-    test_data = pd.read_pickle(root+'test/blocks.pkl')
+    test_data = pd.read_pickle(root+'test/blocks.pkl' )
 
     word2vec = Word2Vec.load(root+"train/embedding/node_w2v_128").wv
     embeddings = np.zeros((word2vec.syn0.shape[0] + 1, word2vec.syn0.shape[1]), dtype="float32")
