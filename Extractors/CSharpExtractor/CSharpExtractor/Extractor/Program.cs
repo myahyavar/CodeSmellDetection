@@ -26,7 +26,7 @@ namespace Extractor
                     Console.WriteLine(errors);
                     return;
                 });
-            string path = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/vector/CSharpExtractor/CSharpExtractor/Extractor/data/";
+            string path = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/Extractors/CSharpExtractor/CSharpExtractor/Extractor/data/";
             string[] files;
             if (Directory.Exists(path))
             {
