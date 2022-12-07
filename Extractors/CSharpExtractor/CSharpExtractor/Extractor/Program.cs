@@ -12,7 +12,8 @@ namespace Extractor
         {
             string data = File.ReadAllText(filename);
             var extractor = new Extractor(data, opts);
-            List<String> result = extractor.Extract();
+            // List<String> result = extractor.Extract();
+            List<String> result = extractor.ExtractJustTree();
             return result;
         }
 
@@ -26,7 +27,7 @@ namespace Extractor
                     Console.WriteLine(errors);
                     return;
                 });
-            string path = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/Extractors/CSharpExtractor/CSharpExtractor/Extractor/data/";
+            string path = "C:/Users/YAHYA/Desktop/BAP_Code_Analysis-main/CSharpExtractor/CSharpExtractor/Extractor/data";
             string[] files;
             if (Directory.Exists(path))
             {

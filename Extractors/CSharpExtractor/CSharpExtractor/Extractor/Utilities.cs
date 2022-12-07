@@ -14,7 +14,7 @@ namespace Extractor
         public int Threads { get; set; }
 
         //doesnt work for some reason, had to append manually on Program.cs
-        [Option('p', "path", Default = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/Extractors/CSharpExtractor/CSharpExtractor/Extractor/data/", HelpText = "Where to find code files. <.>")]
+        [Option('p', "path", Default = "C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/vector/CSharpExtractor/CSharpExtractor/Extractor/data/", HelpText = "Where to find code files. <.>")]
         public string Path { get; set; }
 
         [Option('l', "max_length", Default = 300, HelpText = "Max path length")]

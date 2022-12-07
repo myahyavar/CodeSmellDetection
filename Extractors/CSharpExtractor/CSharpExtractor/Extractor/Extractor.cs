@@ -84,7 +84,7 @@ namespace Extractor
                 }
 				
 			}
-			return builder.ToString();
+			 return builder.ToString();
 		}
 
         private int GetTruncatedChildId(SyntaxNode n)
@@ -165,6 +165,132 @@ namespace Extractor
 
 	    static readonly char[] removeFromComments = new char[] {' ', '/', '*', '{', '}'};
 
+        public List<String> ExtractJustTree()
+        {
+            var tree = new Tree(CSharpSyntaxTree.ParseText(Code).GetRoot());
+
+            IEnumerable<MethodDeclarationSyntax> methods = tree.GetRoot().DescendantNodesAndSelf().OfType<MethodDeclarationSyntax>().ToList();
+
+            List<String> results = new List<string>();
+
+            foreach (var method in methods)
+            {
+
+                String methodName = method.Identifier.ValueText;
+                Tree methodTree = new Tree(method);
+                var subtokensMethodName = Utilities.SplitToSubtokens(methodName);
+                var tokenToVar = new Dictionary<SyntaxToken, Variable>();
+                var root = methodTree.GetRoot();
+                List<String> contexts = new List<String>();
+                foreach (var node in root.ChildNodesAndTokens())
+                {
+                    if (node.IsToken)
+                        contexts.Add(node.GetLocation().GetLineSpan().StartLinePosition.Line + " " + node.Kind() + " " + node.GetType());
+                    else if (node.IsNode)
+                        foreach (SyntaxToken token in node.ChildNodesAndTokens())
+                        {
+                            contexts.Add(token.GetLocation().GetLineSpan().StartLinePosition.Line +" "+ token.Kind()+" " + node.GetType());
+                        }
+                    contexts.Add("\n");
+
+                }
+
+               
+
+               results.Add(String.Join("|", subtokensMethodName) + " " + String.Join(" ", contexts));
+            }
+            return results;
+        }
+
+
+        public List<String> ExtractWithWalker()
+        {
+            var tree = new Tree(CSharpSyntaxTree.ParseText(Code).GetRoot());
+
+            IEnumerable<MethodDeclarationSyntax> methods = tree.GetRoot().DescendantNodesAndSelf().OfType<MethodDeclarationSyntax>().ToList();
+
+            List<String> results = new List<string>();
+
+            foreach (var method in methods)
+            {
+
+                String methodName = method.Identifier.ValueText;
+                Tree methodTree = new Tree(method);
+                var subtokensMethodName = Utilities.SplitToSubtokens(methodName);
+                var tokenToVar = new Dictionary<SyntaxToken, Variable>();
+                var root = methodTree.GetRoot();
+                CustomWalker walker = new CustomWalker();
+                walker.Visit(root);
+                results.Add(String.Join("|", subtokensMethodName) + "\n");
+                results.Add(walker.astString.ToString());
+                
+            }
+            return results;
+        }
+
+        public List<String> ExtractJustTreeByElements()
+        {
+            var tree = new Tree(CSharpSyntaxTree.ParseText(Code).GetRoot());
+
+            IEnumerable<MethodDeclarationSyntax> methods = tree.GetRoot().DescendantNodesAndSelf().OfType<MethodDeclarationSyntax>().ToList();
+
+            List<String> results = new List<string>();
+
+            foreach (var method in methods)
+            {
+
+                String methodName = method.Identifier.ValueText;
+                Tree methodTree = new Tree(method);
+                var subtokensMethodName = Utilities.SplitToSubtokens(methodName);
+                var tokenToVar = new Dictionary<SyntaxToken, Variable>();
+                this.variables = Variable.CreateFromMethod(methodTree).ToArray();
+                List<String> contexts = new List<String>();
+                foreach (var variable in variables)
+                {
+
+                    foreach (SyntaxToken token in variable.Leaves)
+                    {
+
+                        tokenToVar[token] = variable;
+                        contexts.Add(token.GetLocation().GetLineSpan().StartLinePosition.Line + " " + token.ToFullString() + " " + variable.GetType());
+
+                    }
+                    contexts.Add("\n");
+
+                }
+
+
+
+                results.Add(String.Join("|", subtokensMethodName) + " " + String.Join(" ", contexts));
+            }
+            return results;
+        }
+
+        /* public static IEnumerable<SyntaxToken> TokensOfTheSameLine(this SyntaxToken token,int lineNumber)
+         {
+             // instead of going through the ALL tokens go only through the tokens from the same parent
+             // and within the same line
+
+          //   var lineNumber = token.GetLocation().GetLineSpan().StartLinePosition;
+
+             var tokens = token.SyntaxTree.GetRoot().DescendantTokens()
+                              .Where(x => x.GetLocation().GetLineSpan().StartLinePosition.Equals(lineNumber))
+                              .ToArray();
+
+             var parent = token.Parent;
+
+             while (parent != null)
+             {
+                 parent = parent.Parent;
+                 if (parent.GetFirstToken().GetLineNumber() != lineNumber)
+                     break;
+             }
+
+             return parent.DescendantTokens()
+                          .SkipWhile(x => x.GetLineNumber() != lineNumber)
+                          .TakeWhile(x => x.GetLineNumber() == lineNumber)
+                          .ToArray();
+         }*/
         public List<String> Extract()
 		{
             var tree = new Tree(CSharpSyntaxTree.ParseText(Code).GetRoot());
