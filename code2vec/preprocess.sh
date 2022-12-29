@@ -18,9 +18,9 @@
 #   recommended to use a multi-core machine for the preprocessing 
 #   step and set this value to the number of cores.
 # PYTHON - python3 interpreter alias.
-TRAIN_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec-master/data/java-small/train
-VAL_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec-master/data/java-small/val
-TEST_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec-master/data/java-small/test
+TRAIN_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec/data/java-small/txts
+VAL_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec/data/java-small/txts
+TEST_DIR=C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/code2vec/data/java-small/txts
 DATASET_NAME=java-small
 MAX_CONTEXTS=200
 WORD_VOCAB_SIZE=1301136
@@ -30,9 +30,9 @@ NUM_THREADS=64
 PYTHON=python
 ###########################################################
 
-TRAIN_DATA_FILE=${DATASET_NAME}.train.raw.txt
-VAL_DATA_FILE=${DATASET_NAME}.val.raw.txt
-TEST_DATA_FILE=${DATASET_NAME}.test.raw.txt
+TRAIN_DATA_FILE=${DATASET_NAME}.train.txt
+VAL_DATA_FILE=${DATASET_NAME}.val.txt
+TEST_DATA_FILE=${DATASET_NAME}.test.txt
 EXTRACTOR_JAR=JavaExtractor/JPredict/target/JavaExtractor-0.0.1-SNAPSHOT.jar
 
 mkdir -p data

@@ -1,0 +1,63 @@
+			7 ForStatement
+				7 VariableDeclaration
+					7 PredefinedType
+					7 VariableDeclarator
+						7 EqualsValueClause
+							7 InvocationExpression
+								7 SimpleMemberAccessExpression
+									7 IdentifierName
+									7 IdentifierName
+								7 ArgumentList
+									7 Argument
+										7 NumericLiteralExpression
+				7 LessThanOrEqualExpression
+					7 IdentifierName
+					7 InvocationExpression
+						7 SimpleMemberAccessExpression
+							7 IdentifierName
+							7 IdentifierName
+						7 ArgumentList
+							7 Argument
+								7 NumericLiteralExpression
+				7 PostIncrementExpression
+					7 IdentifierName
+				8 ExpressionStatement
+					8 InvocationExpression
+						8 SimpleMemberAccessExpression
+							8 IdentifierName
+							8 IdentifierName
+						8 ArgumentList
+							8 Argument
+								8 StringLiteralExpression
+							8 Argument
+								8 IdentifierName
+							8 Argument
+								8 InvocationExpression
+									8 SimpleMemberAccessExpression
+										8 IdentifierName
+										8 IdentifierName
+									8 ArgumentList
+										8 Argument
+											8 IdentifierName
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
