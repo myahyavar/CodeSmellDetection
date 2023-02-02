@@ -12,7 +12,7 @@ namespace Extractor
     public class CustomWalker : CSharpSyntaxWalker
     {
         static int Tabs = 0;
-        List<int> mainSmellLines = new List<int> { 7 };
+        List<int> mainSmellLines = new List<int> { 6 };
         public StringBuilder astString = new StringBuilder();
         public override void Visit(SyntaxNode node)
         {
@@ -25,6 +25,7 @@ namespace Extractor
 
             //astString.Append(indents + lineNumber.ToString() + " " + node.Kind() + "\n");
 
+            
             if (mainSmellLines.Contains(lineNumber))
             {
                 if (lineNumber != lineNumberEnd && !mainSmellLines.Contains(lineNumberEnd))
@@ -36,6 +37,7 @@ namespace Extractor
                 }
                 astString.Append(indents + lineNumber.ToString() + " " + node.Kind() + "\n");
             }
+            
 
             base.Visit(node);
             Tabs--;

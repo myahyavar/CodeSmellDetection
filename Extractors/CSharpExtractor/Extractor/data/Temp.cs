@@ -1,8 +1,9 @@
-﻿
-using System;
-
+﻿using System;
 class Program
 {
+    int num = 34;
+    AppDomain domain;
+    String name = "ahmet";
     public static void PrintIndexAndValues(Array myArray)
     {
         for (int i = myArray.GetLowerBound(0); i <= myArray.GetUpperBound(0); i++)

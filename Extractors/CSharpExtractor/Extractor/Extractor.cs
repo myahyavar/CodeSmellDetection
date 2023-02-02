@@ -207,7 +207,7 @@ namespace Extractor
         {
             var tree = new Tree(CSharpSyntaxTree.ParseText(Code).GetRoot());
 
-            IEnumerable<MethodDeclarationSyntax> methods = tree.GetRoot().DescendantNodesAndSelf().OfType<MethodDeclarationSyntax>().ToList();
+            IEnumerable<ClassDeclarationSyntax> methods = tree.GetRoot().DescendantNodesAndSelf().OfType<ClassDeclarationSyntax>().ToList();
 
             List<String> results = new List<string>();
 
@@ -218,13 +218,22 @@ namespace Extractor
                 var subtokensMethodName = Utilities.SplitToSubtokens(methodName);
                 var tokenToVar = new Dictionary<SyntaxToken, Variable>();
                 var root = methodTree.GetRoot();
-                CustomWalker walker = new CustomWalker();
-                walker.Visit(root);
-                //comment below line if you want pare the smell only (withouth method names)
-                if (smellOnly == false) { 
-                results.Add(String.Join("|", subtokensMethodName) + "\n");
+                if (smellOnly == true)
+                {
+                    CustomWalker walker = new CustomWalker();
+                    walker.Visit(root);
+                    //comment below line if you want pare the smell only (withouth method names) 
+                    //results.Add(String.Join("|", subtokensMethodName) + "\n");
+                    results.Add(walker.astString.ToString());
                 }
-                results.Add(walker.astString.ToString());
+                else
+                {
+                    WholeWalker walker = new WholeWalker();
+                    walker.Visit(root);
+                    //comment below line if you want pare the smell only (withouth method names) 
+                    //results.Add(String.Join("|", subtokensMethodName) + "\n");
+                    results.Add(walker.astString.ToString());
+                }
                 
             }
             return results;

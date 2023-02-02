@@ -13,7 +13,7 @@ namespace Extractor
             string data = File.ReadAllText(filename);
             var extractor = new Extractor(data, opts);
             // List<String> result = extractor.Extract();
-            List<String> result = extractor.ExtractWithWalker(true);
+            List<String> result = extractor.ExtractWithWalker(false);
             //List<String> result = extractor.ExtractJustTreeByElements();
             //List<String> result = extractor.ExtractJustTree();
             return result;
@@ -29,13 +29,12 @@ namespace Extractor
                     Console.WriteLine(errors);
                     return;
                 });
-            string path = @"C:/Users/YAHYA/Desktop/CSharpExtractor/Extractor/data";
+            string path = @"C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/Extractors/CSharpExtractor/Extractor/data/";
             string[] files;
             if (Directory.Exists(path))
             {
                 files = Directory.GetFiles(path, "*.cs", SearchOption.TopDirectoryOnly);
-                Console.WriteLine("*******************************************************************************************");
-
+                Console.WriteLine("Parse Successfull");
             }
             else
             {
@@ -44,7 +43,7 @@ namespace Extractor
 
             IEnumerable<string> results = null;
             results = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSingleFile(filename, options));
-            using (StreamWriter sw = new StreamWriter(options.OFileName, append: false))
+            using (StreamWriter sw = new StreamWriter("results.txt", append: false))
             {
                 //sw.WriteLine("MethodName,ASTS");
                 foreach (var res in results)

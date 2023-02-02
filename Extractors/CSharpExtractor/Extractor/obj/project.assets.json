@@ -5487,11 +5487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YAHYA\\Desktop\\CSharpExtractor\\Extractor\\Extractor.csproj",
+      "projectUniqueName": "C:\\Users\\YAHYA\\Desktop\\Software_Stuff\\LSTM\\DeepLearningPractice\\Extractors\\CSharpExtractor\\Extractor\\Extractor.csproj",
       "projectName": "Extractor",
-      "projectPath": "C:\\Users\\YAHYA\\Desktop\\CSharpExtractor\\Extractor\\Extractor.csproj",
+      "projectPath": "C:\\Users\\YAHYA\\Desktop\\Software_Stuff\\LSTM\\DeepLearningPractice\\Extractors\\CSharpExtractor\\Extractor\\Extractor.csproj",
       "packagesPath": "C:\\Users\\YAHYA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YAHYA\\Desktop\\CSharpExtractor\\Extractor\\obj\\",
+      "outputPath": "C:\\Users\\YAHYA\\Desktop\\Software_Stuff\\LSTM\\DeepLearningPractice\\Extractors\\CSharpExtractor\\Extractor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\YAHYA\\AppData\\Roaming\\NuGet\\NuGet.Config",
