@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3i8N+ew6u4B/HziA+oewU25fWbANGGZUqXkNSSApFx1rzSUY6pcfi/vsYnudZVNQa1d3h5Rz64xr14uZgpK6dA==",
+  "dgSpecHash": "Tq/DPvYKNERsku8wRkq4Tb0fwG/VAbt++wxvQaAQ1zx0UGL81C2IqM4aNIun5pjbuTyK6137pOt8EOOuOrLpHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\YAHYA\\Desktop\\Software_Stuff\\LSTM\\DeepLearningPractice\\Extractors\\CSharpExtractor\\Extractor\\Extractor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\YAHYA\\.nuget\\packages\\commandlineparser\\2.3.0\\commandlineparser.2.3.0.nupkg.sha512",
+    "C:\\Users\\YAHYA\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\YAHYA\\.nuget\\packages\\microsoft.codeanalysis\\2.10.0\\microsoft.codeanalysis.2.10.0.nupkg.sha512",
     "C:\\Users\\YAHYA\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.6.1\\microsoft.codeanalysis.analyzers.2.6.1.nupkg.sha512",
     "C:\\Users\\YAHYA\\.nuget\\packages\\microsoft.codeanalysis.common\\2.10.0\\microsoft.codeanalysis.common.2.10.0.nupkg.sha512",

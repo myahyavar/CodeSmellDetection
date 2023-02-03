@@ -1,21 +1,28 @@
 ﻿using CommandLine;
+using CsvHelper;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace Extractor
 {
     class Program
     {
-        static List<String> ExtractSingleFile(string filename, Options opts)
+        static List<String> ExtractWhole(string filename, Options opts)
         {
             string data = File.ReadAllText(filename);
             var extractor = new Extractor(data, opts);
-            // List<String> result = extractor.Extract();
             List<String> result = extractor.ExtractWithWalker(false);
-            //List<String> result = extractor.ExtractJustTreeByElements();
-            //List<String> result = extractor.ExtractJustTree();
+            return result;
+        }
+        static List<String> ExtractSmell(string filename, Options opts)
+        {
+            string data = File.ReadAllText(filename);
+            var extractor = new Extractor(data, opts);
+            List<String> result = extractor.ExtractWithWalker(true);
             return result;
         }
 
@@ -41,16 +48,40 @@ namespace Extractor
                 files = new string[] { path };
             }
 
-            IEnumerable<string> results = null;
-            results = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSingleFile(filename, options));
+            IEnumerable<string> wholeCode = null;
+            IEnumerable<string> smells = null;
+            wholeCode = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractWhole(filename, options));
+            smells = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSmell(filename, options));
             using (StreamWriter sw = new StreamWriter("results.txt", append: false))
             {
-                //sw.WriteLine("MethodName,ASTS");
-                foreach (var res in results)
+                foreach (var res in wholeCode)
                 {
                     sw.WriteLine(res);
 
                 }
+            }
+            using (var writer = new StreamWriter("codes.csv"))
+            using (var csvw = new CsvWriter(writer, CultureInfo.InvariantCulture))
+            {
+                var whole = new StringBuilder();
+
+                foreach (var res in wholeCode)
+                {
+                    var code = res.ToString();
+                    whole.AppendLine(code);
+                }
+
+                csvw.WriteField(whole);
+            }
+            using (var writer = new StreamWriter("smells.csv"))
+            using (var csvw = new CsvWriter(writer, CultureInfo.InvariantCulture)){
+                var smell = new StringBuilder();
+                foreach (var res in smells)
+                {
+                    var code = res.ToString();
+                    smell.AppendLine(code);
+                }
+                csvw.WriteField(smell);
             }
         }
     }

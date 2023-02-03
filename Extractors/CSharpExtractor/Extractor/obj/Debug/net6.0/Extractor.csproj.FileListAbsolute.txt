@@ -210,3 +210,4 @@ C:\Users\YAHYA\Desktop\Software_Stuff\LSTM\DeepLearningPractice\Extractors\CShar
 C:\Users\YAHYA\Desktop\Software_Stuff\LSTM\DeepLearningPractice\Extractors\CSharpExtractor\Extractor\obj\Debug\net6.0\Extractor.pdb
 C:\Users\YAHYA\Desktop\Software_Stuff\LSTM\DeepLearningPractice\Extractors\CSharpExtractor\Extractor\obj\Debug\net6.0\Extractor.genruntimeconfig.cache
 C:\Users\YAHYA\Desktop\Software_Stuff\LSTM\DeepLearningPractice\Extractors\CSharpExtractor\Extractor\obj\Debug\net6.0\ref\Extractor.dll
+C:\Users\YAHYA\Desktop\Software_Stuff\LSTM\DeepLearningPractice\Extractors\CSharpExtractor\Extractor\bin\Debug\net6.0\CsvHelper.dll
