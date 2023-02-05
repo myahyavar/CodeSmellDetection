@@ -52,7 +52,7 @@ namespace Extractor
             IEnumerable<string> smells = null;
             wholeCode = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractWhole(filename, options));
             smells = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSmell(filename, options));
-            using (StreamWriter sw = new StreamWriter("results.txt", append: false))
+            using (StreamWriter sw = new StreamWriter("C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/astnn-master/data/results.csv", append: false))
             {
                 foreach (var res in wholeCode)
                 {
@@ -68,10 +68,11 @@ namespace Extractor
                 foreach (var res in wholeCode)
                 {
                     var code = res.ToString();
+                    writer.Write(code);
                     whole.AppendLine(code);
                 }
-
-                csvw.WriteField(whole);
+                //csvw.WriteField(whole);
+                //writer.Write(whole);
             }
             using (var writer = new StreamWriter("smells.csv"))
             using (var csvw = new CsvWriter(writer, CultureInfo.InvariantCulture)){

@@ -1,4 +1,4 @@
-"	1 ClassDeclaration
+	1 ClassDeclaration
 		3 FieldDeclaration
 			3 VariableDeclaration
 				3 PredefinedType
@@ -816,5 +816,3 @@
 							195 MultiplyExpression
 								195 NumericLiteralExpression
 								195 IdentifierName
-
-"
