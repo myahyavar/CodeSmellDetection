@@ -54,29 +54,34 @@ namespace Extractor
             smells = files.AsParallel().WithDegreeOfParallelism(options.Threads).SelectMany(filename => ExtractSmell(filename, options));
             using (StreamWriter sw = new StreamWriter("C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/astnn-master/data/results.csv", append: false))
             {
+                sw.WriteLine("code");
                 foreach (var res in wholeCode)
                 {
                     sw.WriteLine(res);
 
                 }
             }
-            using (var writer = new StreamWriter("codes.csv"))
+
+            //bir şekilde class class farklı sattırlara append edilmesi lazım
+            using (var writer = new StreamWriter("C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/astnn-master/data/codes.csv"))
             using (var csvw = new CsvWriter(writer, CultureInfo.InvariantCulture))
             {
                 var whole = new StringBuilder();
-
+                writer.WriteLine("code");
                 foreach (var res in wholeCode)
                 {
                     var code = res.ToString();
-                    writer.Write(code);
+                    //writer.Write(code);
                     whole.AppendLine(code);
                 }
-                //csvw.WriteField(whole);
+                csvw.WriteField(whole);
                 //writer.Write(whole);
             }
-            using (var writer = new StreamWriter("smells.csv"))
+            using (var writer = new StreamWriter("C:/Users/YAHYA/Desktop/Software_Stuff/LSTM/DeepLearningPractice/astnn-master/data/smells.csv"))
             using (var csvw = new CsvWriter(writer, CultureInfo.InvariantCulture)){
                 var smell = new StringBuilder();
+
+                writer.WriteLine("smell");
                 foreach (var res in smells)
                 {
                     var code = res.ToString();

@@ -105,7 +105,7 @@ class Pipeline:
         trees.to_csv(self.root+'train/programs_ns.tsv')
 
         from gensim.models.word2vec import Word2Vec
-        w2v = Word2Vec(corpus, size=size, workers=16, sg=1, min_count=3)
+        w2v = Word2Vec(corpus, vector_size=size, workers=16, sg=1, min_count=1)
         w2v.save(self.root+'train/embedding/node_w2v_' + str(size))
 
     # generate block sequences with index representations
@@ -139,6 +139,9 @@ class Pipeline:
 
     # run for processing data to train
     def run(self):
+        import pandas as pd
+        df = pd.read_csv('data/codes.csv')
+        df.to_pickle('data/ast.pkl')
         print('parse source code...')
         if os.path.exists(os.path.join(self.root, 'ast.pkl')):
             self.get_parsed_source(input_file='ast.pkl')
