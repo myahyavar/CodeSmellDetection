@@ -57,7 +57,7 @@ class Config:
         self.MAX_TO_KEEP = 10
 
         # model hyper-params
-        self.MAX_CONTEXTS = 1 #200
+        self.MAX_CONTEXTS = 0
         self.MAX_TOKEN_VOCAB_SIZE = 1301136
         self.MAX_TARGET_VOCAB_SIZE = 261245
         self.MAX_PATH_VOCAB_SIZE = 911417
@@ -180,7 +180,7 @@ class Config:
     def train_data_path(self) -> Optional[str]:
         if not self.is_training:
             return None
-        return '{}.train.c2v'.format(self.TRAIN_DATA_PATH_PREFIX)
+        return '{}.train.csv'.format(self.TRAIN_DATA_PATH_PREFIX)
 
     @property
     def word_freq_dict_path(self) -> Optional[str]:

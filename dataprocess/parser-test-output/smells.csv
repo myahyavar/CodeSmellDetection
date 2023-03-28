@@ -1,0 +1,36 @@
+smell
+"		6 PropertyDeclaration
+			6 PredefinedType
+			6 ArrowExpressionClause
+				6 InvocationExpression
+					6 SimpleMemberAccessExpression
+						6 IdentifierName
+						6 IdentifierName
+					6 ArgumentList
+
+
+
+
+
+
+
+
+	6 ClassDeclaration
+		6 BaseList
+			6 SimpleBaseType
+				6 IdentifierName
+		8 MethodDeclaration
+			8 PredefinedType
+			8 ParameterList
+				8 Parameter
+					8 NullableType
+						8 IdentifierName
+			9 Block
+				10 ExpressionStatement
+					10 SimpleAssignmentExpression
+						10 IdentifierName
+						10 NullLiteralExpression
+				11 ReturnStatement
+					11 FalseLiteralExpression
+
+"

@@ -100,6 +100,7 @@ class Code2VecModel(Code2VecModelBase):
                         evaluation_results=evaluation_results_str
                     ))
         except tf.errors.OutOfRangeError:
+            self.log('DAMN')
             pass  # The reader iterator is exhausted and have no more batches to produce.
 
         self.log('Done training')

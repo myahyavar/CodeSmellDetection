@@ -1,0 +1,13 @@
+"	4 ClassDeclaration
+		4 BaseList
+			4 SimpleBaseType
+				4 IdentifierName
+		6 PropertyDeclaration
+			6 PredefinedType
+			6 ArrowExpressionClause
+				6 InvocationExpression
+					6 SimpleMemberAccessExpression
+						6 IdentifierName
+						6 IdentifierName
+					6 ArgumentList
+"

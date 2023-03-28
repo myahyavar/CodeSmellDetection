@@ -1,0 +1,4 @@
+﻿C:\Users\zkus\Desktop\BAP\ApplicationInsights-Kubernetes-develop\src\ApplicationInsights.Kubernetes.HostingStartup\ApplicationInsightsForK8sHostingStartup.cs
+C:\Users\zkus\Desktop\BAP\ApplicationInsights-Kubernetes-develop\src\ApplicationInsights.Kubernetes.HostingStartup\AssemblyInfo.cs
+C:\Users\zkus\Desktop\BAP\ApplicationInsights-Kubernetes-develop\LICENSE
+C:\Users\zkus\Desktop\BAP\ApplicationInsights-Kubernetes-develop\src\icon.png

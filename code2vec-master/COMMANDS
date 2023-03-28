@@ -1,0 +1,19 @@
+python code2vec.py --load models/CS_dataset/saved_model --release
+
+python code2vec.py --load models/CS_dataset/saved_model.release --predict --export_code_vectors
+
+python code2vec.py --load models/CS_dataset/saved_model.release --save_w2v models/CS_dataset/tokens.txt
+
+python code2vec.py --load models/CS_dataset/saved_model.release --save_t2v models/CS_dataset/targets.txt
+
+
+
+
+
+python code2vec.py --load models/CS_codes/saved_model_iter1 --release
+
+python code2vec.py --load models/CS_codes/saved_model_iter1.release --predict --export_code_vectors
+
+python code2vec.py --load models/CS_codes/saved_model_iter1.release --save_w2v models/CS_codes/tokens.txt
+
+python code2vec.py --load models/CS_codes/saved_model_iter1.release --save_t2v models/CS_codes/targets.txt
