@@ -1,0 +1,79 @@
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName"
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator"
+"
+						 LocalDeclarationStatement
+							 VariableDeclaration
+								 NullableType
+									 IdentifierName
+								 VariableDeclarator
+									 EqualsValueClause
+										 AwaitExpression
+											 InvocationExpression
+												 SimpleMemberAccessExpression
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 SimpleMemberAccessExpression
+																 IdentifierName
+																 IdentifierName
+															 IdentifierName
+														 ArgumentList
+													 IdentifierName
+												 ArgumentList
+													 Argument
+														 FalseLiteralExpression"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName"
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName"
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName"
