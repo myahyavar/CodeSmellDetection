@@ -2,6 +2,62 @@
 	 ClassDeclaration
 		 BaseList
 			 SimpleBaseType
+				 IdentifierName"
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName"
+"
+		 ConstructorDeclaration
+			 ParameterList"
+"
+						 LocalDeclarationStatement
+							 VariableDeclaration
+								 PredefinedType
+								 VariableDeclarator
+									 EqualsValueClause
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+											 ArgumentList"
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 NullableType
+						 PredefinedType
+				 Parameter
+					 PredefinedType"
+"
+				 Parameter
+					 PredefinedType"
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 IdentifierName
+										 GenericName
+											 TypeArgumentList
+												 IdentifierName
+												 IdentifierName
+									 ArgumentList"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
 				 IdentifierName
 			 SimpleBaseType
 				 IdentifierName"
@@ -37,43 +93,127 @@
 			 SimpleBaseType
 				 IdentifierName"
 "
-		 FieldDeclaration
-			 VariableDeclaration
-				 IdentifierName
-				 VariableDeclarator"
-"
-	 ClassDeclaration
-		 BaseList
-			 SimpleBaseType
-				 IdentifierName"
-"
-	 ClassDeclaration
-		 BaseList
-			 SimpleBaseType
-				 IdentifierName"
-"
-	 ClassDeclaration
-		 BaseList
-			 SimpleBaseType
-				 IdentifierName"
-"
-	 ClassDeclaration
-		 BaseList
-			 SimpleBaseType
-				 IdentifierName"
-"
 		 MethodDeclaration
 			 PredefinedType
 			 ParameterList
 				 Parameter
 					 IdentifierName"
 "
-	 ClassDeclaration
-		 BaseList
-			 SimpleBaseType
-				 IdentifierName"
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 PredefinedType"
 "
-	 ClassDeclaration
-		 BaseList
-			 SimpleBaseType
-				 IdentifierName"
+				 ReturnStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 IdentifierName
+							 Argument
+								 NameColon
+									 IdentifierName
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName"
+"
+			 FieldDeclaration
+				 VariableDeclaration
+					 PredefinedType
+					 VariableDeclarator
+						 EqualsValueClause
+							 StringLiteralExpression"
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 StringLiteralExpression"
+"
+	 ClassDeclaration"
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 SimpleMemberAccessExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+										 ArgumentList
+									 IdentifierName"
+"
+				 ReturnStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList"
+"
+												 ExpressionStatement
+													 AwaitExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 IdentifierName
+																 IdentifierName
+															 ArgumentList
+																 Argument
+																	 IdentifierName"
+"
+												 ExpressionStatement
+													 AwaitExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 IdentifierName
+																 IdentifierName
+															 ArgumentList
+																 Argument
+																	 InvocationExpression
+																		 SimpleMemberAccessExpression
+																			 IdentifierName
+																			 IdentifierName
+																		 ArgumentList
+																			 Argument
+																				 NumericLiteralExpression"
+"
+													 ExpressionStatement
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 ParenthesizedExpression
+																	 CastExpression
+																		 IdentifierName
+																		 IdentifierName
+																 IdentifierName
+															 ArgumentList"
+"
+			 PredefinedType
+			 ParameterList"
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ObjectCreationExpression
+									 IdentifierName
+									 ArgumentList
+										 Argument
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+										 Argument
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+										 Argument
+											 ArrayCreationExpression
+												 ArrayType
+													 IdentifierName
+													 ArrayRankSpecifier
+														 OmittedArraySizeExpression
+												 ArrayInitializerExpression"

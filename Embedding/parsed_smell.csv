@@ -1,5 +1,79 @@
 parsed_smell
 "
+	9 ClassDeclaration
+		9 BaseList
+			9 SimpleBaseType
+				9 IdentifierName"
+"
+		10 FieldDeclaration
+			10 VariableDeclaration
+				10 IdentifierName
+				10 VariableDeclarator
+					10 EqualsValueClause
+						10 SimpleMemberAccessExpression
+							10 IdentifierName
+							10 IdentifierName"
+"
+		16 ConstructorDeclaration
+			16 ParameterList"
+"
+						48 LocalDeclarationStatement
+							48 VariableDeclaration
+								48 PredefinedType
+								48 VariableDeclarator
+									48 EqualsValueClause
+										48 InvocationExpression
+											48 SimpleMemberAccessExpression
+												48 IdentifierName
+												48 IdentifierName
+											48 ArgumentList"
+"
+		14 MethodDeclaration
+			14 PredefinedType
+			14 ParameterList
+				14 Parameter
+					14 NullableType
+						14 PredefinedType
+				14 Parameter
+					14 PredefinedType"
+"
+		23 MethodDeclaration
+			23 PredefinedType
+			23 ParameterList
+				23 Parameter
+					23 NullableType
+						23 PredefinedType
+				23 Parameter
+					23 PredefinedType"
+"
+		14 MethodDeclaration
+			14 PredefinedType
+			14 ParameterList
+				14 Parameter
+					14 NullableType
+						14 PredefinedType
+				14 Parameter
+					14 PredefinedType"
+"
+				33 Parameter
+					33 PredefinedType"
+"
+				104 ExpressionStatement
+					104 InvocationExpression
+						104 SimpleMemberAccessExpression
+							104 IdentifierName
+							104 IdentifierName
+						104 ArgumentList
+							104 Argument
+								104 InvocationExpression
+									104 SimpleMemberAccessExpression
+										104 IdentifierName
+										104 GenericName
+											104 TypeArgumentList
+												104 IdentifierName
+												104 IdentifierName
+									104 ArgumentList"
+"
 	18 ClassDeclaration
 		18 BaseList
 			18 SimpleBaseType
@@ -58,11 +132,6 @@ parsed_smell
 			10 SimpleBaseType
 				10 IdentifierName"
 "
-	9 ClassDeclaration
-		9 BaseList
-			9 SimpleBaseType
-				9 IdentifierName"
-"
 		71 MethodDeclaration
 			71 PredefinedType
 			71 ParameterList
@@ -78,3 +147,237 @@ parsed_smell
 		6 BaseList
 			6 SimpleBaseType
 				6 IdentifierName"
+"
+		13 ConstructorDeclaration
+			13 ParameterList
+				13 Parameter
+					13 PredefinedType"
+"
+				39 ReturnStatement
+					39 InvocationExpression
+						39 SimpleMemberAccessExpression
+							39 IdentifierName
+							39 IdentifierName
+						39 ArgumentList
+							39 Argument
+								39 IdentifierName
+							39 Argument
+								39 NameColon
+									39 IdentifierName
+								39 SimpleMemberAccessExpression
+									39 IdentifierName
+									39 IdentifierName"
+"
+			8 FieldDeclaration
+				8 VariableDeclaration
+					8 PredefinedType
+					8 VariableDeclarator
+						8 EqualsValueClause
+							8 StringLiteralExpression"
+"
+		8 FieldDeclaration
+			8 VariableDeclaration
+				8 PredefinedType
+				8 VariableDeclarator
+					8 EqualsValueClause
+						8 StringLiteralExpression"
+"
+			9 FieldDeclaration
+				9 VariableDeclaration
+					9 PredefinedType
+					9 VariableDeclarator
+						9 EqualsValueClause
+							9 StringLiteralExpression"
+"
+			13 FieldDeclaration
+				13 VariableDeclaration
+					13 PredefinedType
+					13 VariableDeclarator
+						13 EqualsValueClause
+							13 StringLiteralExpression"
+"
+		13 FieldDeclaration
+			13 VariableDeclaration
+				13 PredefinedType
+				13 VariableDeclarator
+					13 EqualsValueClause
+						13 StringLiteralExpression"
+"
+			14 FieldDeclaration
+				14 VariableDeclaration
+					14 PredefinedType
+					14 VariableDeclarator
+						14 EqualsValueClause
+							14 StringLiteralExpression"
+"
+		14 FieldDeclaration
+			14 VariableDeclaration
+				14 PredefinedType
+				14 VariableDeclarator
+					14 EqualsValueClause
+						14 StringLiteralExpression"
+"
+			20 FieldDeclaration
+				20 VariableDeclaration
+					20 PredefinedType
+					20 VariableDeclarator
+						20 EqualsValueClause
+							20 StringLiteralExpression"
+"
+		20 FieldDeclaration
+			20 VariableDeclaration
+				20 PredefinedType
+				20 VariableDeclarator
+					20 EqualsValueClause
+						20 StringLiteralExpression"
+"
+			21 FieldDeclaration
+				21 VariableDeclaration
+					21 PredefinedType
+					21 VariableDeclarator
+						21 EqualsValueClause
+							21 StringLiteralExpression"
+"
+		21 FieldDeclaration
+			21 VariableDeclaration
+				21 PredefinedType
+				21 VariableDeclarator
+					21 EqualsValueClause
+						21 StringLiteralExpression"
+"
+	6 ClassDeclaration"
+"
+	5 ClassDeclaration"
+"
+				28 LocalDeclarationStatement
+					28 VariableDeclaration
+						28 IdentifierName
+						28 VariableDeclarator
+							28 EqualsValueClause
+								28 SimpleMemberAccessExpression
+									28 InvocationExpression
+										28 SimpleMemberAccessExpression
+											28 IdentifierName
+											28 IdentifierName
+										28 ArgumentList
+									28 IdentifierName"
+"
+				29 ReturnStatement
+					29 InvocationExpression
+						29 SimpleMemberAccessExpression
+							29 IdentifierName
+							29 IdentifierName
+						29 ArgumentList"
+"
+												30 ExpressionStatement
+													30 AwaitExpression
+														30 InvocationExpression
+															30 SimpleMemberAccessExpression
+																30 IdentifierName
+																30 IdentifierName
+															30 ArgumentList
+																30 Argument
+																	30 IdentifierName"
+"
+												32 ExpressionStatement
+													32 AwaitExpression
+														32 InvocationExpression
+															32 SimpleMemberAccessExpression
+																32 IdentifierName
+																32 IdentifierName
+															32 ArgumentList
+																32 Argument
+																	32 InvocationExpression
+																		32 SimpleMemberAccessExpression
+																			32 IdentifierName
+																			32 IdentifierName
+																		32 ArgumentList
+																			32 Argument
+																				32 NumericLiteralExpression"
+"
+												71 ExpressionStatement
+													71 AwaitExpression
+														71 InvocationExpression
+															71 SimpleMemberAccessExpression
+																71 IdentifierName
+																71 IdentifierName
+															71 ArgumentList
+																71 Argument
+																	71 IdentifierName"
+"
+												73 ExpressionStatement
+													73 AwaitExpression
+														73 InvocationExpression
+															73 SimpleMemberAccessExpression
+																73 IdentifierName
+																73 IdentifierName
+															73 ArgumentList
+																73 Argument
+																	73 InvocationExpression
+																		73 SimpleMemberAccessExpression
+																			73 IdentifierName
+																			73 IdentifierName
+																		73 ArgumentList
+																			73 Argument
+																				73 NumericLiteralExpression"
+"
+													57 ExpressionStatement
+														57 InvocationExpression
+															57 SimpleMemberAccessExpression
+																57 ParenthesizedExpression
+																	57 CastExpression
+																		57 IdentifierName
+																		57 IdentifierName
+																57 IdentifierName
+															57 ArgumentList"
+"
+			78 PredefinedType
+			78 ParameterList"
+"
+				148 LocalDeclarationStatement
+					148 VariableDeclaration
+						148 IdentifierName
+						148 VariableDeclarator
+							148 EqualsValueClause
+								148 ObjectCreationExpression
+									148 IdentifierName
+									148 ArgumentList
+										148 Argument
+											148 SimpleMemberAccessExpression
+												148 IdentifierName
+												148 IdentifierName
+										148 Argument
+											148 SimpleMemberAccessExpression
+												148 IdentifierName
+												148 IdentifierName
+										148 Argument
+											148 ArrayCreationExpression
+												148 ArrayType
+													148 IdentifierName
+													148 ArrayRankSpecifier
+														148 OmittedArraySizeExpression
+												148 ArrayInitializerExpression"
+"
+				173 LocalDeclarationStatement
+					173 VariableDeclaration
+						173 IdentifierName
+						173 VariableDeclarator
+							173 EqualsValueClause
+								173 ObjectCreationExpression
+									173 IdentifierName
+									173 ArgumentList
+										173 Argument
+											173 SimpleMemberAccessExpression
+												173 IdentifierName
+												173 IdentifierName
+										173 Argument
+											173 SimpleMemberAccessExpression
+												173 IdentifierName
+												173 IdentifierName
+										173 Argument
+											173 ArrayCreationExpression
+												173 ArrayType
+													173 IdentifierName
+													173 ArrayRankSpecifier
+														173 OmittedArraySizeExpression
+												173 ArrayInitializerExpression"
