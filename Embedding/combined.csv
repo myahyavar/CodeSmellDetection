@@ -1,4 +1,5 @@
 parsed_smell,parsed_smell_identifiers,message
+,,"The logging message template should not vary between calls to 'LoggerExtensions.LogCritical(ILogger, Exception?, string?, params object?[])'"
 "
 		20 PropertyDeclaration
 			20 GenericName
@@ -47,6 +48,8 @@ parsed_smell,parsed_smell_identifiers,message
 									42 ArgumentList
 										42 Argument
 											42 IdentifierName VersionOption",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+,,"The logging message template should not vary between calls to 'LoggerExtensions.LogCritical(ILogger, Exception?, string?, params object?[])'"
+,,"The logging message template should not vary between calls to 'LoggerExtensions.LogCritical(ILogger, Exception?, string?, params object?[])'"
 "
 	7 ClassDeclaration","
 	7 ClassDeclaration",Add a 'protected' constructor or the 'static' keyword to the class declaration.
@@ -99,6 +102,12 @@ parsed_smell,parsed_smell_identifiers,message
 											128 IdentifierName stopwatch
 											128 IdentifierName ElapsedMilliseconds
 									128 InterpolatedStringText","The logging message template should not vary between calls to 'LoggerExtensions.LogTrace(ILogger, string?, params object?[])'"
+,,"The logging message template should not vary between calls to 'LoggerExtensions.BeginScope(ILogger, string, params object?[])'"
+,,"Split this method into two, one handling parameters check and the other handling the asynchronous code."
+,,"The logging message template should not vary between calls to 'LoggerExtensions.LogInformation(ILogger, string?, params object?[])'"
+,,"The logging message template should not vary between calls to 'LoggerExtensions.BeginScope(ILogger, string, params object?[])'"
+,,"Split this method into two, one handling parameters check and the other handling the asynchronous code."
+,,"The logging message template should not vary between calls to 'LoggerExtensions.LogError(ILogger, string?, params object?[])'"
 "
 						21 IfStatement
 							21 LogicalAndExpression
@@ -147,6 +156,8 @@ parsed_smell,parsed_smell_identifiers,message
 											45 StringLiteralExpression
 										45 Argument
 											45 StringLiteralExpression",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+,,All 'Visit' method overloads should be adjacent.
+,,Rename parameter 'operation' to 'link' to match the base class declaration.
 "
 		13 BaseList
 			13 SimpleBaseType
@@ -969,6 +980,11 @@ parsed_smell,parsed_smell_identifiers,message
 																45 IdentifierName input
 															45 Argument
 																45 IdentifierName cancellationToken",Complete the task associated to this 'TODO' comment.
+,,"Loops should be simplified with ""LINQ"" expressions"
+,,Make '_requestBodies' 'readonly'.
+,,Remove the unnecessary Boolean literal(s).
+,,Drop 'Where' and move the condition into the 'FirstOrDefault'.
+,,Remove this unused method parameter 'context'.
 "
 				44 Parameter
 					44 PredefinedType","
@@ -1981,6 +1997,8 @@ parsed_smell,parsed_smell_identifiers,message
 				12 GenericName
 					12 TypeArgumentList
 						12 IdentifierName RuntimeExpression",Seal class 'RuntimeExpression' or implement 'IEqualityComparer<T>' instead.
+,,"Rename class 'OpenAPIWriterExtensions' to match pascal case naming rules, consider using 'OpenApiWriterExtensions'."
+,,Replace this type-check-and-cast sequence with an 'as' and a null check.
 "
 		24 MethodDeclaration
 			24 PredefinedType
@@ -2271,6 +2289,10 @@ parsed_smell,parsed_smell_identifiers,message
 																	170 ArgumentList
 																170 IdentifierName ToList
 															170 ArgumentList",Drop this useless call to 'ToList' or replace it by 'AsEnumerable' if you are using LINQ to Entities.
+,,Drop this useless call to 'ToList' or replace it by 'AsEnumerable' if you are using LINQ to Entities.
+,,Complete the task associated to this 'TODO' comment.
+,,Complete the task associated to this 'TODO' comment.
+,,Merge this if statement with the enclosing one.
 "
 						551 IfStatement
 							551 LogicalNotExpression
@@ -2465,6 +2487,8 @@ parsed_smell,parsed_smell_identifiers,message
 						16 IdentifierName OpenApiParameter
 			16 SimpleBaseType
 				16 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+,,'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+,,'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -2476,6 +2500,8 @@ parsed_smell,parsed_smell_identifiers,message
 				19 NullableType
 					19 IdentifierName ParameterStyle
 				19 VariableDeclarator",Make this field 'private' and encapsulate it in a 'public' property.
+,,Make this field 'private' and encapsulate it in a 'public' property.
+,,Make this field 'private' and encapsulate it in a 'public' property.
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -2487,6 +2513,8 @@ parsed_smell,parsed_smell_identifiers,message
 				19 NullableType
 					19 IdentifierName ParameterStyle
 				19 VariableDeclarator",Missing XML comment for publicly visible type or member 'OpenApiParameter._style'
+,,Missing XML comment for publicly visible type or member 'OpenApiParameter._style'
+,,Missing XML comment for publicly visible type or member 'OpenApiParameter._style'
 "
 		205 MethodDeclaration
 			205 IdentifierName
@@ -2498,6 +2526,8 @@ parsed_smell,parsed_smell_identifiers,message
 			205 ParameterList
 				205 Parameter
 					205 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+,,Rename parameter 'doc' to 'document' to match the interface declaration.
+,,Rename parameter 'doc' to 'document' to match the interface declaration.
 "
 				307 IfStatement
 					307 IsExpression
@@ -2507,6 +2537,8 @@ parsed_smell,parsed_smell_identifiers,message
 					307 IsExpression
 						307 ThisExpression
 						307 IdentifierName OpenApiFormDataParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+,,Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+,,Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
 "
 					311 ElseClause
 						311 IfStatement
@@ -2518,6 +2550,8 @@ parsed_smell,parsed_smell_identifiers,message
 							311 IsExpression
 								311 ThisExpression
 								311 IdentifierName OpenApiBodyParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+,,Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+,,Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
 "
 				335 IfStatement
 					335 IsExpression
@@ -2527,9 +2561,13 @@ parsed_smell,parsed_smell_identifiers,message
 					335 IsExpression
 						335 ThisExpression
 						335 IdentifierName OpenApiBodyParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+,,Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+,,Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
 "
 					341 ElseClause","
 					341 ElseClause",Use curly braces or indentation to denote the code conditionally executed by this 'else'
+,,Use curly braces or indentation to denote the code conditionally executed by this 'else'
+,,Use curly braces or indentation to denote the code conditionally executed by this 'else'
 "
 											385 IfStatement
 												385 LogicalAndExpression
@@ -2559,6 +2597,8 @@ parsed_smell,parsed_smell_identifiers,message
 															385 ThisExpression
 															385 IdentifierName Explode
 														385 TrueLiteralExpression",Remove the unnecessary Boolean literal(s).
+,,Remove the unnecessary Boolean literal(s).
+,,Remove the unnecessary Boolean literal(s).
 "
 	13 ClassDeclaration
 		13 BaseList
@@ -2811,6 +2851,7 @@ parsed_smell,parsed_smell_identifiers,message
 						17 GenericName
 							17 TypeArgumentList
 								17 PredefinedType",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+,,Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
 "
 		114 ClassDeclaration
 			114 BaseList
@@ -2950,6 +2991,8 @@ parsed_smell,parsed_smell_identifiers,message
 			120 ParameterList
 				120 Parameter
 					120 IdentifierName OpenApiResponses",Rename parameter 'responses' to 'response' to match the base class declaration.
+,,Remove this commented out code.
+,,Complete the task associated to this 'TODO' comment.
 "
 				223 IfStatement
 					223 NotEqualsExpression
@@ -2959,6 +3002,7 @@ parsed_smell,parsed_smell_identifiers,message
 					223 NotEqualsExpression
 						223 IdentifierName paths
 						223 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				349 IfStatement
 					349 NotEqualsExpression
@@ -2968,6 +3012,7 @@ parsed_smell,parsed_smell_identifiers,message
 					349 NotEqualsExpression
 						349 IdentifierName callback
 						349 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				403 IfStatement
 					403 NotEqualsExpression
@@ -2977,6 +3022,7 @@ parsed_smell,parsed_smell_identifiers,message
 					403 NotEqualsExpression
 						403 IdentifierName serverVariables
 						403 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				470 IfStatement
 					470 NotEqualsExpression
@@ -2986,6 +3032,7 @@ parsed_smell,parsed_smell_identifiers,message
 					470 NotEqualsExpression
 						470 IdentifierName operations
 						470 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				576 IfStatement
 					576 NotEqualsExpression
@@ -2995,6 +3042,7 @@ parsed_smell,parsed_smell_identifiers,message
 					576 NotEqualsExpression
 						576 IdentifierName responses
 						576 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 						619 IfStatement
 							619 NotEqualsExpression
@@ -3008,6 +3056,7 @@ parsed_smell,parsed_smell_identifiers,message
 									619 IdentifierName requestBody
 									619 IdentifierName Content
 								619 NullLiteralExpression",Merge this if statement with the enclosing one.
+,,Merge this if statement with the enclosing one.
 "
 				638 IfStatement
 					638 NotEqualsExpression
@@ -3017,6 +3066,7 @@ parsed_smell,parsed_smell_identifiers,message
 					638 NotEqualsExpression
 						638 IdentifierName headers
 						638 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				660 IfStatement
 					660 NotEqualsExpression
@@ -3026,6 +3076,7 @@ parsed_smell,parsed_smell_identifiers,message
 					660 NotEqualsExpression
 						660 IdentifierName callbacks
 						660 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				682 IfStatement
 					682 NotEqualsExpression
@@ -3035,6 +3086,7 @@ parsed_smell,parsed_smell_identifiers,message
 					682 NotEqualsExpression
 						682 IdentifierName content
 						682 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				723 IfStatement
 					723 NotEqualsExpression
@@ -3044,6 +3096,7 @@ parsed_smell,parsed_smell_identifiers,message
 					723 NotEqualsExpression
 						723 IdentifierName encodings
 						723 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				829 IfStatement
 					829 NotEqualsExpression
@@ -3053,6 +3106,7 @@ parsed_smell,parsed_smell_identifiers,message
 					829 NotEqualsExpression
 						829 IdentifierName examples
 						829 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 				948 IfStatement
 					948 NotEqualsExpression
@@ -3062,6 +3116,7 @@ parsed_smell,parsed_smell_identifiers,message
 					948 NotEqualsExpression
 						948 IdentifierName links
 						948 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+,,Change this condition so that it does not always evaluate to 'true'.
 "
 		20 FieldDeclaration
 			20 VariableDeclaration
@@ -4494,6 +4549,7 @@ parsed_smell,parsed_smell_identifiers,message
 						33 SimpleMemberAccessExpression
 							33 IdentifierName ReferenceInlineSetting
 							33 IdentifierName DoNotInlineReferences",'ReferenceInlineSetting' is obsolete: 'Use InlineLocalReference and InlineExternalReference settings instead'
+,,Remove this commented out code.
 "
 							152 Block
 								153 ExpressionStatement
@@ -6287,6 +6343,7 @@ parsed_smell,parsed_smell_identifiers,message
 											103 IdentifierName Count
 										103 ArgumentList
 									103 NumericLiteralExpression",Count() is used where Any() could be used instead to improve performance
+,,Count() is used where Any() could be used instead to improve performance
 "
 				152 ExpressionStatement
 					152 InvocationExpression
@@ -6316,6 +6373,7 @@ parsed_smell,parsed_smell_identifiers,message
 											152 IdentifierName Count
 										152 ArgumentList
 									152 NumericLiteralExpression",Count() is used where Any() could be used instead to improve performance
+,,Count() is used where Any() could be used instead to improve performance
 "
 				66 ExpressionStatement
 					66 InvocationExpression
@@ -6355,6 +6413,7 @@ parsed_smell,parsed_smell_identifiers,message
 												66 IdentifierName CallStack
 											66 IdentifierName Count
 										66 ArgumentList","Use the ""Count"" property instead of Enumerable.Count()"
+,,"Use the ""Count"" property instead of Enumerable.Count()"
 "
 		153 MethodDeclaration
 			153 PredefinedType
@@ -6362,3 +6421,4 @@ parsed_smell,parsed_smell_identifiers,message
 		153 MethodDeclaration
 			153 PredefinedType
 			153 ParameterList",Member 'OpenApiWorkspacesShouldLoadDocumentFragments' does not access instance data and can be marked as static
+,,Member 'OpenApiWorkspacesShouldLoadDocumentFragments' does not access instance data and can be marked as static

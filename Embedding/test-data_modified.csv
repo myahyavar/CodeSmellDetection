@@ -1,0 +1,6364 @@
+parsed_smell,parsed_smell_identifiers,message
+"
+		 PropertyDeclaration
+			 GenericName
+				 TypeArgumentList
+					 NullableType
+						 PredefinedType
+			 AccessorList
+				 GetAccessorDeclaration
+				 SetAccessorDeclaration","
+		 PropertyDeclaration
+			 GenericName
+				 TypeArgumentList
+					 NullableType
+						 PredefinedType
+			 AccessorList
+				 GetAccessorDeclaration
+				 SetAccessorDeclaration",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 NullableType
+							 PredefinedType
+						 VariableDeclarator
+							 EqualsValueClause
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+										 IdentifierName
+									 ArgumentList
+										 Argument
+											 IdentifierName","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 NullableType
+							 PredefinedType
+						 VariableDeclarator
+							 EqualsValueClause
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName context
+											 IdentifierName ParseResult
+										 IdentifierName GetValueForOption
+									 ArgumentList
+										 Argument
+											 IdentifierName VersionOption",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+"
+	 ClassDeclaration","
+	 ClassDeclaration",Add a 'protected' constructor or the 'static' keyword to the class declaration.
+"
+	 ClassDeclaration","
+	 ClassDeclaration",Add a 'protected' constructor or the 'static' keyword to the class declaration.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList","
+		 MethodDeclaration
+			 IdentifierName Task
+			 ParameterList","Split this method into two, one handling parameters check and the other handling the asynchronous code."
+"
+				 Parameter
+					 NullableType
+						 PredefinedType","
+				 Parameter
+					 NullableType
+						 PredefinedType",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+"
+						 EmptyStatement","
+						 EmptyStatement",Remove this empty statement.
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 InterpolatedStringExpression
+									 InterpolatedStringText
+									 Interpolation
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+									 InterpolatedStringText","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName logger
+							 IdentifierName LogTrace
+						 ArgumentList
+							 Argument
+								 InterpolatedStringExpression
+									 InterpolatedStringText
+									 Interpolation
+										 SimpleMemberAccessExpression
+											 IdentifierName stopwatch
+											 IdentifierName ElapsedMilliseconds
+									 InterpolatedStringText","The logging message template should not vary between calls to 'LoggerExtensions.LogTrace(ILogger, string?, params object?[])'"
+"
+						 IfStatement
+							 LogicalAndExpression
+								 GreaterThanOrEqualExpression
+									 IdentifierName
+									 NumericLiteralExpression
+								 LessThanExpression
+									 IdentifierName
+									 NumericLiteralExpression","
+						 IfStatement
+							 LogicalAndExpression
+								 GreaterThanOrEqualExpression
+									 IdentifierName result
+									 NumericLiteralExpression
+								 LessThanExpression
+									 IdentifierName result
+									 NumericLiteralExpression",Merge this if statement with the enclosing one.
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ObjectCreationExpression
+									 GenericName
+										 TypeArgumentList
+											 NullableType
+												 PredefinedType
+									 ArgumentList
+										 Argument
+											 StringLiteralExpression
+										 Argument
+											 StringLiteralExpression","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName var
+						 VariableDeclarator
+							 EqualsValueClause
+								 ObjectCreationExpression
+									 GenericName
+										 TypeArgumentList
+											 NullableType
+												 PredefinedType
+									 ArgumentList
+										 Argument
+											 StringLiteralExpression
+										 Argument
+											 StringLiteralExpression",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+"
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName","
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName OpenApiException",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName","
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName Exception",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+				 IfStatement
+					 IsExpression
+						 IdentifierName
+						 IdentifierName","
+				 IfStatement
+					 IsExpression
+						 IdentifierName input
+						 IdentifierName MemoryStream",Replace this type-check-and-cast sequence with an 'as' and a null check.
+"
+													 IfStatement
+														 LogicalNotExpression
+															 InvocationExpression
+																 SimpleMemberAccessExpression
+																	 SimpleMemberAccessExpression
+																		 IdentifierName
+																		 IdentifierName
+																	 IdentifierName
+																 ArgumentList
+																	 Argument
+																		 ObjectCreationExpression
+																			 IdentifierName
+																			 ArgumentList
+																				 Argument
+																					 IdentifierName
+																	 Argument
+																		 IdentifierName","
+													 IfStatement
+														 LogicalNotExpression
+															 InvocationExpression
+																 SimpleMemberAccessExpression
+																	 SimpleMemberAccessExpression
+																		 IdentifierName map
+																		 IdentifierName Children
+																	 IdentifierName TryGetValue
+																 ArgumentList
+																	 Argument
+																		 ObjectCreationExpression
+																			 IdentifierName YamlScalarNode
+																			 ArgumentList
+																				 Argument
+																					 IdentifierName token
+																	 Argument
+																		 IdentifierName pointer",Merge this if statement with the enclosing one.
+"
+									 Argument
+										 InterpolatedStringExpression
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+													 IdentifierName
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 TypeOfExpression
+														 IdentifierName
+													 IdentifierName
+									 Argument
+										 IdentifierName","
+									 Argument
+										 InterpolatedStringExpression
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName _nodeList
+														 IdentifierName Start
+													 IdentifierName Line
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 TypeOfExpression
+														 IdentifierName T
+													 IdentifierName Name
+									 Argument
+										 IdentifierName _nodeList",'_nodeList' is null on at least one execution path.
+"
+									 Argument
+										 InterpolatedStringExpression
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+													 IdentifierName
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 TypeOfExpression
+														 IdentifierName
+													 IdentifierName
+									 Argument
+										 IdentifierName","
+									 Argument
+										 InterpolatedStringExpression
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName _nodeList
+														 IdentifierName Start
+													 IdentifierName Line
+											 InterpolatedStringText
+											 Interpolation
+												 SimpleMemberAccessExpression
+													 TypeOfExpression
+														 IdentifierName T
+													 IdentifierName Name
+									 Argument
+										 IdentifierName _nodeList",'_nodeList' is null on at least one execution path.
+"
+										 GenericName
+											 TypeArgumentList
+												 IdentifierName
+									 ArgumentList","
+										 GenericName
+											 TypeArgumentList
+												 IdentifierName PropertyNode
+									 ArgumentList",Remove this unnecessary cast to 'IEnumerable<PropertyNode>'.
+"
+															 ExpressionStatement
+																 SimpleAssignmentExpression
+																	 IdentifierName
+																	 ConditionalExpression
+																		 EqualsExpression
+																			 AsExpression
+																				 SimpleMemberAccessExpression
+																					 IdentifierName
+																					 IdentifierName
+																				 IdentifierName
+																			 NullLiteralExpression","
+															 ExpressionStatement
+																 SimpleAssignmentExpression
+																	 IdentifierName value
+																	 ConditionalExpression
+																		 EqualsExpression
+																			 AsExpression
+																				 SimpleMemberAccessExpression
+																					 IdentifierName n
+																					 IdentifierName Value
+																				 IdentifierName YamlMappingNode
+																			 NullLiteralExpression",Use the 'is' operator instead.
+"
+														 Block","
+														 Block",Either remove or fill this block of code.
+"
+														 Block","
+														 Block",Either remove or fill this block of code.
+"
+												 IfStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+														 ArgumentList
+															 Argument
+																 IdentifierName
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName
+																	 IdentifierName
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName
+																	 IdentifierName
+															 Argument
+																 DeclarationExpression
+																	 IdentifierName
+																	 SingleVariableDesignation","
+												 IfStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName DateTimeOffset
+															 IdentifierName TryParse
+														 ArgumentList
+															 Argument
+																 IdentifierName value
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName CultureInfo
+																	 IdentifierName InvariantCulture
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName DateTimeStyles
+																	 IdentifierName None
+															 Argument
+																 DeclarationExpression
+																	 IdentifierName var
+																	 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+												 IfStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+														 ArgumentList
+															 Argument
+																 IdentifierName
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName
+																	 IdentifierName
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName
+																	 IdentifierName
+															 Argument
+																 DeclarationExpression
+																	 IdentifierName
+																	 SingleVariableDesignation","
+												 IfStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName DateTimeOffset
+															 IdentifierName TryParse
+														 ArgumentList
+															 Argument
+																 IdentifierName value
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName CultureInfo
+																	 IdentifierName InvariantCulture
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName DateTimeStyles
+																	 IdentifierName None
+															 Argument
+																 DeclarationExpression
+																	 IdentifierName var
+																	 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName NumberStyles
+														 IdentifierName Integer
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName NumberStyles
+														 IdentifierName Integer
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName NumberStyles
+														 IdentifierName Integer
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 BitwiseOrExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 BitwiseOrExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName NumberStyles
+															 IdentifierName Float
+														 SimpleMemberAccessExpression
+															 IdentifierName NumberStyles
+															 IdentifierName AllowThousands
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 BitwiseOrExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 BitwiseOrExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName NumberStyles
+															 IdentifierName Float
+														 SimpleMemberAccessExpression
+															 IdentifierName NumberStyles
+															 IdentifierName AllowThousands
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 BitwiseOrExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 BitwiseOrExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName NumberStyles
+															 IdentifierName Float
+														 SimpleMemberAccessExpression
+															 IdentifierName NumberStyles
+															 IdentifierName AllowThousands
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+											 Block","
+											 Block",Either remove or fill this block of code.
+"
+											 Block","
+											 Block",Either remove or fill this block of code.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName DateTimeOffset
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName DateTimeStyles
+														 IdentifierName None
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName DateTimeOffset
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName CultureInfo
+														 IdentifierName InvariantCulture
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName DateTimeStyles
+														 IdentifierName None
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 IdentifierName
+												 Argument
+													 DeclarationExpression
+														 IdentifierName
+														 SingleVariableDesignation","
+									 IfStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 PredefinedType
+												 IdentifierName TryParse
+											 ArgumentList
+												 Argument
+													 IdentifierName value
+												 Argument
+													 DeclarationExpression
+														 IdentifierName var
+														 SingleVariableDesignation",Merge this if statement with the enclosing one.
+"
+				 IfStatement
+					 LogicalNotExpression
+						 ParenthesizedExpression
+							 IsPatternExpression
+								 ThisExpression
+								 DeclarationPattern
+									 IdentifierName
+									 SingleVariableDesignation","
+				 IfStatement
+					 LogicalNotExpression
+						 ParenthesizedExpression
+							 IsPatternExpression
+								 ThisExpression
+								 DeclarationPattern
+									 IdentifierName MapNode
+									 SingleVariableDesignation",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 IdentifierName
+										 IdentifierName
+									 ArgumentList
+										 Argument
+											 IdentifierName
+										 Argument
+											 IdentifierName","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName var
+						 VariableDeclarator
+							 EqualsValueClause
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 IdentifierName fixedFields
+										 IdentifierName TryGetValue
+									 ArgumentList
+										 Argument
+											 IdentifierName Name
+										 Argument
+											 IdentifierName fixedFieldMap",Remove the unused local variable 'found'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName HttpClient
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName HttpClient
+							 ArgumentList",Make '_httpClient' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator",Make '_document' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator",Remove this unread private field '_document' or refactor the code to use its value.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 PredefinedType
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 PredefinedType
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 PredefinedType
+						 IdentifierName OpenApiReference
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 PredefinedType
+									 IdentifierName OpenApiReference
+							 ArgumentList",Make '_references' 'readonly'.
+"
+						 IfStatement
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName","
+						 IfStatement
+							 SimpleMemberAccessExpression
+								 IdentifierName reference
+								 IdentifierName IsExternal",Merge this if statement with the enclosing one.
+"
+								 IfStatement
+									 LogicalNotExpression
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName","
+								 IfStatement
+									 LogicalNotExpression
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName _references
+												 IdentifierName ContainsKey
+											 ArgumentList
+												 Argument
+													 SimpleMemberAccessExpression
+														 IdentifierName reference
+														 IdentifierName ExternalResource",Merge this if statement with the enclosing one.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiWorkspace
+				 VariableDeclarator",Make '_workspace' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName IStreamLoader
+				 VariableDeclarator",Make '_loader' 'readonly'.
+"
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName
+										 VariableDeclarator
+											 EqualsValueClause
+												 AwaitExpression
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+														 ArgumentList
+															 Argument
+																 IdentifierName
+															 Argument
+																 IdentifierName","
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName var
+										 VariableDeclarator
+											 EqualsValueClause
+												 AwaitExpression
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName reader
+															 IdentifierName ReadAsync
+														 ArgumentList
+															 Argument
+																 IdentifierName input
+															 Argument
+																 IdentifierName cancellationToken",Complete the task associated to this 'TODO' comment.
+"
+				 Parameter
+					 PredefinedType","
+				 Parameter
+					 PredefinedType",Remove this unused method parameter 'context'.
+"
+					 Block","
+					 Block",Complete the task associated to this 'TODO' comment.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+				 TypeParameter
+			 ParameterList
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName
+							 IdentifierName
+			 Block
+				 ForEachStatement
+					 IdentifierName
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName
+							 IdentifierName
+						 ArgumentList
+					 Block
+						 TryStatement
+							 Block
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName
+										 VariableDeclarator
+											 EqualsValueClause
+												 ObjectCreationExpression
+													 GenericName
+														 TypeArgumentList
+															 IdentifierName
+													 ArgumentList
+								 ExpressionStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+											 IdentifierName
+										 ArgumentList
+											 Argument
+												 IdentifierName
+								 ForEachStatement
+									 IdentifierName
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 ElementAccessExpression
+												 IdentifierName
+												 BracketedArgumentList
+													 Argument
+														 IdentifierName
+											 IdentifierName
+										 ArgumentList
+											 Argument
+												 IdentifierName
+									 Block
+										 IfStatement
+											 NotEqualsExpression
+												 SimpleMemberAccessExpression
+													 IdentifierName
+													 IdentifierName
+												 NullLiteralExpression
+											 Block
+												 ExpressionStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 SimpleMemberAccessExpression
+																 IdentifierName
+																 IdentifierName
+															 IdentifierName
+														 ArgumentList
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName
+																	 IdentifierName
+												 LocalDeclarationStatement
+													 VariableDeclaration
+														 IdentifierName
+														 VariableDeclarator
+															 EqualsValueClause
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 ElementAccessExpression
+																			 IdentifierName
+																			 BracketedArgumentList
+																				 Argument
+																					 IdentifierName
+																		 IdentifierName
+																	 ArgumentList
+																		 Argument
+																			 SimpleMemberAccessExpression
+																				 IdentifierName
+																				 IdentifierName
+												 LocalDeclarationStatement
+													 VariableDeclaration
+														 IdentifierName
+														 VariableDeclarator
+															 EqualsValueClause
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 IdentifierName
+																		 IdentifierName
+																	 ArgumentList
+																		 Argument
+																			 IdentifierName
+																		 Argument
+																			 InvocationExpression
+																				 SimpleMemberAccessExpression
+																					 ElementAccessExpression
+																						 IdentifierName
+																						 BracketedArgumentList
+																							 Argument
+																								 IdentifierName
+																					 IdentifierName
+																				 ArgumentList
+																					 Argument
+																						 IdentifierName
+												 ExpressionStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 ElementAccessExpression
+																 IdentifierName
+																 BracketedArgumentList
+																	 Argument
+																		 IdentifierName
+															 IdentifierName
+														 ArgumentList
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName
+																	 IdentifierName
+															 Argument
+																 IdentifierName
+							 CatchClause
+								 CatchDeclaration
+									 IdentifierName
+								 Block
+									 ExpressionStatement
+										 SimpleAssignmentExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+											 InvocationExpression
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+													 IdentifierName
+												 ArgumentList
+									 ExpressionStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+														 IdentifierName
+													 IdentifierName
+												 IdentifierName
+											 ArgumentList
+												 Argument
+													 ObjectCreationExpression
+														 IdentifierName
+														 ArgumentList
+															 Argument
+																 IdentifierName
+							 FinallyClause
+								 Block
+									 ExpressionStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 SimpleMemberAccessExpression
+													 IdentifierName
+													 IdentifierName
+												 IdentifierName
+											 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+				 TypeParameter
+			 ParameterList
+				 Parameter
+					 IdentifierName MapNode
+				 Parameter
+					 IdentifierName T
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName T
+							 IdentifierName U
+			 Block
+				 ForEachStatement
+					 IdentifierName var
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName anyMapFieldMap
+								 IdentifierName Keys
+							 IdentifierName ToList
+						 ArgumentList
+					 Block
+						 TryStatement
+							 Block
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName var
+										 VariableDeclarator
+											 EqualsValueClause
+												 ObjectCreationExpression
+													 GenericName
+														 TypeArgumentList
+															 IdentifierName IOpenApiAny
+													 ArgumentList
+								 ExpressionStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName mapNode
+												 IdentifierName Context
+											 IdentifierName StartObject
+										 ArgumentList
+											 Argument
+												 IdentifierName anyMapFieldName
+								 ForEachStatement
+									 IdentifierName var
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 ElementAccessExpression
+												 IdentifierName anyMapFieldMap
+												 BracketedArgumentList
+													 Argument
+														 IdentifierName anyMapFieldName
+											 IdentifierName PropertyMapGetter
+										 ArgumentList
+											 Argument
+												 IdentifierName domainObject
+									 Block
+										 IfStatement
+											 NotEqualsExpression
+												 SimpleMemberAccessExpression
+													 IdentifierName propertyMapElement
+													 IdentifierName Value
+												 NullLiteralExpression
+											 Block
+												 ExpressionStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 SimpleMemberAccessExpression
+																 IdentifierName mapNode
+																 IdentifierName Context
+															 IdentifierName StartObject
+														 ArgumentList
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName propertyMapElement
+																	 IdentifierName Key
+												 LocalDeclarationStatement
+													 VariableDeclaration
+														 IdentifierName var
+														 VariableDeclarator
+															 EqualsValueClause
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 ElementAccessExpression
+																			 IdentifierName anyMapFieldMap
+																			 BracketedArgumentList
+																				 Argument
+																					 IdentifierName anyMapFieldName
+																		 IdentifierName PropertyGetter
+																	 ArgumentList
+																		 Argument
+																			 SimpleMemberAccessExpression
+																				 IdentifierName propertyMapElement
+																				 IdentifierName Value
+												 LocalDeclarationStatement
+													 VariableDeclaration
+														 IdentifierName var
+														 VariableDeclarator
+															 EqualsValueClause
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 IdentifierName OpenApiAnyConverter
+																		 IdentifierName GetSpecificOpenApiAny
+																	 ArgumentList
+																		 Argument
+																			 IdentifierName any
+																		 Argument
+																			 InvocationExpression
+																				 SimpleMemberAccessExpression
+																					 ElementAccessExpression
+																						 IdentifierName anyMapFieldMap
+																						 BracketedArgumentList
+																							 Argument
+																								 IdentifierName anyMapFieldName
+																					 IdentifierName SchemaGetter
+																				 ArgumentList
+																					 Argument
+																						 IdentifierName domainObject
+												 ExpressionStatement
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 ElementAccessExpression
+																 IdentifierName anyMapFieldMap
+																 BracketedArgumentList
+																	 Argument
+																		 IdentifierName anyMapFieldName
+															 IdentifierName PropertySetter
+														 ArgumentList
+															 Argument
+																 SimpleMemberAccessExpression
+																	 IdentifierName propertyMapElement
+																	 IdentifierName Value
+															 Argument
+																 IdentifierName newAny
+							 CatchClause
+								 CatchDeclaration
+									 IdentifierName OpenApiException
+								 Block
+									 ExpressionStatement
+										 SimpleAssignmentExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName exception
+												 IdentifierName Pointer
+											 InvocationExpression
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName mapNode
+														 IdentifierName Context
+													 IdentifierName GetLocation
+												 ArgumentList
+									 ExpressionStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 SimpleMemberAccessExpression
+													 SimpleMemberAccessExpression
+														 SimpleMemberAccessExpression
+															 IdentifierName mapNode
+															 IdentifierName Context
+														 IdentifierName Diagnostic
+													 IdentifierName Errors
+												 IdentifierName Add
+											 ArgumentList
+												 Argument
+													 ObjectCreationExpression
+														 IdentifierName OpenApiError
+														 ArgumentList
+															 Argument
+																 IdentifierName exception
+							 FinallyClause
+								 Block
+									 ExpressionStatement
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 SimpleMemberAccessExpression
+													 IdentifierName mapNode
+													 IdentifierName Context
+												 IdentifierName EndObject
+											 ArgumentList",Remove the unused private method 'ProcessAnyMapFields'.
+"
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName
+										 VariableDeclarator
+											 EqualsValueClause
+												 ObjectCreationExpression
+													 GenericName
+														 TypeArgumentList
+															 IdentifierName
+													 ArgumentList","
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName var
+										 VariableDeclarator
+											 EqualsValueClause
+												 ObjectCreationExpression
+													 GenericName
+														 TypeArgumentList
+															 IdentifierName IOpenApiAny
+													 ArgumentList",Remove the unused local variable 'newProperty'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 GenericName
+							 TypeArgumentList
+								 IdentifierName
+								 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+									 GenericName
+										 TypeArgumentList
+											 IdentifierName
+											 PredefinedType","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName Type
+						 GenericName
+							 TypeArgumentList
+								 IdentifierName ParseNode
+								 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName Type
+									 GenericName
+										 TypeArgumentList
+											 IdentifierName ParseNode
+											 PredefinedType",Make '_loaders' 'readonly'.
+"
+						 ThrowStatement
+							 ObjectCreationExpression
+								 IdentifierName
+								 ArgumentList","
+						 ThrowStatement
+							 ObjectCreationExpression
+								 IdentifierName ArgumentException
+								 ArgumentList",Use a constructor overloads that allows a more meaningful exception message to be provided.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiInfo
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName OpenApiInfo",Change the visibility of 'InfoFixedFields' or make it 'const' or 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiInfo
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName OpenApiInfo",Change the visibility of 'InfoPatternFields' or make it 'const' or 'readonly'.
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ObjectCreationExpression
+									 GenericName
+										 TypeArgumentList
+											 PredefinedType
+									 CollectionInitializerExpression
+										 StringLiteralExpression
+										 StringLiteralExpression","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName var
+						 VariableDeclarator
+							 EqualsValueClause
+								 ObjectCreationExpression
+									 GenericName
+										 TypeArgumentList
+											 PredefinedType
+									 CollectionInitializerExpression
+										 StringLiteralExpression
+										 StringLiteralExpression",Remove the unused local variable 'required'.
+"
+				 Parameter
+					 IdentifierName","
+				 Parameter
+					 IdentifierName ParsingContext",Remove this unused method parameter 'context'.
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ObjectCreationExpression
+									 GenericName
+										 TypeArgumentList
+											 PredefinedType
+									 CollectionInitializerExpression
+										 StringLiteralExpression","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName var
+						 VariableDeclarator
+							 EqualsValueClause
+								 ObjectCreationExpression
+									 GenericName
+										 TypeArgumentList
+											 PredefinedType
+									 CollectionInitializerExpression
+										 StringLiteralExpression",Remove the unused local variable 'requiredFields'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiResponses
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName OpenApiResponses
+							 ArgumentList",Change the visibility of 'ResponsesFixedFields' or make it 'const' or 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiResponses
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName OpenApiResponses",Change the visibility of 'ResponsesPatternFields' or make it 'const' or 'readonly'.
+"
+				 Parameter
+					 IdentifierName","
+				 Parameter
+					 IdentifierName ParsingContext",Remove this unused method parameter 'context'.
+"
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName
+										 VariableDeclarator
+											 EqualsValueClause
+												 ObjectCreationExpression
+													 GenericName
+														 TypeArgumentList
+															 IdentifierName
+													 ArgumentList","
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName var
+										 VariableDeclarator
+											 EqualsValueClause
+												 ObjectCreationExpression
+													 GenericName
+														 TypeArgumentList
+															 IdentifierName IOpenApiAny
+													 ArgumentList",Remove the unused local variable 'newProperty'.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 Block
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 IdentifierName
+										 IdentifierName
+									 ArgumentList
+				 ReturnStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName RuntimeExpression
+			 ParameterList
+				 Parameter
+					 IdentifierName ParseNode
+			 Block
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName var
+						 VariableDeclarator
+							 EqualsValueClause
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 IdentifierName node
+										 IdentifierName GetScalarValue
+									 ArgumentList
+				 ReturnStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName RuntimeExpression
+							 IdentifierName Build
+						 ArgumentList
+							 Argument
+								 IdentifierName value",Remove the unused private method 'LoadRuntimeExpression'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 GenericName
+							 TypeArgumentList
+								 IdentifierName
+								 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+									 GenericName
+										 TypeArgumentList
+											 IdentifierName
+											 PredefinedType","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName Type
+						 GenericName
+							 TypeArgumentList
+								 IdentifierName ParseNode
+								 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName Type
+									 GenericName
+										 TypeArgumentList
+											 IdentifierName ParseNode
+											 PredefinedType",Make '_loaders' 'readonly'.
+"
+						 IfStatement
+							 EqualsExpression
+								 ElementAccessExpression
+									 IdentifierName
+									 BracketedArgumentList
+										 Argument
+											 NumericLiteralExpression
+								 StringLiteralExpression","
+						 IfStatement
+							 EqualsExpression
+								 ElementAccessExpression
+									 IdentifierName segments
+									 BracketedArgumentList
+										 Argument
+											 NumericLiteralExpression
+								 StringLiteralExpression",Merge this if statement with the enclosing one.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName HttpClient
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName HttpClient
+							 ArgumentList",Make '_httpClient' 'readonly'.
+"
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName","
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName Format
+							 SimpleMemberAccessExpression
+								 IdentifierName OpenApiFormat
+								 IdentifierName Yaml",Use the 'value' parameter in this property set accessor declaration.
+"
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName","
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName Format
+							 SimpleMemberAccessExpression
+								 IdentifierName OpenApiFormat
+								 IdentifierName Json",Use the 'value' parameter in this property set accessor declaration.
+"
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName","
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName Version
+							 SimpleMemberAccessExpression
+								 IdentifierName OpenApiSpecVersion
+								 IdentifierName OpenApi_",Use the 'value' parameter in this property set accessor declaration.
+"
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName","
+				 SetAccessorDeclaration
+					 ArrowExpressionClause
+						 SimpleAssignmentExpression
+							 IdentifierName Version
+							 SimpleMemberAccessExpression
+								 IdentifierName OpenApiSpecVersion
+								 IdentifierName OpenApi_",Use the 'value' parameter in this property set accessor declaration.
+"
+											 ExpressionStatement
+												 SimpleAssignmentExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+													 ObjectCreationExpression
+														 IdentifierName
+														 ArgumentList
+															 Argument
+																 AddExpression
+																	 AddExpression
+																		 StringLiteralExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName
+																				 IdentifierName
+																			 ArgumentList
+																				 Argument
+																					 IdentifierName
+																	 StringLiteralExpression","
+											 ExpressionStatement
+												 SimpleAssignmentExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName settings
+														 IdentifierName BaseUrl
+													 ObjectCreationExpression
+														 IdentifierName Uri
+														 ArgumentList
+															 Argument
+																 AddExpression
+																	 AddExpression
+																		 StringLiteralExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName Path
+																				 IdentifierName GetDirectoryName
+																			 ArgumentList
+																				 Argument
+																					 IdentifierName _inputFile
+																	 StringLiteralExpression",Remove this hardcoded path-delimiter.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 PredefinedType","
+		 MethodDeclaration
+			 IdentifierName MemoryStream
+			 ParameterList
+				 Parameter
+					 PredefinedType",Member 'CreateStream' does not access instance data and can be marked as static
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiParameter",All 'Visit' method overloads should be adjacent.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiLink",Rename parameter 'operation' to 'link' to match the base class declaration.
+"
+	 ClassDeclaration","
+	 ClassDeclaration",Add a 'protected' constructor or the 'static' keyword to the class declaration.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 PredefinedType
+						 IdentifierName
+			 SimpleBaseType
+				 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 PredefinedType
+						 IdentifierName IOpenApiAny
+			 SimpleBaseType
+				 IdentifierName IOpenApiAny",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 IdentifierName T",Change the visibility of this constructor to 'protected'.
+"
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName","
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName T",Change the visibility of this constructor to 'protected'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator",Make 'isExplicit' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator",Make 'isRawString' 'readonly'.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName Exception",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName OpenApiException",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName Regex
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName Regex
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression",Make 'expressionPattern' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName RuntimeExpression
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName RuntimeExpression
+							 ArgumentList",Make this field 'private' and encapsulate it in a 'public' property.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName RuntimeExpression",Seal class 'RuntimeExpression' or implement 'IEqualityComparer<T>' instead.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+			 ParameterList
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+			 ParameterList
+				 Parameter
+					 IdentifierName T
+				 Parameter
+					 IdentifierName Stream
+				 Parameter
+					 IdentifierName OpenApiSpecVersion",All 'SerializeAsJson' method overloads should be adjacent.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+			 ParameterList
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+			 ParameterList
+				 Parameter
+					 IdentifierName T
+				 Parameter
+					 IdentifierName Stream
+				 Parameter
+					 IdentifierName OpenApiSpecVersion",All 'SerializeAsYaml' method overloads should be adjacent.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+			 ParameterList","
+		 MethodDeclaration
+			 PredefinedType
+			 TypeParameterList
+				 TypeParameter
+			 ParameterList",All 'Serialize' method overloads should be adjacent.
+"
+						 ReturnStatement
+							 ObjectCreationExpression
+								 IdentifierName
+								 ArgumentList
+									 Argument
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName
+														 IdentifierName
+													 ArgumentList
+														 Argument
+															 SubtractExpression
+																 SimpleMemberAccessExpression
+																	 IdentifierName
+																	 IdentifierName
+																 NumericLiteralExpression
+												 IdentifierName
+											 ArgumentList","
+						 ReturnStatement
+							 ObjectCreationExpression
+								 IdentifierName JsonPointer
+								 ArgumentList
+									 Argument
+										 InvocationExpression
+											 SimpleMemberAccessExpression
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 IdentifierName Tokens
+														 IdentifierName Take
+													 ArgumentList
+														 Argument
+															 SubtractExpression
+																 SimpleMemberAccessExpression
+																	 IdentifierName Tokens
+																	 IdentifierName Length
+																 NumericLiteralExpression
+												 IdentifierName ToArray
+											 ArgumentList","Refactor 'ParentPointer' into a method, properties should not copy collections."
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiCallback",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiCallback
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName
+										 VariableDeclarator
+											 EqualsValueClause
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName
+																				 GenericName
+																					 TypeArgumentList
+																						 IdentifierName
+																			 ArgumentList
+																		 IdentifierName
+																	 ArgumentList
+																 IdentifierName
+															 ArgumentList","
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName var
+										 VariableDeclarator
+											 EqualsValueClause
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName schemas
+																				 GenericName
+																					 TypeArgumentList
+																						 IdentifierName OpenApiSchema
+																			 ArgumentList
+																		 IdentifierName Distinct
+																	 ArgumentList
+																 IdentifierName ToList
+															 ArgumentList",Drop this useless call to 'ToList' or replace it by 'AsEnumerable' if you are using LINQ to Entities.
+"
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName
+										 VariableDeclarator
+											 EqualsValueClause
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName
+																				 GenericName
+																					 TypeArgumentList
+																						 IdentifierName
+																			 ArgumentList
+																		 IdentifierName
+																	 ArgumentList
+																 IdentifierName
+															 ArgumentList","
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName var
+										 VariableDeclarator
+											 EqualsValueClause
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName schemas
+																				 GenericName
+																					 TypeArgumentList
+																						 IdentifierName OpenApiSchema
+																			 ArgumentList
+																		 IdentifierName Distinct
+																	 ArgumentList
+																 IdentifierName ToList
+															 ArgumentList",Remove the unused local variable 'openApiSchemas'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName Uri
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName Uri
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression",Refactor your code not to use hardcoded absolute paths or URIs.
+"
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName
+										 VariableDeclarator
+											 EqualsValueClause
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName
+																				 GenericName
+																					 TypeArgumentList
+																						 IdentifierName
+																			 ArgumentList
+																		 IdentifierName
+																	 ArgumentList
+																 IdentifierName
+															 ArgumentList","
+								 LocalDeclarationStatement
+									 VariableDeclaration
+										 IdentifierName var
+										 VariableDeclarator
+											 EqualsValueClause
+												 InvocationExpression
+													 SimpleMemberAccessExpression
+														 InvocationExpression
+															 SimpleMemberAccessExpression
+																 InvocationExpression
+																	 SimpleMemberAccessExpression
+																		 InvocationExpression
+																			 SimpleMemberAccessExpression
+																				 IdentifierName schemas
+																				 GenericName
+																					 TypeArgumentList
+																						 IdentifierName OpenApiSchema
+																			 ArgumentList
+																		 IdentifierName Distinct
+																	 ArgumentList
+																 IdentifierName ToList
+															 ArgumentList",Drop this useless call to 'ToList' or replace it by 'AsEnumerable' if you are using LINQ to Entities.
+"
+						 IfStatement
+							 LogicalNotExpression
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 IdentifierName
+										 IdentifierName
+									 ArgumentList
+										 Argument
+											 SimpleMemberAccessExpression
+												 SimpleMemberAccessExpression
+													 IdentifierName
+													 IdentifierName
+												 IdentifierName","
+						 IfStatement
+							 LogicalNotExpression
+								 InvocationExpression
+									 SimpleMemberAccessExpression
+										 IdentifierName Schemas
+										 IdentifierName ContainsKey
+									 ArgumentList
+										 Argument
+											 SimpleMemberAccessExpression
+												 SimpleMemberAccessExpression
+													 IdentifierName schema
+													 IdentifierName Reference
+												 IdentifierName Id",Merge this if statement with the enclosing one.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiExample",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiExample
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+	 ClassDeclaration
+		 TypeParameterList
+			 TypeParameter
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 PredefinedType
+						 IdentifierName","
+	 ClassDeclaration
+		 TypeParameterList
+			 TypeParameter
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 PredefinedType
+						 IdentifierName T",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+					 EqualsValueClause
+						 NullLiteralExpression","
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName T
+					 EqualsValueClause
+						 NullLiteralExpression","This method signature overlaps the one defined on line 22, the default parameter value can only be used with named arguments."
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiHeader",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiHeader
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiLink",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiLink
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+			 SimpleBaseType
+				 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiParameter
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 NullableType
+					 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 NullableType
+					 IdentifierName ParameterStyle
+				 VariableDeclarator",Make this field 'private' and encapsulate it in a 'public' property.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 NullableType
+					 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 NullableType
+					 IdentifierName ParameterStyle
+				 VariableDeclarator",Missing XML comment for publicly visible type or member 'OpenApiParameter._style'
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiParameter
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+				 IfStatement
+					 IsExpression
+						 ThisExpression
+						 IdentifierName","
+				 IfStatement
+					 IsExpression
+						 ThisExpression
+						 IdentifierName OpenApiFormDataParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+"
+					 ElseClause
+						 IfStatement
+							 IsExpression
+								 ThisExpression
+								 IdentifierName","
+					 ElseClause
+						 IfStatement
+							 IsExpression
+								 ThisExpression
+								 IdentifierName OpenApiBodyParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+"
+				 IfStatement
+					 IsExpression
+						 ThisExpression
+						 IdentifierName","
+				 IfStatement
+					 IsExpression
+						 ThisExpression
+						 IdentifierName OpenApiBodyParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+"
+					 ElseClause","
+					 ElseClause",Use curly braces or indentation to denote the code conditionally executed by this 'else'
+"
+											 IfStatement
+												 LogicalAndExpression
+													 EqualsExpression
+														 SimpleMemberAccessExpression
+															 ThisExpression
+															 IdentifierName
+														 SimpleMemberAccessExpression
+															 IdentifierName
+															 IdentifierName
+													 EqualsExpression
+														 SimpleMemberAccessExpression
+															 ThisExpression
+															 IdentifierName
+														 TrueLiteralExpression","
+											 IfStatement
+												 LogicalAndExpression
+													 EqualsExpression
+														 SimpleMemberAccessExpression
+															 ThisExpression
+															 IdentifierName Style
+														 SimpleMemberAccessExpression
+															 IdentifierName ParameterStyle
+															 IdentifierName Form
+													 EqualsExpression
+														 SimpleMemberAccessExpression
+															 ThisExpression
+															 IdentifierName Explode
+														 TrueLiteralExpression",Remove the unnecessary Boolean literal(s).
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiPathItem",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiPathItem
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiPathItem",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 FalseLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 FalseLiteralExpression",Make this field 'private' and encapsulate it in a 'public' property.
+"
+								 ThrowStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+										 ArgumentList
+											 Argument
+												 InvocationExpression
+													 IdentifierName
+													 ArgumentList
+														 Argument
+															 IdentifierName","
+								 ThrowStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName Error
+											 IdentifierName ArgumentNull
+										 ArgumentList
+											 Argument
+												 InvocationExpression
+													 IdentifierName nameof
+													 ArgumentList
+														 Argument
+															 IdentifierName Type","Remove the exception throwing from this property getter, or refactor the property into a method."
+"
+								 ThrowStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+										 ArgumentList
+											 Argument
+												 InvocationExpression
+													 IdentifierName
+													 ArgumentList
+														 Argument
+															 IdentifierName","
+								 ThrowStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName Error
+											 IdentifierName ArgumentNull
+										 ArgumentList
+											 Argument
+												 InvocationExpression
+													 IdentifierName nameof
+													 ArgumentList
+														 Argument
+															 IdentifierName Type","Remove the exception throwing from this property getter, or refactor the property into a method."
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiRequestBody",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiRequestBody
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiResponse",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiResponse
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiResponse",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+			 SimpleBaseType
+				 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiSchema
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+		 MethodDeclaration
+			 IdentifierName
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 IdentifierName OpenApiSchema
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 GenericName
+							 TypeArgumentList
+								 PredefinedType","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiSecurityScheme
+						 GenericName
+							 TypeArgumentList
+								 PredefinedType",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+"
+		 ClassDeclaration
+			 BaseList
+				 SimpleBaseType
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName","
+		 ClassDeclaration
+			 BaseList
+				 SimpleBaseType
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName OpenApiSecurityScheme",Private classes or records which are not derived in the current assembly should be marked as 'sealed'.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiSecurityScheme",Private classes or records which are not derived in the current assembly should be marked as 'sealed'.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName
+			 SimpleBaseType
+				 IdentifierName","
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 IdentifierName IOpenApiSerializable
+			 SimpleBaseType
+				 IdentifierName IOpenApiReferenceable
+			 SimpleBaseType
+				 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+"
+														 ForEachStatement
+															 IdentifierName
+															 IdentifierName","
+														 ForEachStatement
+															 IdentifierName var
+															 IdentifierName openApiOperations","Loops should be simplified with ""LINQ"" expressions"
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiReference
+				 VariableDeclarator",Make '_reference' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiReference
+				 VariableDeclarator",Remove this unread private field '_reference' or refactor the code to use its value.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator",Make '_currentDocument' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator","
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator",Remove this unread private field '_resolveRemoteReferences' or refactor the code to use its value.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName OpenApiError
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName OpenApiError
+							 ArgumentList",Make '_errors' 'readonly'.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiResponses",Rename parameter 'responses' to 'response' to match the base class declaration.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName paths
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName callback
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName serverVariables
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName operations
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName responses
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+						 IfStatement
+							 NotEqualsExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 NullLiteralExpression","
+						 IfStatement
+							 NotEqualsExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName requestBody
+									 IdentifierName Content
+								 NullLiteralExpression",Merge this if statement with the enclosing one.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName headers
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName callbacks
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName content
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName encodings
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName examples
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName
+						 NullLiteralExpression","
+				 IfStatement
+					 NotEqualsExpression
+						 IdentifierName links
+						 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName Uri
+						 IdentifierName OpenApiDocument
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName Uri
+									 IdentifierName OpenApiDocument
+							 ArgumentList",Make '_documents' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName Uri
+						 IdentifierName IOpenApiReferenceable
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName Uri
+									 IdentifierName IOpenApiReferenceable
+							 ArgumentList",Make '_fragments' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName Uri
+						 IdentifierName Stream
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName Uri
+									 IdentifierName Stream
+							 ArgumentList",Make '_artifacts' 'readonly'.
+"
+				 ExpressionStatement
+					 SimpleAssignmentExpression
+						 IdentifierName
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList
+								 Argument
+									 AddExpression
+										 AddExpression
+											 StringLiteralExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+										 StringLiteralExpression","
+				 ExpressionStatement
+					 SimpleAssignmentExpression
+						 IdentifierName BaseUrl
+						 ObjectCreationExpression
+							 IdentifierName Uri
+							 ArgumentList
+								 Argument
+									 AddExpression
+										 AddExpression
+											 StringLiteralExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName Environment
+												 IdentifierName CurrentDirectory
+										 StringLiteralExpression",Remove this hardcoded path-delimiter.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiDocument
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'doc' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiInfo
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'info' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiContact
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'contact' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiComponents
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'components' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiHeader
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'tag' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiResponse
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'response' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiMediaType
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'mediaType' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiResponses
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'response' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiExternalDocs
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'externalDocs' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiLicense
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'license' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiOAuthFlow
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'openApiOAuthFlow' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiTag
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'tag' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiParameter
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'parameter' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiSchema
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'schema' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiServer
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'server' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiEncoding
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'encoding' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiCallback
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'callback' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName IOpenApiExtensible
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'openApiExtensible' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName IOpenApiExtension
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'openApiExtension' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName OpenApiExample
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName items
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName items
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'items' to 'example' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiPathItem
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'pathItem' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiServerVariable
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'serverVariable' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiSecurityScheme
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'securityScheme' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiSecurityRequirement
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'securityRequirement' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiRequestBody
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'requestBody' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiPaths
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'paths' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiLink
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'link' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiExample
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'example' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName OpenApiOperation
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item",Rename parameter 'item' to 'operation' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 IdentifierName OperationType
+							 IdentifierName OpenApiOperation
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'operations' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName OpenApiHeader
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'headers' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName OpenApiCallback
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'callbacks' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName OpenApiMediaType
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'content' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName OpenApiExample
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'examples' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName OpenApiLink
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'links' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName OpenApiServerVariable
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'serverVariables' to match the base class declaration.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 GenericName
+						 TypeArgumentList
+							 PredefinedType
+							 IdentifierName OpenApiEncoding
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName Validate
+					 ArgumentList
+						 Argument
+							 IdentifierName item
+						 Argument
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 IdentifierName item
+									 IdentifierName GetType
+								 ArgumentList",Rename parameter 'item' to 'encodings' to match the base class declaration.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName Regex
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName Regex
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression",Make this field 'private' and encapsulate it in a 'public' property.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName Regex
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName Regex
+							 ArgumentList
+								 Argument
+									 StringLiteralExpression",Change the visibility of 'KeyRegex' or make it 'const' or 'readonly'.
+"
+											 IfStatement
+												 LogicalNotExpression
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 SimpleMemberAccessExpression
+																 IdentifierName
+																 IdentifierName
+															 IdentifierName
+														 ArgumentList","
+											 IfStatement
+												 LogicalNotExpression
+													 InvocationExpression
+														 SimpleMemberAccessExpression
+															 SimpleMemberAccessExpression
+																 IdentifierName item
+																 IdentifierName Email
+															 IdentifierName IsEmailAddress
+														 ArgumentList",Merge this if statement with the enclosing one.
+"
+									 ForEachStatement
+										 IdentifierName
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName","
+									 ForEachStatement
+										 IdentifierName var
+										 SimpleMemberAccessExpression
+											 IdentifierName item
+											 IdentifierName Extensions",Loop should be simplified by calling Select(extensible => extensible.Key))
+"
+						 IfStatement
+							 IsExpression
+								 IdentifierName
+								 IdentifierName","
+						 IfStatement
+							 IsExpression
+								 IdentifierName value
+								 IdentifierName OpenApiNull",Merge this if statement with the enclosing one.
+"
+						 ReturnStatement","
+						 ReturnStatement",Remove this redundant jump.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 GenericName
+							 TypeArgumentList
+								 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+									 GenericName
+										 TypeArgumentList
+											 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName Type
+						 GenericName
+							 TypeArgumentList
+								 IdentifierName ValidationRule
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName Type
+									 GenericName
+										 TypeArgumentList
+											 IdentifierName ValidationRule
+							 ArgumentList",Make '_rules' 'readonly'.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName ValidationRule
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName ValidationRule
+							 ArgumentList",Make '_emptyRules' 'readonly'.
+"
+						 ReturnStatement
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName
+												 IdentifierName
+											 IdentifierName
+										 ArgumentList
+											 Argument
+												 SimpleLambdaExpression
+													 Parameter
+													 IdentifierName
+									 IdentifierName
+								 ArgumentList","
+						 ReturnStatement
+							 InvocationExpression
+								 SimpleMemberAccessExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 SimpleMemberAccessExpression
+												 IdentifierName _rules
+												 IdentifierName Values
+											 IdentifierName SelectMany
+										 ArgumentList
+											 Argument
+												 SimpleLambdaExpression
+													 Parameter
+													 IdentifierName v
+									 IdentifierName ToList
+								 ArgumentList","Refactor 'Rules' into a method, properties should not copy collections."
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 FalseLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator
+					 EqualsValueClause
+						 FalseLiteralExpression",Make '_produceTerseOutput' 'readonly'.
+"
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ThisConstructorInitializer
+				 ArgumentList
+					 Argument
+						 IdentifierName
+					 Argument
+						 NullLiteralExpression","
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 IdentifierName TextWriter
+			 ThisConstructorInitializer
+				 ArgumentList
+					 Argument
+						 IdentifierName textWriter
+					 Argument
+						 NullLiteralExpression",Change the visibility of this constructor to 'protected'.
+"
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 IdentifierName","
+		 ConstructorDeclaration
+			 ParameterList
+				 Parameter
+					 IdentifierName TextWriter
+				 Parameter
+					 IdentifierName OpenApiWriterSettings",Change the visibility of this constructor to 'protected'.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+				 Parameter
+					 PredefinedType
+				 Parameter
+					 PredefinedType","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName IOpenApiWriter
+				 Parameter
+					 PredefinedType
+				 Parameter
+					 PredefinedType",All 'WriteProperty' method overloads should be adjacent.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList",All 'WriteOptionalMap' method overloads should be adjacent.
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList",All 'WriteRequiredMap' method overloads should be adjacent.
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName ReferenceInlineSetting
+				 VariableDeclarator
+					 EqualsValueClause
+						 SimpleMemberAccessExpression
+							 IdentifierName ReferenceInlineSetting
+							 IdentifierName DoNotInlineReferences",'ReferenceInlineSetting' is obsolete: 'Use InlineLocalReference and InlineExternalReference settings instead'
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName ReferenceInlineSetting
+				 VariableDeclarator
+					 EqualsValueClause
+						 SimpleMemberAccessExpression
+							 IdentifierName ReferenceInlineSetting
+							 IdentifierName DoNotInlineReferences",'ReferenceInlineSetting' is obsolete: 'Use InlineLocalReference and InlineExternalReference settings instead'
+"
+							 Block
+								 ExpressionStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+										 ArgumentList
+								 ExpressionStatement
+									 InvocationExpression
+										 IdentifierName
+										 ArgumentList","
+							 Block
+								 ExpressionStatement
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName Writer
+											 IdentifierName WriteLine
+										 ArgumentList
+								 ExpressionStatement
+									 InvocationExpression
+										 IdentifierName WriteIndentation
+										 ArgumentList",Either merge this branch with the identical one on line 145 or change one of the implementations.
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 IdentifierName","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName handler
+							 IdentifierName Invoke
+						 ArgumentList
+							 Argument
+								 IdentifierName context",Dereference of a possibly null reference.
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 IdentifierName","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName handler
+							 IdentifierName Invoke
+						 ArgumentList
+							 Argument
+								 IdentifierName context",Dereference of a possibly null reference.
+"
+															 ObjectInitializerExpression","
+															 ObjectInitializerExpression",Member 'Clone' does not access instance data and can be marked as static
+"
+									 ObjectInitializerExpression","
+									 ObjectInitializerExpression",Member 'CloneSecurityScheme' does not access instance data and can be marked as static
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName
+										 ArgumentList
+											 Argument
+												 NullLiteralExpression","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName Action
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName BodyExpression
+										 ArgumentList
+											 Argument
+												 NullLiteralExpression","BodyExpressionThrowsWithNullPointerConstructor creates a new instance of BodyExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName
+										 ArgumentList
+											 Argument
+												 IdentifierName","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName Action
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName HeaderExpression
+										 ArgumentList
+											 Argument
+												 IdentifierName token","HeaderExpressionConstructorThrows creates a new instance of HeaderExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName Assert
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName ArgumentException
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName test",Use nameof in place of string literal 'token'
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName
+										 ArgumentList
+											 Argument
+												 IdentifierName","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName Action
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName PathExpression
+										 ArgumentList
+											 Argument
+												 IdentifierName name","PathExpressionConstructorThrows creates a new instance of PathExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName Assert
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName ArgumentException
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName test",Use nameof in place of string literal 'name'
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName
+										 ArgumentList
+											 Argument
+												 IdentifierName","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName Action
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName QueryExpression
+										 ArgumentList
+											 Argument
+												 IdentifierName name","QueryExpressionConstructorThrows creates a new instance of QueryExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName Assert
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName ArgumentException
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName test",Use nameof in place of string literal 'name'
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName
+										 ArgumentList
+											 Argument
+												 NameColon
+													 IdentifierName
+												 NullLiteralExpression","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName Action
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName RequestExpression
+										 ArgumentList
+											 Argument
+												 NameColon
+													 IdentifierName source
+												 NullLiteralExpression","RequestExpressionConstructorThrows creates a new instance of RequestExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+"
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName
+										 ArgumentList
+											 Argument
+												 NameColon
+													 IdentifierName
+												 NullLiteralExpression","
+				 LocalDeclarationStatement
+					 VariableDeclaration
+						 IdentifierName Action
+						 VariableDeclarator
+							 EqualsValueClause
+								 ParenthesizedLambdaExpression
+									 ParameterList
+									 ObjectCreationExpression
+										 IdentifierName ResponseExpression
+										 ArgumentList
+											 Argument
+												 NameColon
+													 IdentifierName source
+												 NullLiteralExpression","ResponseExpressionConstructorThrows creates a new instance of ResponseExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName Assert
+							 GenericName
+								 TypeArgumentList
+									 IdentifierName ArgumentException
+						 ArgumentList
+							 Argument
+								 StringLiteralExpression
+							 Argument
+								 IdentifierName test",Use nameof in place of string literal 'expression'
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiCallback
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiCallback",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiCallback
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiCallback",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiContact
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiContact
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiContact
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiContact",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiDocument
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiDocument
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiDocument
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName AdvancedComponentsWithReference
+								 IdentifierName Schemas
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName AdvancedComponentsWithReference
+								 IdentifierName Schemas
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiDocument",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiComponents
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName AdvancedComponents
+								 IdentifierName Schemas
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName AdvancedComponents
+								 IdentifierName Schemas
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName
+								 IdentifierName
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ElementAccessExpression
+							 SimpleMemberAccessExpression
+								 IdentifierName AdvancedComponents
+								 IdentifierName Schemas
+							 BracketedArgumentList
+								 Argument
+									 StringLiteralExpression",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiDocument
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiDocument",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiEncoding
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiEncoding
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiEncoding
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiEncoding",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiExample
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiExample",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiExample
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiExample",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiExternalDocs
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiExternalDocs
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiExternalDocs
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiExternalDocs",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiHeader
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiHeader",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiHeader
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiHeader",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiInfo
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiInfo",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiInfo
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiInfo",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiLicense
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiLicense",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiLicense
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiLicense",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiLink
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiLink",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiLink
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiLink",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiMediaType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiMediaType
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiMediaType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiMediaType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiMediaType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiMediaType
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiOAuthFlow
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiOAuthFlow
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiOAuthFlow
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiOAuthFlow",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiOAuthFlow
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiOAuthFlow",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiOAuthFlows
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiOAuthFlows
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiOAuthFlows
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiOAuthFlows",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiOAuthFlows
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiOAuthFlows",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiParameter
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiParameter
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiParameter
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiParameter
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiParameter
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiParameter
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiParameter
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiRequestBody
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiRequestBody",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiRequestBody
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiRequestBody",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiResponse
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiResponse
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiResponse
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiResponse",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiResponse
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiResponse",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSchema
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSchema
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityRequirement
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityRequirement
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityRequirement
+				 VariableDeclarator
+					 EqualsValueClause",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityRequirement
+				 VariableDeclarator
+					 EqualsValueClause",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityScheme
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityScheme
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityScheme
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityScheme
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityScheme
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityScheme
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiSecurityScheme
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiServer
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiServer",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiServer
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiServer",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiServerVariable
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiServerVariable
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiServerVariable
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiServerVariable",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiTag
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiTag
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiTag
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiTag",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiTag
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiTag",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiXml
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiXml",Non-constant fields should not be visible
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName
+							 ArgumentList","
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName OpenApiXml
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName OpenApiXml
+							 ArgumentList",Non-constant fields should not be visible
+"
+		 PropertyDeclaration
+			 IdentifierName
+			 ArrowExpressionClause
+				 ObjectCreationExpression
+					 IdentifierName
+					 ArgumentList","
+		 PropertyDeclaration
+			 IdentifierName OpenApiDocument
+			 ArrowExpressionClause
+				 ObjectCreationExpression
+					 IdentifierName OpenApiDocument
+					 ArgumentList",Member 'OpenApiDocumentSample_1' does not access instance data and can be marked as static
+"
+		 PropertyDeclaration
+			 IdentifierName
+			 ArrowExpressionClause
+				 ObjectCreationExpression
+					 IdentifierName
+					 ArgumentList","
+		 PropertyDeclaration
+			 IdentifierName OpenApiDocument
+			 ArrowExpressionClause
+				 ObjectCreationExpression
+					 IdentifierName OpenApiDocument
+					 ArgumentList",Member 'OpenApiDocumentSample_2' does not access instance data and can be marked as static
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 EqualsExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+										 ArgumentList
+									 NumericLiteralExpression","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName Assert
+							 IdentifierName True
+						 ArgumentList
+							 Argument
+								 EqualsExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName errors
+											 IdentifierName Count
+										 ArgumentList
+									 NumericLiteralExpression",Count() is used where Any() could be used instead to improve performance
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 EqualsExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName
+											 IdentifierName
+										 ArgumentList
+									 NumericLiteralExpression","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName Assert
+							 IdentifierName True
+						 ArgumentList
+							 Argument
+								 EqualsExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 IdentifierName errors
+											 IdentifierName Count
+										 ArgumentList
+									 NumericLiteralExpression",Count() is used where Any() could be used instead to improve performance
+"
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName
+							 IdentifierName
+						 ArgumentList
+							 Argument
+								 LessThanExpression
+									 NumericLiteralExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 SimpleMemberAccessExpression
+												 ParenthesizedExpression
+													 CastExpression
+														 IdentifierName
+														 IdentifierName
+												 IdentifierName
+											 IdentifierName
+										 ArgumentList","
+				 ExpressionStatement
+					 InvocationExpression
+						 SimpleMemberAccessExpression
+							 IdentifierName Assert
+							 IdentifierName True
+						 ArgumentList
+							 Argument
+								 LessThanExpression
+									 NumericLiteralExpression
+									 InvocationExpression
+										 SimpleMemberAccessExpression
+											 SimpleMemberAccessExpression
+												 ParenthesizedExpression
+													 CastExpression
+														 IdentifierName TestVisitor
+														 IdentifierName visitor
+												 IdentifierName CallStack
+											 IdentifierName Count
+										 ArgumentList","Use the ""Count"" property instead of Enumerable.Count()"
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList","
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList",Member 'OpenApiWorkspacesShouldLoadDocumentFragments' does not access instance data and can be marked as static
