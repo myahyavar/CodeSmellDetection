@@ -15,7 +15,7 @@ parsed_smell,parsed_smell_identifiers,message
 						20 PredefinedType
 			20 AccessorList
 				20 GetAccessorDeclaration
-				20 SetAccessorDeclaration",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+				20 SetAccessorDeclaration",Refactor
 "
 				42 LocalDeclarationStatement
 					42 VariableDeclaration
@@ -46,30 +46,30 @@ parsed_smell,parsed_smell_identifiers,message
 										42 IdentifierName GetValueForOption
 									42 ArgumentList
 										42 Argument
-											42 IdentifierName VersionOption",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+											42 IdentifierName VersionOption",Refactor
 "
 	7 ClassDeclaration","
-	7 ClassDeclaration",Add a 'protected' constructor or the 'static' keyword to the class declaration.
+	7 ClassDeclaration",Deficient
 "
 	33 ClassDeclaration","
-	33 ClassDeclaration",Add a 'protected' constructor or the 'static' keyword to the class declaration.
+	33 ClassDeclaration",Deficient
 "
 		38 MethodDeclaration
 			38 IdentifierName
 			38 ParameterList","
 		38 MethodDeclaration
 			38 IdentifierName Task
-			38 ParameterList","Split this method into two, one handling parameters check and the other handling the asynchronous code."
+			38 ParameterList",Refactor
 "
 				44 Parameter
 					44 NullableType
 						44 PredefinedType","
 				44 Parameter
 					44 NullableType
-						44 PredefinedType",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+						44 PredefinedType",Refactor
 "
 						68 EmptyStatement","
-						68 EmptyStatement",Remove this empty statement.
+						68 EmptyStatement",Remove
 "
 				128 ExpressionStatement
 					128 InvocationExpression
@@ -98,7 +98,7 @@ parsed_smell,parsed_smell_identifiers,message
 										128 SimpleMemberAccessExpression
 											128 IdentifierName stopwatch
 											128 IdentifierName ElapsedMilliseconds
-									128 InterpolatedStringText","The logging message template should not vary between calls to 'LoggerExtensions.LogTrace(ILogger, string?, params object?[])'"
+									128 InterpolatedStringText",Refactor
 "
 						21 IfStatement
 							21 LogicalAndExpression
@@ -115,7 +115,7 @@ parsed_smell,parsed_smell_identifiers,message
 									21 NumericLiteralExpression
 								21 LessThanExpression
 									21 IdentifierName result
-									21 NumericLiteralExpression",Merge this if statement with the enclosing one.
+									21 NumericLiteralExpression",Refactor
 "
 				45 LocalDeclarationStatement
 					45 VariableDeclaration
@@ -146,21 +146,21 @@ parsed_smell,parsed_smell_identifiers,message
 										45 Argument
 											45 StringLiteralExpression
 										45 Argument
-											45 StringLiteralExpression",The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+											45 StringLiteralExpression",Refactor
 "
 		13 BaseList
 			13 SimpleBaseType
 				13 IdentifierName","
 		13 BaseList
 			13 SimpleBaseType
-				13 IdentifierName OpenApiException",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+				13 IdentifierName OpenApiException",Refactor
 "
 		12 BaseList
 			12 SimpleBaseType
 				12 IdentifierName","
 		12 BaseList
 			12 SimpleBaseType
-				12 IdentifierName Exception",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+				12 IdentifierName Exception",Refactor
 "
 				62 IfStatement
 					62 IsExpression
@@ -169,7 +169,7 @@ parsed_smell,parsed_smell_identifiers,message
 				62 IfStatement
 					62 IsExpression
 						62 IdentifierName input
-						62 IdentifierName MemoryStream",Replace this type-check-and-cast sequence with an 'as' and a null check.
+						62 IdentifierName MemoryStream",Refactor
 "
 													39 IfStatement
 														39 LogicalNotExpression
@@ -204,7 +204,7 @@ parsed_smell,parsed_smell_identifiers,message
 																				39 Argument
 																					39 IdentifierName token
 																	39 Argument
-																		39 IdentifierName pointer",Merge this if statement with the enclosing one.
+																		39 IdentifierName pointer",Refactor
 "
 									28 Argument
 										28 InterpolatedStringExpression
@@ -239,7 +239,7 @@ parsed_smell,parsed_smell_identifiers,message
 														28 IdentifierName T
 													28 IdentifierName Name
 									28 Argument
-										28 IdentifierName _nodeList",'_nodeList' is null on at least one execution path.
+										28 IdentifierName _nodeList",Refactor
 "
 									48 Argument
 										48 InterpolatedStringExpression
@@ -274,7 +274,7 @@ parsed_smell,parsed_smell_identifiers,message
 														48 IdentifierName T
 													48 IdentifierName Name
 									48 Argument
-										48 IdentifierName _nodeList",'_nodeList' is null on at least one execution path.
+										48 IdentifierName _nodeList",Refactor
 "
 										41 GenericName
 											41 TypeArgumentList
@@ -283,7 +283,7 @@ parsed_smell,parsed_smell_identifiers,message
 										41 GenericName
 											41 TypeArgumentList
 												41 IdentifierName PropertyNode
-									41 ArgumentList",Remove this unnecessary cast to 'IEnumerable<PropertyNode>'.
+									41 ArgumentList",Remove
 "
 															75 ExpressionStatement
 																75 SimpleAssignmentExpression
@@ -306,13 +306,13 @@ parsed_smell,parsed_smell_identifiers,message
 																					75 IdentifierName n
 																					75 IdentifierName Value
 																				75 IdentifierName YamlMappingNode
-																			75 NullLiteralExpression",Use the 'is' operator instead.
+																			75 NullLiteralExpression",Refactor
 "
 														80 Block","
-														80 Block",Either remove or fill this block of code.
+														80 Block",Refactor
 "
 														90 Block","
-														90 Block",Either remove or fill this block of code.
+														90 Block",Refactor
 "
 												95 IfStatement
 													95 InvocationExpression
@@ -353,7 +353,7 @@ parsed_smell,parsed_smell_identifiers,message
 															95 Argument
 																95 DeclarationExpression
 																	95 IdentifierName var
-																	95 SingleVariableDesignation",Merge this if statement with the enclosing one.
+																	95 SingleVariableDesignation",Refactor
 "
 												103 IfStatement
 													103 InvocationExpression
@@ -394,7 +394,7 @@ parsed_smell,parsed_smell_identifiers,message
 															103 Argument
 																103 DeclarationExpression
 																	103 IdentifierName var
-																	103 SingleVariableDesignation",Merge this if statement with the enclosing one.
+																	103 SingleVariableDesignation",Refactor
 "
 									159 IfStatement
 										159 InvocationExpression
@@ -435,7 +435,7 @@ parsed_smell,parsed_smell_identifiers,message
 												159 Argument
 													159 DeclarationExpression
 														159 IdentifierName var
-														159 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														159 SingleVariableDesignation",Refactor
 "
 									167 IfStatement
 										167 InvocationExpression
@@ -476,7 +476,7 @@ parsed_smell,parsed_smell_identifiers,message
 												167 Argument
 													167 DeclarationExpression
 														167 IdentifierName var
-														167 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														167 SingleVariableDesignation",Refactor
 "
 									175 IfStatement
 										175 InvocationExpression
@@ -517,7 +517,7 @@ parsed_smell,parsed_smell_identifiers,message
 												175 Argument
 													175 DeclarationExpression
 														175 IdentifierName var
-														175 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														175 SingleVariableDesignation",Refactor
 "
 									183 IfStatement
 										183 InvocationExpression
@@ -566,7 +566,7 @@ parsed_smell,parsed_smell_identifiers,message
 												183 Argument
 													183 DeclarationExpression
 														183 IdentifierName var
-														183 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														183 SingleVariableDesignation",Refactor
 "
 									191 IfStatement
 										191 InvocationExpression
@@ -615,7 +615,7 @@ parsed_smell,parsed_smell_identifiers,message
 												191 Argument
 													191 DeclarationExpression
 														191 IdentifierName var
-														191 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														191 SingleVariableDesignation",Refactor
 "
 									199 IfStatement
 										199 InvocationExpression
@@ -664,13 +664,13 @@ parsed_smell,parsed_smell_identifiers,message
 												199 Argument
 													199 DeclarationExpression
 														199 IdentifierName var
-														199 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														199 SingleVariableDesignation",Refactor
 "
 											212 Block","
-											212 Block",Either remove or fill this block of code.
+											212 Block",Refactor
 "
 											223 Block","
-											223 Block",Either remove or fill this block of code.
+											223 Block",Refactor
 "
 									228 IfStatement
 										228 InvocationExpression
@@ -711,7 +711,7 @@ parsed_smell,parsed_smell_identifiers,message
 												228 Argument
 													228 DeclarationExpression
 														228 IdentifierName var
-														228 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														228 SingleVariableDesignation",Refactor
 "
 									236 IfStatement
 										236 InvocationExpression
@@ -752,7 +752,7 @@ parsed_smell,parsed_smell_identifiers,message
 												236 Argument
 													236 DeclarationExpression
 														236 IdentifierName var
-														236 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														236 SingleVariableDesignation",Refactor
 "
 									254 IfStatement
 										254 InvocationExpression
@@ -777,7 +777,7 @@ parsed_smell,parsed_smell_identifiers,message
 												254 Argument
 													254 DeclarationExpression
 														254 IdentifierName var
-														254 SingleVariableDesignation",Merge this if statement with the enclosing one.
+														254 SingleVariableDesignation",Refactor
 "
 				26 IfStatement
 					26 LogicalNotExpression
@@ -794,7 +794,7 @@ parsed_smell,parsed_smell_identifiers,message
 								26 ThisExpression
 								26 DeclarationPattern
 									26 IdentifierName MapNode
-									26 SingleVariableDesignation",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+									26 SingleVariableDesignation",Refactor
 "
 				33 LocalDeclarationStatement
 					33 VariableDeclaration
@@ -823,7 +823,7 @@ parsed_smell,parsed_smell_identifiers,message
 										33 Argument
 											33 IdentifierName Name
 										33 Argument
-											33 IdentifierName fixedFieldMap",Remove the unused local variable 'found'.
+											33 IdentifierName fixedFieldMap",Remove
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -840,7 +840,7 @@ parsed_smell,parsed_smell_identifiers,message
 					17 EqualsValueClause
 						17 ObjectCreationExpression
 							17 IdentifierName HttpClient
-							17 ArgumentList",Make '_httpClient' 'readonly'.
+							17 ArgumentList",Adjustment
 "
 		15 FieldDeclaration
 			15 VariableDeclaration
@@ -849,7 +849,7 @@ parsed_smell,parsed_smell_identifiers,message
 		15 FieldDeclaration
 			15 VariableDeclaration
 				15 IdentifierName OpenApiDocument
-				15 VariableDeclarator",Make '_document' 'readonly'.
+				15 VariableDeclarator",Adjustment
 "
 		15 FieldDeclaration
 			15 VariableDeclaration
@@ -858,7 +858,7 @@ parsed_smell,parsed_smell_identifiers,message
 		15 FieldDeclaration
 			15 VariableDeclaration
 				15 IdentifierName OpenApiDocument
-				15 VariableDeclarator",Remove this unread private field '_document' or refactor the code to use its value.
+				15 VariableDeclarator",Remove
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -887,7 +887,7 @@ parsed_smell,parsed_smell_identifiers,message
 								16 TypeArgumentList
 									16 PredefinedType
 									16 IdentifierName OpenApiReference
-							16 ArgumentList",Make '_references' 'readonly'.
+							16 ArgumentList",Adjustment
 "
 						48 IfStatement
 							48 SimpleMemberAccessExpression
@@ -896,7 +896,7 @@ parsed_smell,parsed_smell_identifiers,message
 						48 IfStatement
 							48 SimpleMemberAccessExpression
 								48 IdentifierName reference
-								48 IdentifierName IsExternal",Merge this if statement with the enclosing one.
+								48 IdentifierName IsExternal",Refactor
 "
 								50 IfStatement
 									50 LogicalNotExpression
@@ -919,7 +919,7 @@ parsed_smell,parsed_smell_identifiers,message
 												50 Argument
 													50 SimpleMemberAccessExpression
 														50 IdentifierName reference
-														50 IdentifierName ExternalResource",Merge this if statement with the enclosing one.
+														50 IdentifierName ExternalResource",Refactor
 "
 		15 FieldDeclaration
 			15 VariableDeclaration
@@ -928,7 +928,7 @@ parsed_smell,parsed_smell_identifiers,message
 		15 FieldDeclaration
 			15 VariableDeclaration
 				15 IdentifierName OpenApiWorkspace
-				15 VariableDeclarator",Make '_workspace' 'readonly'.
+				15 VariableDeclarator",Adjustment
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -937,7 +937,7 @@ parsed_smell,parsed_smell_identifiers,message
 		16 FieldDeclaration
 			16 VariableDeclaration
 				16 IdentifierName IStreamLoader
-				16 VariableDeclarator",Make '_loader' 'readonly'.
+				16 VariableDeclarator",Adjustment
 "
 								45 LocalDeclarationStatement
 									45 VariableDeclaration
@@ -968,15 +968,15 @@ parsed_smell,parsed_smell_identifiers,message
 															45 Argument
 																45 IdentifierName input
 															45 Argument
-																45 IdentifierName cancellationToken",Complete the task associated to this 'TODO' comment.
+																45 IdentifierName cancellationToken",Deficient
 "
 				44 Parameter
 					44 PredefinedType","
 				44 Parameter
-					44 PredefinedType",Remove this unused method parameter 'context'.
+					44 PredefinedType",Remove
 "
 					85 Block","
-					85 Block",Complete the task associated to this 'TODO' comment.
+					85 Block",Deficient
 "
 		106 MethodDeclaration
 			106 PredefinedType
@@ -1343,7 +1343,7 @@ parsed_smell,parsed_smell_identifiers,message
 													142 IdentifierName mapNode
 													142 IdentifierName Context
 												142 IdentifierName EndObject
-											142 ArgumentList",Remove the unused private method 'ProcessAnyMapFields'.
+											142 ArgumentList",Remove
 "
 								115 LocalDeclarationStatement
 									115 VariableDeclaration
@@ -1364,7 +1364,7 @@ parsed_smell,parsed_smell_identifiers,message
 													115 GenericName
 														115 TypeArgumentList
 															115 IdentifierName IOpenApiAny
-													115 ArgumentList",Remove the unused local variable 'newProperty'.
+													115 ArgumentList",Remove
 "
 		33 FieldDeclaration
 			33 VariableDeclaration
@@ -1403,7 +1403,7 @@ parsed_smell,parsed_smell_identifiers,message
 									33 GenericName
 										33 TypeArgumentList
 											33 IdentifierName ParseNode
-											33 PredefinedType",Make '_loaders' 'readonly'.
+											33 PredefinedType",Adjustment
 "
 						129 ThrowStatement
 							129 ObjectCreationExpression
@@ -1412,7 +1412,7 @@ parsed_smell,parsed_smell_identifiers,message
 						129 ThrowStatement
 							129 ObjectCreationExpression
 								129 IdentifierName ArgumentException
-								129 ArgumentList",Use a constructor overloads that allows a more meaningful exception message to be provided.
+								129 ArgumentList",Refactor
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -1435,7 +1435,7 @@ parsed_smell,parsed_smell_identifiers,message
 						17 ObjectCreationExpression
 							17 GenericName
 								17 TypeArgumentList
-									17 IdentifierName OpenApiInfo",Change the visibility of 'InfoFixedFields' or make it 'const' or 'readonly'.
+									17 IdentifierName OpenApiInfo",Adjustment
 "
 		57 FieldDeclaration
 			57 VariableDeclaration
@@ -1458,7 +1458,7 @@ parsed_smell,parsed_smell_identifiers,message
 						57 ObjectCreationExpression
 							57 GenericName
 								57 TypeArgumentList
-									57 IdentifierName OpenApiInfo",Change the visibility of 'InfoPatternFields' or make it 'const' or 'readonly'.
+									57 IdentifierName OpenApiInfo",Adjustment
 "
 				67 LocalDeclarationStatement
 					67 VariableDeclaration
@@ -1483,12 +1483,12 @@ parsed_smell,parsed_smell_identifiers,message
 											67 PredefinedType
 									67 CollectionInitializerExpression
 										67 StringLiteralExpression
-										67 StringLiteralExpression",Remove the unused local variable 'required'.
+										67 StringLiteralExpression",Remove
 "
 				111 Parameter
 					111 IdentifierName","
 				111 Parameter
-					111 IdentifierName ParsingContext",Remove this unused method parameter 'context'.
+					111 IdentifierName ParsingContext",Remove
 "
 				60 LocalDeclarationStatement
 					60 VariableDeclaration
@@ -1511,7 +1511,7 @@ parsed_smell,parsed_smell_identifiers,message
 										60 TypeArgumentList
 											60 PredefinedType
 									60 CollectionInitializerExpression
-										60 StringLiteralExpression",Remove the unused local variable 'requiredFields'.
+										60 StringLiteralExpression",Remove
 "
 		15 FieldDeclaration
 			15 VariableDeclaration
@@ -1536,7 +1536,7 @@ parsed_smell,parsed_smell_identifiers,message
 							15 GenericName
 								15 TypeArgumentList
 									15 IdentifierName OpenApiResponses
-							15 ArgumentList",Change the visibility of 'ResponsesFixedFields' or make it 'const' or 'readonly'.
+							15 ArgumentList",Adjustment
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -1559,12 +1559,12 @@ parsed_smell,parsed_smell_identifiers,message
 						17 ObjectCreationExpression
 							17 GenericName
 								17 TypeArgumentList
-									17 IdentifierName OpenApiResponses",Change the visibility of 'ResponsesPatternFields' or make it 'const' or 'readonly'.
+									17 IdentifierName OpenApiResponses",Adjustment
 "
 				43 Parameter
 					43 IdentifierName","
 				43 Parameter
-					43 IdentifierName ParsingContext",Remove this unused method parameter 'context'.
+					43 IdentifierName ParsingContext",Remove
 "
 								111 LocalDeclarationStatement
 									111 VariableDeclaration
@@ -1585,7 +1585,7 @@ parsed_smell,parsed_smell_identifiers,message
 													111 GenericName
 														111 TypeArgumentList
 															111 IdentifierName IOpenApiAny
-													111 ArgumentList",Remove the unused local variable 'newProperty'.
+													111 ArgumentList",Remove
 "
 		143 MethodDeclaration
 			143 IdentifierName
@@ -1634,7 +1634,7 @@ parsed_smell,parsed_smell_identifiers,message
 							146 IdentifierName Build
 						146 ArgumentList
 							146 Argument
-								146 IdentifierName value",Remove the unused private method 'LoadRuntimeExpression'.
+								146 IdentifierName value",Remove
 "
 		32 FieldDeclaration
 			32 VariableDeclaration
@@ -1673,7 +1673,7 @@ parsed_smell,parsed_smell_identifiers,message
 									32 GenericName
 										32 TypeArgumentList
 											32 IdentifierName ParseNode
-											32 PredefinedType",Make '_loaders' 'readonly'.
+											32 PredefinedType",Adjustment
 "
 						168 IfStatement
 							168 EqualsExpression
@@ -1690,7 +1690,7 @@ parsed_smell,parsed_smell_identifiers,message
 									168 BracketedArgumentList
 										168 Argument
 											168 NumericLiteralExpression
-								168 StringLiteralExpression",Merge this if statement with the enclosing one.
+								168 StringLiteralExpression",Refactor
 "
 		54 FieldDeclaration
 			54 VariableDeclaration
@@ -1707,7 +1707,7 @@ parsed_smell,parsed_smell_identifiers,message
 					54 EqualsValueClause
 						54 ObjectCreationExpression
 							54 IdentifierName HttpClient
-							54 ArgumentList",Make '_httpClient' 'readonly'.
+							54 ArgumentList",Adjustment
 "
 				170 SetAccessorDeclaration
 					170 ArrowExpressionClause
@@ -1722,7 +1722,7 @@ parsed_smell,parsed_smell_identifiers,message
 							170 IdentifierName Format
 							170 SimpleMemberAccessExpression
 								170 IdentifierName OpenApiFormat
-								170 IdentifierName Yaml",Use the 'value' parameter in this property set accessor declaration.
+								170 IdentifierName Yaml",Refactor
 "
 				176 SetAccessorDeclaration
 					176 ArrowExpressionClause
@@ -1737,7 +1737,7 @@ parsed_smell,parsed_smell_identifiers,message
 							176 IdentifierName Format
 							176 SimpleMemberAccessExpression
 								176 IdentifierName OpenApiFormat
-								176 IdentifierName Json",Use the 'value' parameter in this property set accessor declaration.
+								176 IdentifierName Json",Refactor
 "
 				182 SetAccessorDeclaration
 					182 ArrowExpressionClause
@@ -1752,7 +1752,7 @@ parsed_smell,parsed_smell_identifiers,message
 							182 IdentifierName Version
 							182 SimpleMemberAccessExpression
 								182 IdentifierName OpenApiSpecVersion
-								182 IdentifierName OpenApi2_0",Use the 'value' parameter in this property set accessor declaration.
+								182 IdentifierName OpenApi2_0",Refactor
 "
 				188 SetAccessorDeclaration
 					188 ArrowExpressionClause
@@ -1767,7 +1767,7 @@ parsed_smell,parsed_smell_identifiers,message
 							188 IdentifierName Version
 							188 SimpleMemberAccessExpression
 								188 IdentifierName OpenApiSpecVersion
-								188 IdentifierName OpenApi3_0",Use the 'value' parameter in this property set accessor declaration.
+								188 IdentifierName OpenApi3_0",Refactor
 "
 											249 ExpressionStatement
 												249 SimpleAssignmentExpression
@@ -1808,7 +1808,7 @@ parsed_smell,parsed_smell_identifiers,message
 																			249 ArgumentList
 																				249 Argument
 																					249 IdentifierName _inputFile
-																	249 StringLiteralExpression",Remove this hardcoded path-delimiter.
+																	249 StringLiteralExpression",Remove
 "
 		325 MethodDeclaration
 			325 IdentifierName
@@ -1819,7 +1819,7 @@ parsed_smell,parsed_smell_identifiers,message
 			325 IdentifierName MemoryStream
 			325 ParameterList
 				325 Parameter
-					325 PredefinedType",Member 'CreateStream' does not access instance data and can be marked as static
+					325 PredefinedType",Refactor
 "
 		17 MethodDeclaration
 			17 PredefinedType
@@ -1830,7 +1830,7 @@ parsed_smell,parsed_smell_identifiers,message
 			17 PredefinedType
 			17 ParameterList
 				17 Parameter
-					17 IdentifierName OpenApiParameter",All 'Visit' method overloads should be adjacent.
+					17 IdentifierName OpenApiParameter",Refactor
 "
 		66 MethodDeclaration
 			66 PredefinedType
@@ -1841,10 +1841,10 @@ parsed_smell,parsed_smell_identifiers,message
 			66 PredefinedType
 			66 ParameterList
 				66 Parameter
-					66 IdentifierName OpenApiLink",Rename parameter 'operation' to 'link' to match the base class declaration.
+					66 IdentifierName OpenApiLink",Rename
 "
 	10 ClassDeclaration","
-	10 ClassDeclaration",Add a 'protected' constructor or the 'static' keyword to the class declaration.
+	10 ClassDeclaration",Deficient
 "
 	11 ClassDeclaration
 		11 BaseList
@@ -1863,7 +1863,7 @@ parsed_smell,parsed_smell_identifiers,message
 						11 PredefinedType
 						11 IdentifierName IOpenApiAny
 			11 SimpleBaseType
-				11 IdentifierName IOpenApiAny",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+				11 IdentifierName IOpenApiAny",Refactor
 "
 		21 ConstructorDeclaration
 			21 ParameterList
@@ -1872,7 +1872,7 @@ parsed_smell,parsed_smell_identifiers,message
 		21 ConstructorDeclaration
 			21 ParameterList
 				21 Parameter
-					21 IdentifierName T",Change the visibility of this constructor to 'protected'.
+					21 IdentifierName T",Adjustment
 "
 		30 ConstructorDeclaration
 			30 ParameterList
@@ -1885,7 +1885,7 @@ parsed_smell,parsed_smell_identifiers,message
 				30 Parameter
 					30 GenericName
 						30 TypeArgumentList
-							30 IdentifierName T",Change the visibility of this constructor to 'protected'.
+							30 IdentifierName T",Adjustment
 "
 		10 FieldDeclaration
 			10 VariableDeclaration
@@ -1894,7 +1894,7 @@ parsed_smell,parsed_smell_identifiers,message
 		10 FieldDeclaration
 			10 VariableDeclaration
 				10 PredefinedType
-				10 VariableDeclarator",Make 'isExplicit' 'readonly'.
+				10 VariableDeclarator",Adjustment
 "
 		11 FieldDeclaration
 			11 VariableDeclaration
@@ -1903,7 +1903,7 @@ parsed_smell,parsed_smell_identifiers,message
 		11 FieldDeclaration
 			11 VariableDeclaration
 				11 PredefinedType
-				11 VariableDeclarator",Make 'isRawString' 'readonly'.
+				11 VariableDeclarator",Adjustment
 "
 	11 ClassDeclaration
 		11 BaseList
@@ -1912,7 +1912,7 @@ parsed_smell,parsed_smell_identifiers,message
 	11 ClassDeclaration
 		11 BaseList
 			11 SimpleBaseType
-				11 IdentifierName Exception",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+				11 IdentifierName Exception",Refactor
 "
 	11 ClassDeclaration
 		11 BaseList
@@ -1921,7 +1921,7 @@ parsed_smell,parsed_smell_identifiers,message
 	11 ClassDeclaration
 		11 BaseList
 			11 SimpleBaseType
-				11 IdentifierName OpenApiException",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+				11 IdentifierName OpenApiException",Refactor
 "
 		15 FieldDeclaration
 			15 VariableDeclaration
@@ -1942,7 +1942,7 @@ parsed_smell,parsed_smell_identifiers,message
 							15 IdentifierName Regex
 							15 ArgumentList
 								15 Argument
-									15 StringLiteralExpression",Make 'expressionPattern' 'readonly'.
+									15 StringLiteralExpression",Adjustment
 "
 		20 FieldDeclaration
 			20 VariableDeclaration
@@ -1967,7 +1967,7 @@ parsed_smell,parsed_smell_identifiers,message
 							20 GenericName
 								20 TypeArgumentList
 									20 IdentifierName RuntimeExpression
-							20 ArgumentList",Make this field 'private' and encapsulate it in a 'public' property.
+							20 ArgumentList",Adjustment
 "
 	12 ClassDeclaration
 		12 BaseList
@@ -1980,7 +1980,7 @@ parsed_smell,parsed_smell_identifiers,message
 			12 SimpleBaseType
 				12 GenericName
 					12 TypeArgumentList
-						12 IdentifierName RuntimeExpression",Seal class 'RuntimeExpression' or implement 'IEqualityComparer<T>' instead.
+						12 IdentifierName RuntimeExpression",Refactor
 "
 		24 MethodDeclaration
 			24 PredefinedType
@@ -2003,7 +2003,7 @@ parsed_smell,parsed_smell_identifiers,message
 				24 Parameter
 					24 IdentifierName Stream
 				24 Parameter
-					24 IdentifierName OpenApiSpecVersion",All 'SerializeAsJson' method overloads should be adjacent.
+					24 IdentifierName OpenApiSpecVersion",Refactor
 "
 		37 MethodDeclaration
 			37 PredefinedType
@@ -2026,7 +2026,7 @@ parsed_smell,parsed_smell_identifiers,message
 				37 Parameter
 					37 IdentifierName Stream
 				37 Parameter
-					37 IdentifierName OpenApiSpecVersion",All 'SerializeAsYaml' method overloads should be adjacent.
+					37 IdentifierName OpenApiSpecVersion",Refactor
 "
 		52 MethodDeclaration
 			52 PredefinedType
@@ -2037,7 +2037,7 @@ parsed_smell,parsed_smell_identifiers,message
 			52 PredefinedType
 			52 TypeParameterList
 				52 TypeParameter
-			52 ParameterList",All 'Serialize' method overloads should be adjacent.
+			52 ParameterList",Refactor
 "
 						50 ReturnStatement
 							50 ObjectCreationExpression
@@ -2078,7 +2078,7 @@ parsed_smell,parsed_smell_identifiers,message
 																	50 IdentifierName Length
 																50 NumericLiteralExpression
 												50 IdentifierName ToArray
-											50 ArgumentList","Refactor 'ParentPointer' into a method, properties should not copy collections."
+											50 ArgumentList",Refactor
 "
 	14 ClassDeclaration
 		14 BaseList
@@ -2103,7 +2103,7 @@ parsed_smell,parsed_smell_identifiers,message
 			14 SimpleBaseType
 				14 GenericName
 					14 TypeArgumentList
-						14 IdentifierName OpenApiCallback",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+						14 IdentifierName OpenApiCallback",Remove
 "
 		110 MethodDeclaration
 			110 IdentifierName
@@ -2114,7 +2114,7 @@ parsed_smell,parsed_smell_identifiers,message
 			110 IdentifierName OpenApiCallback
 			110 ParameterList
 				110 Parameter
-					110 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					110 IdentifierName OpenApiDocument",Rename
 "
 								110 LocalDeclarationStatement
 									110 VariableDeclaration
@@ -2159,7 +2159,7 @@ parsed_smell,parsed_smell_identifiers,message
 																		110 IdentifierName Distinct
 																	110 ArgumentList
 																110 IdentifierName ToList
-															110 ArgumentList",Drop this useless call to 'ToList' or replace it by 'AsEnumerable' if you are using LINQ to Entities.
+															110 ArgumentList",Refactor
 "
 								110 LocalDeclarationStatement
 									110 VariableDeclaration
@@ -2204,7 +2204,7 @@ parsed_smell,parsed_smell_identifiers,message
 																		110 IdentifierName Distinct
 																	110 ArgumentList
 																110 IdentifierName ToList
-															110 ArgumentList",Remove the unused local variable 'openApiSchemas'.
+															110 ArgumentList",Remove
 "
 		575 FieldDeclaration
 			575 VariableDeclaration
@@ -2225,7 +2225,7 @@ parsed_smell,parsed_smell_identifiers,message
 							575 IdentifierName Uri
 							575 ArgumentList
 								575 Argument
-									575 StringLiteralExpression",Refactor your code not to use hardcoded absolute paths or URIs.
+									575 StringLiteralExpression",Refactor
 "
 								170 LocalDeclarationStatement
 									170 VariableDeclaration
@@ -2270,7 +2270,7 @@ parsed_smell,parsed_smell_identifiers,message
 																		170 IdentifierName Distinct
 																	170 ArgumentList
 																170 IdentifierName ToList
-															170 ArgumentList",Drop this useless call to 'ToList' or replace it by 'AsEnumerable' if you are using LINQ to Entities.
+															170 ArgumentList",Refactor
 "
 						551 IfStatement
 							551 LogicalNotExpression
@@ -2297,7 +2297,7 @@ parsed_smell,parsed_smell_identifiers,message
 												551 SimpleMemberAccessExpression
 													551 IdentifierName schema
 													551 IdentifierName Reference
-												551 IdentifierName Id",Merge this if statement with the enclosing one.
+												551 IdentifierName Id",Refactor
 "
 	13 ClassDeclaration
 		13 BaseList
@@ -2322,7 +2322,7 @@ parsed_smell,parsed_smell_identifiers,message
 			13 SimpleBaseType
 				13 GenericName
 					13 TypeArgumentList
-						13 IdentifierName OpenApiExample",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+						13 IdentifierName OpenApiExample",Remove
 "
 		107 MethodDeclaration
 			107 IdentifierName
@@ -2333,7 +2333,7 @@ parsed_smell,parsed_smell_identifiers,message
 			107 IdentifierName OpenApiExample
 			107 ParameterList
 				107 Parameter
-					107 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					107 IdentifierName OpenApiDocument",Rename
 "
 	13 ClassDeclaration
 		13 TypeParameterList
@@ -2352,7 +2352,7 @@ parsed_smell,parsed_smell_identifiers,message
 				13 GenericName
 					13 TypeArgumentList
 						13 PredefinedType
-						13 IdentifierName T",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+						13 IdentifierName T",Refactor
 "
 				29 Parameter
 					29 GenericName
@@ -2367,7 +2367,7 @@ parsed_smell,parsed_smell_identifiers,message
 							29 PredefinedType
 							29 IdentifierName T
 					29 EqualsValueClause
-						29 NullLiteralExpression","This method signature overlaps the one defined on line 22, the default parameter value can only be used with named arguments."
+						29 NullLiteralExpression",Refactor
 "
 	15 ClassDeclaration
 		15 BaseList
@@ -2392,7 +2392,7 @@ parsed_smell,parsed_smell_identifiers,message
 			15 SimpleBaseType
 				15 GenericName
 					15 TypeArgumentList
-						15 IdentifierName OpenApiHeader",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+						15 IdentifierName OpenApiHeader",Remove
 "
 		147 MethodDeclaration
 			147 IdentifierName
@@ -2403,7 +2403,7 @@ parsed_smell,parsed_smell_identifiers,message
 			147 IdentifierName OpenApiHeader
 			147 ParameterList
 				147 Parameter
-					147 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					147 IdentifierName OpenApiDocument",Rename
 "
 	13 ClassDeclaration
 		13 BaseList
@@ -2428,7 +2428,7 @@ parsed_smell,parsed_smell_identifiers,message
 			13 SimpleBaseType
 				13 GenericName
 					13 TypeArgumentList
-						13 IdentifierName OpenApiLink",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+						13 IdentifierName OpenApiLink",Remove
 "
 		117 MethodDeclaration
 			117 IdentifierName
@@ -2439,7 +2439,7 @@ parsed_smell,parsed_smell_identifiers,message
 			117 IdentifierName OpenApiLink
 			117 ParameterList
 				117 Parameter
-					117 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					117 IdentifierName OpenApiDocument",Rename
 "
 	16 ClassDeclaration
 		16 BaseList
@@ -2464,7 +2464,7 @@ parsed_smell,parsed_smell_identifiers,message
 					16 TypeArgumentList
 						16 IdentifierName OpenApiParameter
 			16 SimpleBaseType
-				16 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+				16 IdentifierName IOpenApiExtensible",Remove
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -2475,7 +2475,7 @@ parsed_smell,parsed_smell_identifiers,message
 			19 VariableDeclaration
 				19 NullableType
 					19 IdentifierName ParameterStyle
-				19 VariableDeclarator",Make this field 'private' and encapsulate it in a 'public' property.
+				19 VariableDeclarator",Adjustment
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -2486,7 +2486,7 @@ parsed_smell,parsed_smell_identifiers,message
 			19 VariableDeclaration
 				19 NullableType
 					19 IdentifierName ParameterStyle
-				19 VariableDeclarator",Missing XML comment for publicly visible type or member 'OpenApiParameter._style'
+				19 VariableDeclarator",Deficient
 "
 		205 MethodDeclaration
 			205 IdentifierName
@@ -2497,7 +2497,7 @@ parsed_smell,parsed_smell_identifiers,message
 			205 IdentifierName OpenApiParameter
 			205 ParameterList
 				205 Parameter
-					205 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					205 IdentifierName OpenApiDocument",Rename
 "
 				307 IfStatement
 					307 IsExpression
@@ -2506,7 +2506,7 @@ parsed_smell,parsed_smell_identifiers,message
 				307 IfStatement
 					307 IsExpression
 						307 ThisExpression
-						307 IdentifierName OpenApiFormDataParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+						307 IdentifierName OpenApiFormDataParameter",Refactor
 "
 					311 ElseClause
 						311 IfStatement
@@ -2517,7 +2517,7 @@ parsed_smell,parsed_smell_identifiers,message
 						311 IfStatement
 							311 IsExpression
 								311 ThisExpression
-								311 IdentifierName OpenApiBodyParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+								311 IdentifierName OpenApiBodyParameter",Refactor
 "
 				335 IfStatement
 					335 IsExpression
@@ -2526,10 +2526,10 @@ parsed_smell,parsed_smell_identifiers,message
 				335 IfStatement
 					335 IsExpression
 						335 ThisExpression
-						335 IdentifierName OpenApiBodyParameter",Offload the code that's conditional on this type test to the appropriate subclass and remove the condition.
+						335 IdentifierName OpenApiBodyParameter",Refactor
 "
 					341 ElseClause","
-					341 ElseClause",Use curly braces or indentation to denote the code conditionally executed by this 'else'
+					341 ElseClause",Refactor
 "
 											385 IfStatement
 												385 LogicalAndExpression
@@ -2558,7 +2558,7 @@ parsed_smell,parsed_smell_identifiers,message
 														385 SimpleMemberAccessExpression
 															385 ThisExpression
 															385 IdentifierName Explode
-														385 TrueLiteralExpression",Remove the unnecessary Boolean literal(s).
+														385 TrueLiteralExpression",Remove
 "
 	13 ClassDeclaration
 		13 BaseList
@@ -2583,7 +2583,7 @@ parsed_smell,parsed_smell_identifiers,message
 			13 SimpleBaseType
 				13 GenericName
 					13 TypeArgumentList
-						13 IdentifierName OpenApiPathItem",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+						13 IdentifierName OpenApiPathItem",Remove
 "
 		118 MethodDeclaration
 			118 IdentifierName
@@ -2594,7 +2594,7 @@ parsed_smell,parsed_smell_identifiers,message
 			118 IdentifierName OpenApiPathItem
 			118 ParameterList
 				118 Parameter
-					118 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					118 IdentifierName OpenApiDocument",Rename
 "
 	8 ClassDeclaration
 		8 BaseList
@@ -2607,7 +2607,7 @@ parsed_smell,parsed_smell_identifiers,message
 			8 SimpleBaseType
 				8 GenericName
 					8 TypeArgumentList
-						8 IdentifierName OpenApiPathItem",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+						8 IdentifierName OpenApiPathItem",Refactor
 "
 		50 FieldDeclaration
 			50 VariableDeclaration
@@ -2620,7 +2620,7 @@ parsed_smell,parsed_smell_identifiers,message
 				50 PredefinedType
 				50 VariableDeclarator
 					50 EqualsValueClause
-						50 FalseLiteralExpression",Make this field 'private' and encapsulate it in a 'public' property.
+						50 FalseLiteralExpression",Adjustment
 "
 								71 ThrowStatement
 									71 InvocationExpression
@@ -2645,7 +2645,7 @@ parsed_smell,parsed_smell_identifiers,message
 													71 IdentifierName nameof
 													71 ArgumentList
 														71 Argument
-															71 IdentifierName Type","Remove the exception throwing from this property getter, or refactor the property into a method."
+															71 IdentifierName Type",Remove
 "
 								102 ThrowStatement
 									102 InvocationExpression
@@ -2670,7 +2670,7 @@ parsed_smell,parsed_smell_identifiers,message
 													102 IdentifierName nameof
 													102 ArgumentList
 														102 Argument
-															102 IdentifierName Type","Remove the exception throwing from this property getter, or refactor the property into a method."
+															102 IdentifierName Type",Remove
 "
 	15 ClassDeclaration
 		15 BaseList
@@ -2695,7 +2695,7 @@ parsed_smell,parsed_smell_identifiers,message
 			15 SimpleBaseType
 				15 GenericName
 					15 TypeArgumentList
-						15 IdentifierName OpenApiRequestBody",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+						15 IdentifierName OpenApiRequestBody",Remove
 "
 		99 MethodDeclaration
 			99 IdentifierName
@@ -2706,7 +2706,7 @@ parsed_smell,parsed_smell_identifiers,message
 			99 IdentifierName OpenApiRequestBody
 			99 ParameterList
 				99 Parameter
-					99 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					99 IdentifierName OpenApiDocument",Rename
 "
 	13 ClassDeclaration
 		13 BaseList
@@ -2731,7 +2731,7 @@ parsed_smell,parsed_smell_identifiers,message
 			13 SimpleBaseType
 				13 GenericName
 					13 TypeArgumentList
-						13 IdentifierName OpenApiResponse",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+						13 IdentifierName OpenApiResponse",Remove
 "
 		104 MethodDeclaration
 			104 IdentifierName
@@ -2742,7 +2742,7 @@ parsed_smell,parsed_smell_identifiers,message
 			104 IdentifierName OpenApiResponse
 			104 ParameterList
 				104 Parameter
-					104 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					104 IdentifierName OpenApiDocument",Rename
 "
 	8 ClassDeclaration
 		8 BaseList
@@ -2755,7 +2755,7 @@ parsed_smell,parsed_smell_identifiers,message
 			8 SimpleBaseType
 				8 GenericName
 					8 TypeArgumentList
-						8 IdentifierName OpenApiResponse",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+						8 IdentifierName OpenApiResponse",Refactor
 "
 	14 ClassDeclaration
 		14 BaseList
@@ -2780,7 +2780,7 @@ parsed_smell,parsed_smell_identifiers,message
 					14 TypeArgumentList
 						14 IdentifierName OpenApiSchema
 			14 SimpleBaseType
-				14 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+				14 IdentifierName IOpenApiExtensible",Remove
 "
 		776 MethodDeclaration
 			776 IdentifierName
@@ -2791,7 +2791,7 @@ parsed_smell,parsed_smell_identifiers,message
 			776 IdentifierName OpenApiSchema
 			776 ParameterList
 				776 Parameter
-					776 IdentifierName OpenApiDocument",Rename parameter 'doc' to 'document' to match the interface declaration.
+					776 IdentifierName OpenApiDocument",Rename
 "
 	17 ClassDeclaration
 		17 BaseList
@@ -2810,7 +2810,7 @@ parsed_smell,parsed_smell_identifiers,message
 						17 IdentifierName OpenApiSecurityScheme
 						17 GenericName
 							17 TypeArgumentList
-								17 PredefinedType",Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
+								17 PredefinedType",Refactor
 "
 		114 ClassDeclaration
 			114 BaseList
@@ -2823,7 +2823,7 @@ parsed_smell,parsed_smell_identifiers,message
 				114 SimpleBaseType
 					114 GenericName
 						114 TypeArgumentList
-							114 IdentifierName OpenApiSecurityScheme",Private classes or records which are not derived in the current assembly should be marked as 'sealed'.
+							114 IdentifierName OpenApiSecurityScheme",Refactor
 "
 	114 ClassDeclaration
 		114 BaseList
@@ -2836,7 +2836,7 @@ parsed_smell,parsed_smell_identifiers,message
 			114 SimpleBaseType
 				114 GenericName
 					114 TypeArgumentList
-						114 IdentifierName OpenApiSecurityScheme",Private classes or records which are not derived in the current assembly should be marked as 'sealed'.
+						114 IdentifierName OpenApiSecurityScheme",Refactor
 "
 	16 ClassDeclaration
 		16 BaseList
@@ -2853,7 +2853,7 @@ parsed_smell,parsed_smell_identifiers,message
 			16 SimpleBaseType
 				16 IdentifierName IOpenApiReferenceable
 			16 SimpleBaseType
-				16 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+				16 IdentifierName IOpenApiExtensible",Remove
 "
 	13 ClassDeclaration
 		13 BaseList
@@ -2870,14 +2870,14 @@ parsed_smell,parsed_smell_identifiers,message
 			13 SimpleBaseType
 				13 IdentifierName IOpenApiReferenceable
 			13 SimpleBaseType
-				13 IdentifierName IOpenApiExtensible",'IOpenApiReferenceable' implements 'IOpenApiSerializable' so 'IOpenApiSerializable' can be removed from the inheritance list.
+				13 IdentifierName IOpenApiExtensible",Remove
 "
 														88 ForEachStatement
 															88 IdentifierName
 															88 IdentifierName","
 														88 ForEachStatement
 															88 IdentifierName var
-															88 IdentifierName openApiOperations","Loops should be simplified with ""LINQ"" expressions"
+															88 IdentifierName openApiOperations",Refactor
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -2886,7 +2886,7 @@ parsed_smell,parsed_smell_identifiers,message
 		18 FieldDeclaration
 			18 VariableDeclaration
 				18 IdentifierName OpenApiReference
-				18 VariableDeclarator",Make '_reference' 'readonly'.
+				18 VariableDeclarator",Adjustment
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -2895,7 +2895,7 @@ parsed_smell,parsed_smell_identifiers,message
 		18 FieldDeclaration
 			18 VariableDeclaration
 				18 IdentifierName OpenApiReference
-				18 VariableDeclarator",Remove this unread private field '_reference' or refactor the code to use its value.
+				18 VariableDeclarator",Remove
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -2904,7 +2904,7 @@ parsed_smell,parsed_smell_identifiers,message
 		17 FieldDeclaration
 			17 VariableDeclaration
 				17 IdentifierName OpenApiDocument
-				17 VariableDeclarator",Make '_currentDocument' 'readonly'.
+				17 VariableDeclarator",Adjustment
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -2913,7 +2913,7 @@ parsed_smell,parsed_smell_identifiers,message
 		18 FieldDeclaration
 			18 VariableDeclaration
 				18 PredefinedType
-				18 VariableDeclarator",Remove this unread private field '_resolveRemoteReferences' or refactor the code to use its value.
+				18 VariableDeclarator",Remove
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -2938,7 +2938,7 @@ parsed_smell,parsed_smell_identifiers,message
 							19 GenericName
 								19 TypeArgumentList
 									19 IdentifierName OpenApiError
-							19 ArgumentList",Make '_errors' 'readonly'.
+							19 ArgumentList",Adjustment
 "
 		120 MethodDeclaration
 			120 PredefinedType
@@ -2949,7 +2949,7 @@ parsed_smell,parsed_smell_identifiers,message
 			120 PredefinedType
 			120 ParameterList
 				120 Parameter
-					120 IdentifierName OpenApiResponses",Rename parameter 'responses' to 'response' to match the base class declaration.
+					120 IdentifierName OpenApiResponses",Rename
 "
 				223 IfStatement
 					223 NotEqualsExpression
@@ -2958,7 +2958,7 @@ parsed_smell,parsed_smell_identifiers,message
 				223 IfStatement
 					223 NotEqualsExpression
 						223 IdentifierName paths
-						223 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						223 NullLiteralExpression",Adjustment
 "
 				349 IfStatement
 					349 NotEqualsExpression
@@ -2967,7 +2967,7 @@ parsed_smell,parsed_smell_identifiers,message
 				349 IfStatement
 					349 NotEqualsExpression
 						349 IdentifierName callback
-						349 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						349 NullLiteralExpression",Adjustment
 "
 				403 IfStatement
 					403 NotEqualsExpression
@@ -2976,7 +2976,7 @@ parsed_smell,parsed_smell_identifiers,message
 				403 IfStatement
 					403 NotEqualsExpression
 						403 IdentifierName serverVariables
-						403 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						403 NullLiteralExpression",Adjustment
 "
 				470 IfStatement
 					470 NotEqualsExpression
@@ -2985,7 +2985,7 @@ parsed_smell,parsed_smell_identifiers,message
 				470 IfStatement
 					470 NotEqualsExpression
 						470 IdentifierName operations
-						470 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						470 NullLiteralExpression",Adjustment
 "
 				576 IfStatement
 					576 NotEqualsExpression
@@ -2994,7 +2994,7 @@ parsed_smell,parsed_smell_identifiers,message
 				576 IfStatement
 					576 NotEqualsExpression
 						576 IdentifierName responses
-						576 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						576 NullLiteralExpression",Adjustment
 "
 						619 IfStatement
 							619 NotEqualsExpression
@@ -3007,7 +3007,7 @@ parsed_smell,parsed_smell_identifiers,message
 								619 SimpleMemberAccessExpression
 									619 IdentifierName requestBody
 									619 IdentifierName Content
-								619 NullLiteralExpression",Merge this if statement with the enclosing one.
+								619 NullLiteralExpression",Refactor
 "
 				638 IfStatement
 					638 NotEqualsExpression
@@ -3016,7 +3016,7 @@ parsed_smell,parsed_smell_identifiers,message
 				638 IfStatement
 					638 NotEqualsExpression
 						638 IdentifierName headers
-						638 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						638 NullLiteralExpression",Adjustment
 "
 				660 IfStatement
 					660 NotEqualsExpression
@@ -3025,7 +3025,7 @@ parsed_smell,parsed_smell_identifiers,message
 				660 IfStatement
 					660 NotEqualsExpression
 						660 IdentifierName callbacks
-						660 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						660 NullLiteralExpression",Adjustment
 "
 				682 IfStatement
 					682 NotEqualsExpression
@@ -3034,7 +3034,7 @@ parsed_smell,parsed_smell_identifiers,message
 				682 IfStatement
 					682 NotEqualsExpression
 						682 IdentifierName content
-						682 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						682 NullLiteralExpression",Adjustment
 "
 				723 IfStatement
 					723 NotEqualsExpression
@@ -3043,7 +3043,7 @@ parsed_smell,parsed_smell_identifiers,message
 				723 IfStatement
 					723 NotEqualsExpression
 						723 IdentifierName encodings
-						723 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						723 NullLiteralExpression",Adjustment
 "
 				829 IfStatement
 					829 NotEqualsExpression
@@ -3052,7 +3052,7 @@ parsed_smell,parsed_smell_identifiers,message
 				829 IfStatement
 					829 NotEqualsExpression
 						829 IdentifierName examples
-						829 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						829 NullLiteralExpression",Adjustment
 "
 				948 IfStatement
 					948 NotEqualsExpression
@@ -3061,7 +3061,7 @@ parsed_smell,parsed_smell_identifiers,message
 				948 IfStatement
 					948 NotEqualsExpression
 						948 IdentifierName links
-						948 NullLiteralExpression",Change this condition so that it does not always evaluate to 'true'.
+						948 NullLiteralExpression",Adjustment
 "
 		20 FieldDeclaration
 			20 VariableDeclaration
@@ -3090,7 +3090,7 @@ parsed_smell,parsed_smell_identifiers,message
 								20 TypeArgumentList
 									20 IdentifierName Uri
 									20 IdentifierName OpenApiDocument
-							20 ArgumentList",Make '_documents' 'readonly'.
+							20 ArgumentList",Adjustment
 "
 		21 FieldDeclaration
 			21 VariableDeclaration
@@ -3119,7 +3119,7 @@ parsed_smell,parsed_smell_identifiers,message
 								21 TypeArgumentList
 									21 IdentifierName Uri
 									21 IdentifierName IOpenApiReferenceable
-							21 ArgumentList",Make '_fragments' 'readonly'.
+							21 ArgumentList",Adjustment
 "
 		22 FieldDeclaration
 			22 VariableDeclaration
@@ -3148,7 +3148,7 @@ parsed_smell,parsed_smell_identifiers,message
 								22 TypeArgumentList
 									22 IdentifierName Uri
 									22 IdentifierName Stream
-							22 ArgumentList",Make '_artifacts' 'readonly'.
+							22 ArgumentList",Adjustment
 "
 				62 ExpressionStatement
 					62 SimpleAssignmentExpression
@@ -3177,7 +3177,7 @@ parsed_smell,parsed_smell_identifiers,message
 											62 SimpleMemberAccessExpression
 												62 IdentifierName Environment
 												62 IdentifierName CurrentDirectory
-										62 StringLiteralExpression",Remove this hardcoded path-delimiter.
+										62 StringLiteralExpression",Remove
 "
 		84 MethodDeclaration
 			84 PredefinedType
@@ -3200,7 +3200,7 @@ parsed_smell,parsed_smell_identifiers,message
 					84 IdentifierName Validate
 					84 ArgumentList
 						84 Argument
-							84 IdentifierName item",Rename parameter 'item' to 'doc' to match the base class declaration.
+							84 IdentifierName item",Rename
 "
 		90 MethodDeclaration
 			90 PredefinedType
@@ -3223,7 +3223,7 @@ parsed_smell,parsed_smell_identifiers,message
 					90 IdentifierName Validate
 					90 ArgumentList
 						90 Argument
-							90 IdentifierName item",Rename parameter 'item' to 'info' to match the base class declaration.
+							90 IdentifierName item",Rename
 "
 		96 MethodDeclaration
 			96 PredefinedType
@@ -3246,7 +3246,7 @@ parsed_smell,parsed_smell_identifiers,message
 					96 IdentifierName Validate
 					96 ArgumentList
 						96 Argument
-							96 IdentifierName item",Rename parameter 'item' to 'contact' to match the base class declaration.
+							96 IdentifierName item",Rename
 "
 		102 MethodDeclaration
 			102 PredefinedType
@@ -3269,7 +3269,7 @@ parsed_smell,parsed_smell_identifiers,message
 					102 IdentifierName Validate
 					102 ArgumentList
 						102 Argument
-							102 IdentifierName item",Rename parameter 'item' to 'components' to match the base class declaration.
+							102 IdentifierName item",Rename
 "
 		108 MethodDeclaration
 			108 PredefinedType
@@ -3292,7 +3292,7 @@ parsed_smell,parsed_smell_identifiers,message
 					108 IdentifierName Validate
 					108 ArgumentList
 						108 Argument
-							108 IdentifierName item",Rename parameter 'item' to 'tag' to match the base class declaration.
+							108 IdentifierName item",Rename
 "
 		114 MethodDeclaration
 			114 PredefinedType
@@ -3315,7 +3315,7 @@ parsed_smell,parsed_smell_identifiers,message
 					114 IdentifierName Validate
 					114 ArgumentList
 						114 Argument
-							114 IdentifierName item",Rename parameter 'item' to 'response' to match the base class declaration.
+							114 IdentifierName item",Rename
 "
 		120 MethodDeclaration
 			120 PredefinedType
@@ -3338,7 +3338,7 @@ parsed_smell,parsed_smell_identifiers,message
 					120 IdentifierName Validate
 					120 ArgumentList
 						120 Argument
-							120 IdentifierName item",Rename parameter 'item' to 'mediaType' to match the base class declaration.
+							120 IdentifierName item",Rename
 "
 		126 MethodDeclaration
 			126 PredefinedType
@@ -3361,7 +3361,7 @@ parsed_smell,parsed_smell_identifiers,message
 					126 IdentifierName Validate
 					126 ArgumentList
 						126 Argument
-							126 IdentifierName item",Rename parameter 'item' to 'response' to match the base class declaration.
+							126 IdentifierName item",Rename
 "
 		132 MethodDeclaration
 			132 PredefinedType
@@ -3384,7 +3384,7 @@ parsed_smell,parsed_smell_identifiers,message
 					132 IdentifierName Validate
 					132 ArgumentList
 						132 Argument
-							132 IdentifierName item",Rename parameter 'item' to 'externalDocs' to match the base class declaration.
+							132 IdentifierName item",Rename
 "
 		138 MethodDeclaration
 			138 PredefinedType
@@ -3407,7 +3407,7 @@ parsed_smell,parsed_smell_identifiers,message
 					138 IdentifierName Validate
 					138 ArgumentList
 						138 Argument
-							138 IdentifierName item",Rename parameter 'item' to 'license' to match the base class declaration.
+							138 IdentifierName item",Rename
 "
 		144 MethodDeclaration
 			144 PredefinedType
@@ -3430,7 +3430,7 @@ parsed_smell,parsed_smell_identifiers,message
 					144 IdentifierName Validate
 					144 ArgumentList
 						144 Argument
-							144 IdentifierName item",Rename parameter 'item' to 'openApiOAuthFlow' to match the base class declaration.
+							144 IdentifierName item",Rename
 "
 		150 MethodDeclaration
 			150 PredefinedType
@@ -3453,7 +3453,7 @@ parsed_smell,parsed_smell_identifiers,message
 					150 IdentifierName Validate
 					150 ArgumentList
 						150 Argument
-							150 IdentifierName item",Rename parameter 'item' to 'tag' to match the base class declaration.
+							150 IdentifierName item",Rename
 "
 		156 MethodDeclaration
 			156 PredefinedType
@@ -3476,7 +3476,7 @@ parsed_smell,parsed_smell_identifiers,message
 					156 IdentifierName Validate
 					156 ArgumentList
 						156 Argument
-							156 IdentifierName item",Rename parameter 'item' to 'parameter' to match the base class declaration.
+							156 IdentifierName item",Rename
 "
 		162 MethodDeclaration
 			162 PredefinedType
@@ -3499,7 +3499,7 @@ parsed_smell,parsed_smell_identifiers,message
 					162 IdentifierName Validate
 					162 ArgumentList
 						162 Argument
-							162 IdentifierName item",Rename parameter 'item' to 'schema' to match the base class declaration.
+							162 IdentifierName item",Rename
 "
 		168 MethodDeclaration
 			168 PredefinedType
@@ -3522,7 +3522,7 @@ parsed_smell,parsed_smell_identifiers,message
 					168 IdentifierName Validate
 					168 ArgumentList
 						168 Argument
-							168 IdentifierName item",Rename parameter 'item' to 'server' to match the base class declaration.
+							168 IdentifierName item",Rename
 "
 		174 MethodDeclaration
 			174 PredefinedType
@@ -3545,7 +3545,7 @@ parsed_smell,parsed_smell_identifiers,message
 					174 IdentifierName Validate
 					174 ArgumentList
 						174 Argument
-							174 IdentifierName item",Rename parameter 'item' to 'encoding' to match the base class declaration.
+							174 IdentifierName item",Rename
 "
 		180 MethodDeclaration
 			180 PredefinedType
@@ -3568,7 +3568,7 @@ parsed_smell,parsed_smell_identifiers,message
 					180 IdentifierName Validate
 					180 ArgumentList
 						180 Argument
-							180 IdentifierName item",Rename parameter 'item' to 'callback' to match the base class declaration.
+							180 IdentifierName item",Rename
 "
 		186 MethodDeclaration
 			186 PredefinedType
@@ -3591,7 +3591,7 @@ parsed_smell,parsed_smell_identifiers,message
 					186 IdentifierName Validate
 					186 ArgumentList
 						186 Argument
-							186 IdentifierName item",Rename parameter 'item' to 'openApiExtensible' to match the base class declaration.
+							186 IdentifierName item",Rename
 "
 		192 MethodDeclaration
 			192 PredefinedType
@@ -3626,7 +3626,7 @@ parsed_smell,parsed_smell_identifiers,message
 								192 SimpleMemberAccessExpression
 									192 IdentifierName item
 									192 IdentifierName GetType
-								192 ArgumentList",Rename parameter 'item' to 'openApiExtension' to match the base class declaration.
+								192 ArgumentList",Rename
 "
 		198 MethodDeclaration
 			198 PredefinedType
@@ -3665,7 +3665,7 @@ parsed_smell,parsed_smell_identifiers,message
 								198 SimpleMemberAccessExpression
 									198 IdentifierName items
 									198 IdentifierName GetType
-								198 ArgumentList",Rename parameter 'items' to 'example' to match the base class declaration.
+								198 ArgumentList",Rename
 "
 		204 MethodDeclaration
 			204 PredefinedType
@@ -3688,7 +3688,7 @@ parsed_smell,parsed_smell_identifiers,message
 					204 IdentifierName Validate
 					204 ArgumentList
 						204 Argument
-							204 IdentifierName item",Rename parameter 'item' to 'pathItem' to match the base class declaration.
+							204 IdentifierName item",Rename
 "
 		210 MethodDeclaration
 			210 PredefinedType
@@ -3711,7 +3711,7 @@ parsed_smell,parsed_smell_identifiers,message
 					210 IdentifierName Validate
 					210 ArgumentList
 						210 Argument
-							210 IdentifierName item",Rename parameter 'item' to 'serverVariable' to match the base class declaration.
+							210 IdentifierName item",Rename
 "
 		216 MethodDeclaration
 			216 PredefinedType
@@ -3734,7 +3734,7 @@ parsed_smell,parsed_smell_identifiers,message
 					216 IdentifierName Validate
 					216 ArgumentList
 						216 Argument
-							216 IdentifierName item",Rename parameter 'item' to 'securityScheme' to match the base class declaration.
+							216 IdentifierName item",Rename
 "
 		222 MethodDeclaration
 			222 PredefinedType
@@ -3757,7 +3757,7 @@ parsed_smell,parsed_smell_identifiers,message
 					222 IdentifierName Validate
 					222 ArgumentList
 						222 Argument
-							222 IdentifierName item",Rename parameter 'item' to 'securityRequirement' to match the base class declaration.
+							222 IdentifierName item",Rename
 "
 		228 MethodDeclaration
 			228 PredefinedType
@@ -3780,7 +3780,7 @@ parsed_smell,parsed_smell_identifiers,message
 					228 IdentifierName Validate
 					228 ArgumentList
 						228 Argument
-							228 IdentifierName item",Rename parameter 'item' to 'requestBody' to match the base class declaration.
+							228 IdentifierName item",Rename
 "
 		234 MethodDeclaration
 			234 PredefinedType
@@ -3803,7 +3803,7 @@ parsed_smell,parsed_smell_identifiers,message
 					234 IdentifierName Validate
 					234 ArgumentList
 						234 Argument
-							234 IdentifierName item",Rename parameter 'item' to 'paths' to match the base class declaration.
+							234 IdentifierName item",Rename
 "
 		240 MethodDeclaration
 			240 PredefinedType
@@ -3826,7 +3826,7 @@ parsed_smell,parsed_smell_identifiers,message
 					240 IdentifierName Validate
 					240 ArgumentList
 						240 Argument
-							240 IdentifierName item",Rename parameter 'item' to 'link' to match the base class declaration.
+							240 IdentifierName item",Rename
 "
 		246 MethodDeclaration
 			246 PredefinedType
@@ -3849,7 +3849,7 @@ parsed_smell,parsed_smell_identifiers,message
 					246 IdentifierName Validate
 					246 ArgumentList
 						246 Argument
-							246 IdentifierName item",Rename parameter 'item' to 'example' to match the base class declaration.
+							246 IdentifierName item",Rename
 "
 		252 MethodDeclaration
 			252 PredefinedType
@@ -3872,7 +3872,7 @@ parsed_smell,parsed_smell_identifiers,message
 					252 IdentifierName Validate
 					252 ArgumentList
 						252 Argument
-							252 IdentifierName item",Rename parameter 'item' to 'operation' to match the base class declaration.
+							252 IdentifierName item",Rename
 "
 		257 MethodDeclaration
 			257 PredefinedType
@@ -3913,7 +3913,7 @@ parsed_smell,parsed_smell_identifiers,message
 								257 SimpleMemberAccessExpression
 									257 IdentifierName item
 									257 IdentifierName GetType
-								257 ArgumentList",Rename parameter 'item' to 'operations' to match the base class declaration.
+								257 ArgumentList",Rename
 "
 		262 MethodDeclaration
 			262 PredefinedType
@@ -3954,7 +3954,7 @@ parsed_smell,parsed_smell_identifiers,message
 								262 SimpleMemberAccessExpression
 									262 IdentifierName item
 									262 IdentifierName GetType
-								262 ArgumentList",Rename parameter 'item' to 'headers' to match the base class declaration.
+								262 ArgumentList",Rename
 "
 		267 MethodDeclaration
 			267 PredefinedType
@@ -3995,7 +3995,7 @@ parsed_smell,parsed_smell_identifiers,message
 								267 SimpleMemberAccessExpression
 									267 IdentifierName item
 									267 IdentifierName GetType
-								267 ArgumentList",Rename parameter 'item' to 'callbacks' to match the base class declaration.
+								267 ArgumentList",Rename
 "
 		272 MethodDeclaration
 			272 PredefinedType
@@ -4036,7 +4036,7 @@ parsed_smell,parsed_smell_identifiers,message
 								272 SimpleMemberAccessExpression
 									272 IdentifierName item
 									272 IdentifierName GetType
-								272 ArgumentList",Rename parameter 'item' to 'content' to match the base class declaration.
+								272 ArgumentList",Rename
 "
 		277 MethodDeclaration
 			277 PredefinedType
@@ -4077,7 +4077,7 @@ parsed_smell,parsed_smell_identifiers,message
 								277 SimpleMemberAccessExpression
 									277 IdentifierName item
 									277 IdentifierName GetType
-								277 ArgumentList",Rename parameter 'item' to 'examples' to match the base class declaration.
+								277 ArgumentList",Rename
 "
 		282 MethodDeclaration
 			282 PredefinedType
@@ -4118,7 +4118,7 @@ parsed_smell,parsed_smell_identifiers,message
 								282 SimpleMemberAccessExpression
 									282 IdentifierName item
 									282 IdentifierName GetType
-								282 ArgumentList",Rename parameter 'item' to 'links' to match the base class declaration.
+								282 ArgumentList",Rename
 "
 		287 MethodDeclaration
 			287 PredefinedType
@@ -4159,7 +4159,7 @@ parsed_smell,parsed_smell_identifiers,message
 								287 SimpleMemberAccessExpression
 									287 IdentifierName item
 									287 IdentifierName GetType
-								287 ArgumentList",Rename parameter 'item' to 'serverVariables' to match the base class declaration.
+								287 ArgumentList",Rename
 "
 		292 MethodDeclaration
 			292 PredefinedType
@@ -4200,7 +4200,7 @@ parsed_smell,parsed_smell_identifiers,message
 								292 SimpleMemberAccessExpression
 									292 IdentifierName item
 									292 IdentifierName GetType
-								292 ArgumentList",Rename parameter 'item' to 'encodings' to match the base class declaration.
+								292 ArgumentList",Rename
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -4221,7 +4221,7 @@ parsed_smell,parsed_smell_identifiers,message
 							19 IdentifierName Regex
 							19 ArgumentList
 								19 Argument
-									19 StringLiteralExpression",Make this field 'private' and encapsulate it in a 'public' property.
+									19 StringLiteralExpression",Adjustment
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -4242,7 +4242,7 @@ parsed_smell,parsed_smell_identifiers,message
 							19 IdentifierName Regex
 							19 ArgumentList
 								19 Argument
-									19 StringLiteralExpression",Change the visibility of 'KeyRegex' or make it 'const' or 'readonly'.
+									19 StringLiteralExpression",Adjustment
 "
 											26 IfStatement
 												26 LogicalNotExpression
@@ -4261,7 +4261,7 @@ parsed_smell,parsed_smell_identifiers,message
 																26 IdentifierName item
 																26 IdentifierName Email
 															26 IdentifierName IsEmailAddress
-														26 ArgumentList",Merge this if statement with the enclosing one.
+														26 ArgumentList",Refactor
 "
 									24 ForEachStatement
 										24 IdentifierName
@@ -4272,7 +4272,7 @@ parsed_smell,parsed_smell_identifiers,message
 										24 IdentifierName var
 										24 SimpleMemberAccessExpression
 											24 IdentifierName item
-											24 IdentifierName Extensions",Loop should be simplified by calling Select(extensible => extensible.Key))
+											24 IdentifierName Extensions",Refactor
 "
 						60 IfStatement
 							60 IsExpression
@@ -4281,10 +4281,10 @@ parsed_smell,parsed_smell_identifiers,message
 						60 IfStatement
 							60 IsExpression
 								60 IdentifierName value
-								60 IdentifierName OpenApiNull",Merge this if statement with the enclosing one.
+								60 IdentifierName OpenApiNull",Refactor
 "
 						280 ReturnStatement","
-						280 ReturnStatement",Remove this redundant jump.
+						280 ReturnStatement",Remove
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -4321,7 +4321,7 @@ parsed_smell,parsed_smell_identifiers,message
 									19 GenericName
 										19 TypeArgumentList
 											19 IdentifierName ValidationRule
-							19 ArgumentList",Make '_rules' 'readonly'.
+							19 ArgumentList",Adjustment
 "
 		23 FieldDeclaration
 			23 VariableDeclaration
@@ -4346,7 +4346,7 @@ parsed_smell,parsed_smell_identifiers,message
 							23 GenericName
 								23 TypeArgumentList
 									23 IdentifierName ValidationRule
-							23 ArgumentList",Make '_emptyRules' 'readonly'.
+							23 ArgumentList",Adjustment
 "
 						116 ReturnStatement
 							116 InvocationExpression
@@ -4379,7 +4379,7 @@ parsed_smell,parsed_smell_identifiers,message
 													116 Parameter
 													116 IdentifierName v
 									116 IdentifierName ToList
-								116 ArgumentList","Refactor 'Rules' into a method, properties should not copy collections."
+								116 ArgumentList",Refactor
 "
 		44 FieldDeclaration
 			44 VariableDeclaration
@@ -4392,7 +4392,7 @@ parsed_smell,parsed_smell_identifiers,message
 				44 PredefinedType
 				44 VariableDeclarator
 					44 EqualsValueClause
-						44 FalseLiteralExpression",Make '_produceTerseOutput' 'readonly'.
+						44 FalseLiteralExpression",Adjustment
 "
 		42 ConstructorDeclaration
 			42 ParameterList
@@ -4413,7 +4413,7 @@ parsed_smell,parsed_smell_identifiers,message
 					42 Argument
 						42 IdentifierName textWriter
 					42 Argument
-						42 NullLiteralExpression",Change the visibility of this constructor to 'protected'.
+						42 NullLiteralExpression",Adjustment
 "
 		51 ConstructorDeclaration
 			51 ParameterList
@@ -4426,7 +4426,7 @@ parsed_smell,parsed_smell_identifiers,message
 				51 Parameter
 					51 IdentifierName TextWriter
 				51 Parameter
-					51 IdentifierName OpenApiWriterSettings",Change the visibility of this constructor to 'protected'.
+					51 IdentifierName OpenApiWriterSettings",Adjustment
 "
 		22 MethodDeclaration
 			22 PredefinedType
@@ -4445,21 +4445,21 @@ parsed_smell,parsed_smell_identifiers,message
 				22 Parameter
 					22 PredefinedType
 				22 Parameter
-					22 PredefinedType",All 'WriteProperty' method overloads should be adjacent.
+					22 PredefinedType",Refactor
 "
 		248 MethodDeclaration
 			248 PredefinedType
 			248 ParameterList","
 		248 MethodDeclaration
 			248 PredefinedType
-			248 ParameterList",All 'WriteOptionalMap' method overloads should be adjacent.
+			248 ParameterList",Refactor
 "
 		267 MethodDeclaration
 			267 PredefinedType
 			267 ParameterList","
 		267 MethodDeclaration
 			267 PredefinedType
-			267 ParameterList",All 'WriteRequiredMap' method overloads should be adjacent.
+			267 ParameterList",Refactor
 "
 		33 FieldDeclaration
 			33 VariableDeclaration
@@ -4476,7 +4476,7 @@ parsed_smell,parsed_smell_identifiers,message
 					33 EqualsValueClause
 						33 SimpleMemberAccessExpression
 							33 IdentifierName ReferenceInlineSetting
-							33 IdentifierName DoNotInlineReferences",'ReferenceInlineSetting' is obsolete: 'Use InlineLocalReference and InlineExternalReference settings instead'
+							33 IdentifierName DoNotInlineReferences",Refactor
 "
 		33 FieldDeclaration
 			33 VariableDeclaration
@@ -4493,7 +4493,7 @@ parsed_smell,parsed_smell_identifiers,message
 					33 EqualsValueClause
 						33 SimpleMemberAccessExpression
 							33 IdentifierName ReferenceInlineSetting
-							33 IdentifierName DoNotInlineReferences",'ReferenceInlineSetting' is obsolete: 'Use InlineLocalReference and InlineExternalReference settings instead'
+							33 IdentifierName DoNotInlineReferences",Refactor
 "
 							152 Block
 								153 ExpressionStatement
@@ -4516,7 +4516,7 @@ parsed_smell,parsed_smell_identifiers,message
 								154 ExpressionStatement
 									154 InvocationExpression
 										154 IdentifierName WriteIndentation
-										154 ArgumentList",Either merge this branch with the identical one on line 145 or change one of the implementations.
+										154 ArgumentList",Adjustment
 "
 				246 ExpressionStatement
 					246 InvocationExpression
@@ -4533,7 +4533,7 @@ parsed_smell,parsed_smell_identifiers,message
 							246 IdentifierName Invoke
 						246 ArgumentList
 							246 Argument
-								246 IdentifierName context",Dereference of a possibly null reference.
+								246 IdentifierName context",Refactor
 "
 				262 ExpressionStatement
 					262 InvocationExpression
@@ -4550,13 +4550,13 @@ parsed_smell,parsed_smell_identifiers,message
 							262 IdentifierName Invoke
 						262 ArgumentList
 							262 Argument
-								262 IdentifierName context",Dereference of a possibly null reference.
+								262 IdentifierName context",Refactor
 "
 															32 ObjectInitializerExpression","
-															32 ObjectInitializerExpression",Member 'Clone' does not access instance data and can be marked as static
+															32 ObjectInitializerExpression",Refactor
 "
 									54 ObjectInitializerExpression","
-									54 ObjectInitializerExpression",Member 'CloneSecurityScheme' does not access instance data and can be marked as static
+									54 ObjectInitializerExpression",Refactor
 "
 				16 LocalDeclarationStatement
 					16 VariableDeclaration
@@ -4581,7 +4581,7 @@ parsed_smell,parsed_smell_identifiers,message
 										16 IdentifierName BodyExpression
 										16 ArgumentList
 											16 Argument
-												16 NullLiteralExpression","BodyExpressionThrowsWithNullPointerConstructor creates a new instance of BodyExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+												16 NullLiteralExpression",Refactor
 "
 				19 LocalDeclarationStatement
 					19 VariableDeclaration
@@ -4606,7 +4606,7 @@ parsed_smell,parsed_smell_identifiers,message
 										19 IdentifierName HeaderExpression
 										19 ArgumentList
 											19 Argument
-												19 IdentifierName token","HeaderExpressionConstructorThrows creates a new instance of HeaderExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+												19 IdentifierName token",Refactor
 "
 				22 ExpressionStatement
 					22 InvocationExpression
@@ -4631,7 +4631,7 @@ parsed_smell,parsed_smell_identifiers,message
 							22 Argument
 								22 StringLiteralExpression
 							22 Argument
-								22 IdentifierName test",Use nameof in place of string literal 'token'
+								22 IdentifierName test",Refactor
 "
 				19 LocalDeclarationStatement
 					19 VariableDeclaration
@@ -4656,7 +4656,7 @@ parsed_smell,parsed_smell_identifiers,message
 										19 IdentifierName PathExpression
 										19 ArgumentList
 											19 Argument
-												19 IdentifierName name","PathExpressionConstructorThrows creates a new instance of PathExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+												19 IdentifierName name",Refactor
 "
 				22 ExpressionStatement
 					22 InvocationExpression
@@ -4681,7 +4681,7 @@ parsed_smell,parsed_smell_identifiers,message
 							22 Argument
 								22 StringLiteralExpression
 							22 Argument
-								22 IdentifierName test",Use nameof in place of string literal 'name'
+								22 IdentifierName test",Refactor
 "
 				19 LocalDeclarationStatement
 					19 VariableDeclaration
@@ -4706,7 +4706,7 @@ parsed_smell,parsed_smell_identifiers,message
 										19 IdentifierName QueryExpression
 										19 ArgumentList
 											19 Argument
-												19 IdentifierName name","QueryExpressionConstructorThrows creates a new instance of QueryExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+												19 IdentifierName name",Refactor
 "
 				22 ExpressionStatement
 					22 InvocationExpression
@@ -4731,7 +4731,7 @@ parsed_smell,parsed_smell_identifiers,message
 							22 Argument
 								22 StringLiteralExpression
 							22 Argument
-								22 IdentifierName test",Use nameof in place of string literal 'name'
+								22 IdentifierName test",Refactor
 "
 				16 LocalDeclarationStatement
 					16 VariableDeclaration
@@ -4760,7 +4760,7 @@ parsed_smell,parsed_smell_identifiers,message
 											16 Argument
 												16 NameColon
 													16 IdentifierName source
-												16 NullLiteralExpression","RequestExpressionConstructorThrows creates a new instance of RequestExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+												16 NullLiteralExpression",Refactor
 "
 				16 LocalDeclarationStatement
 					16 VariableDeclaration
@@ -4789,7 +4789,7 @@ parsed_smell,parsed_smell_identifiers,message
 											16 Argument
 												16 NameColon
 													16 IdentifierName source
-												16 NullLiteralExpression","ResponseExpressionConstructorThrows creates a new instance of ResponseExpression which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+												16 NullLiteralExpression",Refactor
 "
 				27 ExpressionStatement
 					27 InvocationExpression
@@ -4814,7 +4814,7 @@ parsed_smell,parsed_smell_identifiers,message
 							27 Argument
 								27 StringLiteralExpression
 							27 Argument
-								27 IdentifierName test",Use nameof in place of string literal 'expression'
+								27 IdentifierName test",Refactor
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -4829,7 +4829,7 @@ parsed_smell,parsed_smell_identifiers,message
 				19 VariableDeclarator
 					19 EqualsValueClause
 						19 ObjectCreationExpression
-							19 IdentifierName OpenApiCallback",Non-constant fields should not be visible
+							19 IdentifierName OpenApiCallback",Refactor
 "
 		57 FieldDeclaration
 			57 VariableDeclaration
@@ -4844,7 +4844,7 @@ parsed_smell,parsed_smell_identifiers,message
 				57 VariableDeclarator
 					57 EqualsValueClause
 						57 ObjectCreationExpression
-							57 IdentifierName OpenApiCallback",Non-constant fields should not be visible
+							57 IdentifierName OpenApiCallback",Refactor
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -4859,7 +4859,7 @@ parsed_smell,parsed_smell_identifiers,message
 				16 VariableDeclarator
 					16 EqualsValueClause
 						16 ObjectCreationExpression
-							16 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+							16 IdentifierName OpenApiComponents",Refactor
 "
 		65 FieldDeclaration
 			65 VariableDeclaration
@@ -4874,7 +4874,7 @@ parsed_smell,parsed_smell_identifiers,message
 				65 VariableDeclarator
 					65 EqualsValueClause
 						65 ObjectCreationExpression
-							65 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+							65 IdentifierName OpenApiComponents",Refactor
 "
 		142 FieldDeclaration
 			142 VariableDeclaration
@@ -4891,7 +4891,7 @@ parsed_smell,parsed_smell_identifiers,message
 					142 EqualsValueClause
 						142 ObjectCreationExpression
 							142 IdentifierName OpenApiComponents
-							142 ArgumentList",Non-constant fields should not be visible
+							142 ArgumentList",Refactor
 "
 		144 FieldDeclaration
 			144 VariableDeclaration
@@ -4906,7 +4906,7 @@ parsed_smell,parsed_smell_identifiers,message
 				144 VariableDeclarator
 					144 EqualsValueClause
 						144 ObjectCreationExpression
-							144 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+							144 IdentifierName OpenApiComponents",Refactor
 "
 		172 FieldDeclaration
 			172 VariableDeclaration
@@ -4923,7 +4923,7 @@ parsed_smell,parsed_smell_identifiers,message
 					172 EqualsValueClause
 						172 ObjectCreationExpression
 							172 IdentifierName OpenApiComponents
-							172 ArgumentList",Non-constant fields should not be visible
+							172 ArgumentList",Refactor
 "
 		198 FieldDeclaration
 			198 VariableDeclaration
@@ -4940,7 +4940,7 @@ parsed_smell,parsed_smell_identifiers,message
 					198 EqualsValueClause
 						198 ObjectCreationExpression
 							198 IdentifierName OpenApiComponents
-							198 ArgumentList",Non-constant fields should not be visible
+							198 ArgumentList",Refactor
 "
 		232 FieldDeclaration
 			232 VariableDeclaration
@@ -4957,7 +4957,7 @@ parsed_smell,parsed_smell_identifiers,message
 					232 EqualsValueClause
 						232 ObjectCreationExpression
 							232 IdentifierName OpenApiComponents
-							232 ArgumentList",Non-constant fields should not be visible
+							232 ArgumentList",Refactor
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -4974,7 +4974,7 @@ parsed_smell,parsed_smell_identifiers,message
 					17 EqualsValueClause
 						17 ObjectCreationExpression
 							17 IdentifierName OpenApiContact
-							17 ArgumentList",Non-constant fields should not be visible
+							17 ArgumentList",Refactor
 "
 		19 FieldDeclaration
 			19 VariableDeclaration
@@ -4989,7 +4989,7 @@ parsed_smell,parsed_smell_identifiers,message
 				19 VariableDeclarator
 					19 EqualsValueClause
 						19 ObjectCreationExpression
-							19 IdentifierName OpenApiContact",Non-constant fields should not be visible
+							19 IdentifierName OpenApiContact",Refactor
 "
 		25 FieldDeclaration
 			25 VariableDeclaration
@@ -5006,7 +5006,7 @@ parsed_smell,parsed_smell_identifiers,message
 					25 EqualsValueClause
 						25 ObjectCreationExpression
 							25 IdentifierName OpenApiComponents
-							25 ArgumentList",Non-constant fields should not be visible
+							25 ArgumentList",Refactor
 "
 		51 FieldDeclaration
 			51 VariableDeclaration
@@ -5023,7 +5023,7 @@ parsed_smell,parsed_smell_identifiers,message
 					51 EqualsValueClause
 						51 ObjectCreationExpression
 							51 IdentifierName OpenApiComponents
-							51 ArgumentList",Non-constant fields should not be visible
+							51 ArgumentList",Refactor
 "
 		85 FieldDeclaration
 			85 VariableDeclaration
@@ -5040,7 +5040,7 @@ parsed_smell,parsed_smell_identifiers,message
 					85 EqualsValueClause
 						85 ObjectCreationExpression
 							85 IdentifierName OpenApiComponents
-							85 ArgumentList",Non-constant fields should not be visible
+							85 ArgumentList",Refactor
 "
 		100 FieldDeclaration
 			100 VariableDeclaration
@@ -5057,7 +5057,7 @@ parsed_smell,parsed_smell_identifiers,message
 					100 EqualsValueClause
 						100 ObjectCreationExpression
 							100 IdentifierName OpenApiDocument
-							100 ArgumentList",Non-constant fields should not be visible
+							100 ArgumentList",Refactor
 "
 		109 FieldDeclaration
 			109 VariableDeclaration
@@ -5074,7 +5074,7 @@ parsed_smell,parsed_smell_identifiers,message
 					109 EqualsValueClause
 						109 ObjectCreationExpression
 							109 IdentifierName OpenApiDocument
-							109 ArgumentList",Non-constant fields should not be visible
+							109 ArgumentList",Refactor
 "
 		118 FieldDeclaration
 			118 VariableDeclaration
@@ -5091,7 +5091,7 @@ parsed_smell,parsed_smell_identifiers,message
 					118 EqualsValueClause
 						118 ObjectCreationExpression
 							118 IdentifierName OpenApiDocument
-							118 ArgumentList",Non-constant fields should not be visible
+							118 ArgumentList",Refactor
 "
 		127 FieldDeclaration
 			127 VariableDeclaration
@@ -5106,7 +5106,7 @@ parsed_smell,parsed_smell_identifiers,message
 				127 VariableDeclarator
 					127 EqualsValueClause
 						127 ObjectCreationExpression
-							127 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+							127 IdentifierName OpenApiComponents",Refactor
 "
 		219 FieldDeclaration
 			219 VariableDeclaration
@@ -5131,7 +5131,7 @@ parsed_smell,parsed_smell_identifiers,message
 								219 IdentifierName Schemas
 							219 BracketedArgumentList
 								219 Argument
-									219 StringLiteralExpression",Non-constant fields should not be visible
+									219 StringLiteralExpression",Refactor
 "
 		221 FieldDeclaration
 			221 VariableDeclaration
@@ -5156,7 +5156,7 @@ parsed_smell,parsed_smell_identifiers,message
 								221 IdentifierName Schemas
 							221 BracketedArgumentList
 								221 Argument
-									221 StringLiteralExpression",Non-constant fields should not be visible
+									221 StringLiteralExpression",Refactor
 "
 		223 FieldDeclaration
 			223 VariableDeclaration
@@ -5167,7 +5167,7 @@ parsed_smell,parsed_smell_identifiers,message
 			223 VariableDeclaration
 				223 IdentifierName OpenApiSchema
 				223 VariableDeclarator
-					223 EqualsValueClause",Non-constant fields should not be visible
+					223 EqualsValueClause",Refactor
 "
 		226 FieldDeclaration
 			226 VariableDeclaration
@@ -5182,7 +5182,7 @@ parsed_smell,parsed_smell_identifiers,message
 				226 VariableDeclarator
 					226 EqualsValueClause
 						226 ObjectCreationExpression
-							226 IdentifierName OpenApiDocument",Non-constant fields should not be visible
+							226 IdentifierName OpenApiDocument",Refactor
 "
 		518 FieldDeclaration
 			518 VariableDeclaration
@@ -5197,7 +5197,7 @@ parsed_smell,parsed_smell_identifiers,message
 				518 VariableDeclarator
 					518 EqualsValueClause
 						518 ObjectCreationExpression
-							518 IdentifierName OpenApiComponents",Non-constant fields should not be visible
+							518 IdentifierName OpenApiComponents",Refactor
 "
 		595 FieldDeclaration
 			595 VariableDeclaration
@@ -5222,7 +5222,7 @@ parsed_smell,parsed_smell_identifiers,message
 								595 IdentifierName Schemas
 							595 BracketedArgumentList
 								595 Argument
-									595 StringLiteralExpression",Non-constant fields should not be visible
+									595 StringLiteralExpression",Refactor
 "
 		597 FieldDeclaration
 			597 VariableDeclaration
@@ -5247,7 +5247,7 @@ parsed_smell,parsed_smell_identifiers,message
 								597 IdentifierName Schemas
 							597 BracketedArgumentList
 								597 Argument
-									597 StringLiteralExpression",Non-constant fields should not be visible
+									597 StringLiteralExpression",Refactor
 "
 		599 FieldDeclaration
 			599 VariableDeclaration
@@ -5272,7 +5272,7 @@ parsed_smell,parsed_smell_identifiers,message
 								599 IdentifierName Schemas
 							599 BracketedArgumentList
 								599 Argument
-									599 StringLiteralExpression",Non-constant fields should not be visible
+									599 StringLiteralExpression",Refactor
 "
 		893 FieldDeclaration
 			893 VariableDeclaration
@@ -5287,7 +5287,7 @@ parsed_smell,parsed_smell_identifiers,message
 				893 VariableDeclarator
 					893 EqualsValueClause
 						893 ObjectCreationExpression
-							893 IdentifierName OpenApiDocument",Non-constant fields should not be visible
+							893 IdentifierName OpenApiDocument",Refactor
 "
 		13 FieldDeclaration
 			13 VariableDeclaration
@@ -5304,7 +5304,7 @@ parsed_smell,parsed_smell_identifiers,message
 					13 EqualsValueClause
 						13 ObjectCreationExpression
 							13 IdentifierName OpenApiEncoding
-							13 ArgumentList",Non-constant fields should not be visible
+							13 ArgumentList",Refactor
 "
 		15 FieldDeclaration
 			15 VariableDeclaration
@@ -5319,7 +5319,7 @@ parsed_smell,parsed_smell_identifiers,message
 				15 VariableDeclarator
 					15 EqualsValueClause
 						15 ObjectCreationExpression
-							15 IdentifierName OpenApiEncoding",Non-constant fields should not be visible
+							15 IdentifierName OpenApiEncoding",Refactor
 "
 		21 FieldDeclaration
 			21 VariableDeclaration
@@ -5334,7 +5334,7 @@ parsed_smell,parsed_smell_identifiers,message
 				21 VariableDeclarator
 					21 EqualsValueClause
 						21 ObjectCreationExpression
-							21 IdentifierName OpenApiExample",Non-constant fields should not be visible
+							21 IdentifierName OpenApiExample",Refactor
 "
 		60 FieldDeclaration
 			60 VariableDeclaration
@@ -5349,7 +5349,7 @@ parsed_smell,parsed_smell_identifiers,message
 				60 VariableDeclarator
 					60 EqualsValueClause
 						60 ObjectCreationExpression
-							60 IdentifierName OpenApiExample",Non-constant fields should not be visible
+							60 IdentifierName OpenApiExample",Refactor
 "
 		14 FieldDeclaration
 			14 VariableDeclaration
@@ -5366,7 +5366,7 @@ parsed_smell,parsed_smell_identifiers,message
 					14 EqualsValueClause
 						14 ObjectCreationExpression
 							14 IdentifierName OpenApiExternalDocs
-							14 ArgumentList",Non-constant fields should not be visible
+							14 ArgumentList",Refactor
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -5381,7 +5381,7 @@ parsed_smell,parsed_smell_identifiers,message
 				16 VariableDeclarator
 					16 EqualsValueClause
 						16 ObjectCreationExpression
-							16 IdentifierName OpenApiExternalDocs",Non-constant fields should not be visible
+							16 IdentifierName OpenApiExternalDocs",Refactor
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -5396,7 +5396,7 @@ parsed_smell,parsed_smell_identifiers,message
 				18 VariableDeclarator
 					18 EqualsValueClause
 						18 ObjectCreationExpression
-							18 IdentifierName OpenApiHeader",Non-constant fields should not be visible
+							18 IdentifierName OpenApiHeader",Refactor
 "
 		28 FieldDeclaration
 			28 VariableDeclaration
@@ -5411,7 +5411,7 @@ parsed_smell,parsed_smell_identifiers,message
 				28 VariableDeclarator
 					28 EqualsValueClause
 						28 ObjectCreationExpression
-							28 IdentifierName OpenApiHeader",Non-constant fields should not be visible
+							28 IdentifierName OpenApiHeader",Refactor
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -5426,7 +5426,7 @@ parsed_smell,parsed_smell_identifiers,message
 				17 VariableDeclarator
 					17 EqualsValueClause
 						17 ObjectCreationExpression
-							17 IdentifierName OpenApiInfo",Non-constant fields should not be visible
+							17 IdentifierName OpenApiInfo",Refactor
 "
 		31 FieldDeclaration
 			31 VariableDeclaration
@@ -5441,7 +5441,7 @@ parsed_smell,parsed_smell_identifiers,message
 				31 VariableDeclarator
 					31 EqualsValueClause
 						31 ObjectCreationExpression
-							31 IdentifierName OpenApiInfo",Non-constant fields should not be visible
+							31 IdentifierName OpenApiInfo",Refactor
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -5456,7 +5456,7 @@ parsed_smell,parsed_smell_identifiers,message
 				17 VariableDeclarator
 					17 EqualsValueClause
 						17 ObjectCreationExpression
-							17 IdentifierName OpenApiLicense",Non-constant fields should not be visible
+							17 IdentifierName OpenApiLicense",Refactor
 "
 		22 FieldDeclaration
 			22 VariableDeclaration
@@ -5471,7 +5471,7 @@ parsed_smell,parsed_smell_identifiers,message
 				22 VariableDeclarator
 					22 EqualsValueClause
 						22 ObjectCreationExpression
-							22 IdentifierName OpenApiLicense",Non-constant fields should not be visible
+							22 IdentifierName OpenApiLicense",Refactor
 "
 		20 FieldDeclaration
 			20 VariableDeclaration
@@ -5486,7 +5486,7 @@ parsed_smell,parsed_smell_identifiers,message
 				20 VariableDeclarator
 					20 EqualsValueClause
 						20 ObjectCreationExpression
-							20 IdentifierName OpenApiLink",Non-constant fields should not be visible
+							20 IdentifierName OpenApiLink",Refactor
 "
 		44 FieldDeclaration
 			44 VariableDeclaration
@@ -5501,7 +5501,7 @@ parsed_smell,parsed_smell_identifiers,message
 				44 VariableDeclarator
 					44 EqualsValueClause
 						44 ObjectCreationExpression
-							44 IdentifierName OpenApiLink",Non-constant fields should not be visible
+							44 IdentifierName OpenApiLink",Refactor
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -5518,7 +5518,7 @@ parsed_smell,parsed_smell_identifiers,message
 					16 EqualsValueClause
 						16 ObjectCreationExpression
 							16 IdentifierName OpenApiMediaType
-							16 ArgumentList",Non-constant fields should not be visible
+							16 ArgumentList",Refactor
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -5533,7 +5533,7 @@ parsed_smell,parsed_smell_identifiers,message
 				18 VariableDeclarator
 					18 EqualsValueClause
 						18 ObjectCreationExpression
-							18 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+							18 IdentifierName OpenApiMediaType",Refactor
 "
 		27 FieldDeclaration
 			27 VariableDeclaration
@@ -5548,7 +5548,7 @@ parsed_smell,parsed_smell_identifiers,message
 				27 VariableDeclarator
 					27 EqualsValueClause
 						27 ObjectCreationExpression
-							27 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+							27 IdentifierName OpenApiMediaType",Refactor
 "
 		68 FieldDeclaration
 			68 VariableDeclaration
@@ -5563,7 +5563,7 @@ parsed_smell,parsed_smell_identifiers,message
 				68 VariableDeclarator
 					68 EqualsValueClause
 						68 ObjectCreationExpression
-							68 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+							68 IdentifierName OpenApiMediaType",Refactor
 "
 		77 FieldDeclaration
 			77 VariableDeclaration
@@ -5578,7 +5578,7 @@ parsed_smell,parsed_smell_identifiers,message
 				77 VariableDeclarator
 					77 EqualsValueClause
 						77 ObjectCreationExpression
-							77 IdentifierName OpenApiMediaType",Non-constant fields should not be visible
+							77 IdentifierName OpenApiMediaType",Refactor
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -5595,7 +5595,7 @@ parsed_smell,parsed_smell_identifiers,message
 					16 EqualsValueClause
 						16 ObjectCreationExpression
 							16 IdentifierName OpenApiOAuthFlow
-							16 ArgumentList",Non-constant fields should not be visible
+							16 ArgumentList",Refactor
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -5610,7 +5610,7 @@ parsed_smell,parsed_smell_identifiers,message
 				18 VariableDeclarator
 					18 EqualsValueClause
 						18 ObjectCreationExpression
-							18 IdentifierName OpenApiOAuthFlow",Non-constant fields should not be visible
+							18 IdentifierName OpenApiOAuthFlow",Refactor
 "
 		28 FieldDeclaration
 			28 VariableDeclaration
@@ -5625,7 +5625,7 @@ parsed_smell,parsed_smell_identifiers,message
 				28 VariableDeclarator
 					28 EqualsValueClause
 						28 ObjectCreationExpression
-							28 IdentifierName OpenApiOAuthFlow",Non-constant fields should not be visible
+							28 IdentifierName OpenApiOAuthFlow",Refactor
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -5642,7 +5642,7 @@ parsed_smell,parsed_smell_identifiers,message
 					16 EqualsValueClause
 						16 ObjectCreationExpression
 							16 IdentifierName OpenApiOAuthFlows
-							16 ArgumentList",Non-constant fields should not be visible
+							16 ArgumentList",Refactor
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -5657,7 +5657,7 @@ parsed_smell,parsed_smell_identifiers,message
 				18 VariableDeclarator
 					18 EqualsValueClause
 						18 ObjectCreationExpression
-							18 IdentifierName OpenApiOAuthFlows",Non-constant fields should not be visible
+							18 IdentifierName OpenApiOAuthFlows",Refactor
 "
 		31 FieldDeclaration
 			31 VariableDeclaration
@@ -5672,7 +5672,7 @@ parsed_smell,parsed_smell_identifiers,message
 				31 VariableDeclarator
 					31 EqualsValueClause
 						31 ObjectCreationExpression
-							31 IdentifierName OpenApiOAuthFlows",Non-constant fields should not be visible
+							31 IdentifierName OpenApiOAuthFlows",Refactor
 "
 		22 FieldDeclaration
 			22 VariableDeclaration
@@ -5687,7 +5687,7 @@ parsed_smell,parsed_smell_identifiers,message
 				22 VariableDeclarator
 					22 EqualsValueClause
 						22 ObjectCreationExpression
-							22 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+							22 IdentifierName OpenApiParameter",Refactor
 "
 		28 FieldDeclaration
 			28 VariableDeclaration
@@ -5702,7 +5702,7 @@ parsed_smell,parsed_smell_identifiers,message
 				28 VariableDeclarator
 					28 EqualsValueClause
 						28 ObjectCreationExpression
-							28 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+							28 IdentifierName OpenApiParameter",Refactor
 "
 		39 FieldDeclaration
 			39 VariableDeclaration
@@ -5717,7 +5717,7 @@ parsed_smell,parsed_smell_identifiers,message
 				39 VariableDeclarator
 					39 EqualsValueClause
 						39 ObjectCreationExpression
-							39 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+							39 IdentifierName OpenApiParameter",Refactor
 "
 		69 FieldDeclaration
 			69 VariableDeclaration
@@ -5732,7 +5732,7 @@ parsed_smell,parsed_smell_identifiers,message
 				69 VariableDeclarator
 					69 EqualsValueClause
 						69 ObjectCreationExpression
-							69 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+							69 IdentifierName OpenApiParameter",Refactor
 "
 		91 FieldDeclaration
 			91 VariableDeclaration
@@ -5747,7 +5747,7 @@ parsed_smell,parsed_smell_identifiers,message
 				91 VariableDeclarator
 					91 EqualsValueClause
 						91 ObjectCreationExpression
-							91 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+							91 IdentifierName OpenApiParameter",Refactor
 "
 		113 FieldDeclaration
 			113 VariableDeclaration
@@ -5762,7 +5762,7 @@ parsed_smell,parsed_smell_identifiers,message
 				113 VariableDeclarator
 					113 EqualsValueClause
 						113 ObjectCreationExpression
-							113 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+							113 IdentifierName OpenApiParameter",Refactor
 "
 		142 FieldDeclaration
 			142 VariableDeclaration
@@ -5777,7 +5777,7 @@ parsed_smell,parsed_smell_identifiers,message
 				142 VariableDeclarator
 					142 EqualsValueClause
 						142 ObjectCreationExpression
-							142 IdentifierName OpenApiParameter",Non-constant fields should not be visible
+							142 IdentifierName OpenApiParameter",Refactor
 "
 		18 FieldDeclaration
 			18 VariableDeclaration
@@ -5792,7 +5792,7 @@ parsed_smell,parsed_smell_identifiers,message
 				18 VariableDeclarator
 					18 EqualsValueClause
 						18 ObjectCreationExpression
-							18 IdentifierName OpenApiRequestBody",Non-constant fields should not be visible
+							18 IdentifierName OpenApiRequestBody",Refactor
 "
 		34 FieldDeclaration
 			34 VariableDeclaration
@@ -5807,7 +5807,7 @@ parsed_smell,parsed_smell_identifiers,message
 				34 VariableDeclarator
 					34 EqualsValueClause
 						34 ObjectCreationExpression
-							34 IdentifierName OpenApiRequestBody",Non-constant fields should not be visible
+							34 IdentifierName OpenApiRequestBody",Refactor
 "
 		23 FieldDeclaration
 			23 VariableDeclaration
@@ -5824,7 +5824,7 @@ parsed_smell,parsed_smell_identifiers,message
 					23 EqualsValueClause
 						23 ObjectCreationExpression
 							23 IdentifierName OpenApiResponse
-							23 ArgumentList",Non-constant fields should not be visible
+							23 ArgumentList",Refactor
 "
 		25 FieldDeclaration
 			25 VariableDeclaration
@@ -5839,7 +5839,7 @@ parsed_smell,parsed_smell_identifiers,message
 				25 VariableDeclarator
 					25 EqualsValueClause
 						25 ObjectCreationExpression
-							25 IdentifierName OpenApiResponse",Non-constant fields should not be visible
+							25 IdentifierName OpenApiResponse",Refactor
 "
 		68 FieldDeclaration
 			68 VariableDeclaration
@@ -5854,7 +5854,7 @@ parsed_smell,parsed_smell_identifiers,message
 				68 VariableDeclarator
 					68 EqualsValueClause
 						68 ObjectCreationExpression
-							68 IdentifierName OpenApiResponse",Non-constant fields should not be visible
+							68 IdentifierName OpenApiResponse",Refactor
 "
 		23 FieldDeclaration
 			23 VariableDeclaration
@@ -5871,7 +5871,7 @@ parsed_smell,parsed_smell_identifiers,message
 					23 EqualsValueClause
 						23 ObjectCreationExpression
 							23 IdentifierName OpenApiSchema
-							23 ArgumentList",Non-constant fields should not be visible
+							23 ArgumentList",Refactor
 "
 		25 FieldDeclaration
 			25 VariableDeclaration
@@ -5886,7 +5886,7 @@ parsed_smell,parsed_smell_identifiers,message
 				25 VariableDeclarator
 					25 EqualsValueClause
 						25 ObjectCreationExpression
-							25 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+							25 IdentifierName OpenApiSchema",Refactor
 "
 		42 FieldDeclaration
 			42 VariableDeclaration
@@ -5901,7 +5901,7 @@ parsed_smell,parsed_smell_identifiers,message
 				42 VariableDeclarator
 					42 EqualsValueClause
 						42 ObjectCreationExpression
-							42 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+							42 IdentifierName OpenApiSchema",Refactor
 "
 		91 FieldDeclaration
 			91 VariableDeclaration
@@ -5916,7 +5916,7 @@ parsed_smell,parsed_smell_identifiers,message
 				91 VariableDeclarator
 					91 EqualsValueClause
 						91 ObjectCreationExpression
-							91 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+							91 IdentifierName OpenApiSchema",Refactor
 "
 		143 FieldDeclaration
 			143 VariableDeclaration
@@ -5931,7 +5931,7 @@ parsed_smell,parsed_smell_identifiers,message
 				143 VariableDeclarator
 					143 EqualsValueClause
 						143 ObjectCreationExpression
-							143 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+							143 IdentifierName OpenApiSchema",Refactor
 "
 		166 FieldDeclaration
 			166 VariableDeclaration
@@ -5946,7 +5946,7 @@ parsed_smell,parsed_smell_identifiers,message
 				166 VariableDeclarator
 					166 EqualsValueClause
 						166 ObjectCreationExpression
-							166 IdentifierName OpenApiSchema",Non-constant fields should not be visible
+							166 IdentifierName OpenApiSchema",Refactor
 "
 		15 FieldDeclaration
 			15 VariableDeclaration
@@ -5963,7 +5963,7 @@ parsed_smell,parsed_smell_identifiers,message
 					15 EqualsValueClause
 						15 ObjectCreationExpression
 							15 IdentifierName OpenApiSecurityRequirement
-							15 ArgumentList",Non-constant fields should not be visible
+							15 ArgumentList",Refactor
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -5974,7 +5974,7 @@ parsed_smell,parsed_smell_identifiers,message
 			17 VariableDeclaration
 				17 IdentifierName OpenApiSecurityRequirement
 				17 VariableDeclarator
-					17 EqualsValueClause",Non-constant fields should not be visible
+					17 EqualsValueClause",Refactor
 "
 		49 FieldDeclaration
 			49 VariableDeclaration
@@ -5985,7 +5985,7 @@ parsed_smell,parsed_smell_identifiers,message
 			49 VariableDeclaration
 				49 IdentifierName OpenApiSecurityRequirement
 				49 VariableDeclarator
-					49 EqualsValueClause",Non-constant fields should not be visible
+					49 EqualsValueClause",Refactor
 "
 		22 FieldDeclaration
 			22 VariableDeclaration
@@ -6000,7 +6000,7 @@ parsed_smell,parsed_smell_identifiers,message
 				22 VariableDeclarator
 					22 EqualsValueClause
 						22 ObjectCreationExpression
-							22 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+							22 IdentifierName OpenApiSecurityScheme",Refactor
 "
 		30 FieldDeclaration
 			30 VariableDeclaration
@@ -6015,7 +6015,7 @@ parsed_smell,parsed_smell_identifiers,message
 				30 VariableDeclarator
 					30 EqualsValueClause
 						30 ObjectCreationExpression
-							30 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+							30 IdentifierName OpenApiSecurityScheme",Refactor
 "
 		38 FieldDeclaration
 			38 VariableDeclaration
@@ -6030,7 +6030,7 @@ parsed_smell,parsed_smell_identifiers,message
 				38 VariableDeclarator
 					38 EqualsValueClause
 						38 ObjectCreationExpression
-							38 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+							38 IdentifierName OpenApiSecurityScheme",Refactor
 "
 		46 FieldDeclaration
 			46 VariableDeclaration
@@ -6045,7 +6045,7 @@ parsed_smell,parsed_smell_identifiers,message
 				46 VariableDeclarator
 					46 EqualsValueClause
 						46 ObjectCreationExpression
-							46 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+							46 IdentifierName OpenApiSecurityScheme",Refactor
 "
 		64 FieldDeclaration
 			64 VariableDeclaration
@@ -6060,7 +6060,7 @@ parsed_smell,parsed_smell_identifiers,message
 				64 VariableDeclarator
 					64 EqualsValueClause
 						64 ObjectCreationExpression
-							64 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+							64 IdentifierName OpenApiSecurityScheme",Refactor
 "
 		102 FieldDeclaration
 			102 VariableDeclaration
@@ -6075,7 +6075,7 @@ parsed_smell,parsed_smell_identifiers,message
 				102 VariableDeclarator
 					102 EqualsValueClause
 						102 ObjectCreationExpression
-							102 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+							102 IdentifierName OpenApiSecurityScheme",Refactor
 "
 		110 FieldDeclaration
 			110 VariableDeclaration
@@ -6090,7 +6090,7 @@ parsed_smell,parsed_smell_identifiers,message
 				110 VariableDeclarator
 					110 EqualsValueClause
 						110 ObjectCreationExpression
-							110 IdentifierName OpenApiSecurityScheme",Non-constant fields should not be visible
+							110 IdentifierName OpenApiSecurityScheme",Refactor
 "
 		14 FieldDeclaration
 			14 VariableDeclaration
@@ -6105,7 +6105,7 @@ parsed_smell,parsed_smell_identifiers,message
 				14 VariableDeclarator
 					14 EqualsValueClause
 						14 ObjectCreationExpression
-							14 IdentifierName OpenApiServer",Non-constant fields should not be visible
+							14 IdentifierName OpenApiServer",Refactor
 "
 		20 FieldDeclaration
 			20 VariableDeclaration
@@ -6120,7 +6120,7 @@ parsed_smell,parsed_smell_identifiers,message
 				20 VariableDeclarator
 					20 EqualsValueClause
 						20 ObjectCreationExpression
-							20 IdentifierName OpenApiServer",Non-constant fields should not be visible
+							20 IdentifierName OpenApiServer",Refactor
 "
 		14 FieldDeclaration
 			14 VariableDeclaration
@@ -6137,7 +6137,7 @@ parsed_smell,parsed_smell_identifiers,message
 					14 EqualsValueClause
 						14 ObjectCreationExpression
 							14 IdentifierName OpenApiServerVariable
-							14 ArgumentList",Non-constant fields should not be visible
+							14 ArgumentList",Refactor
 "
 		16 FieldDeclaration
 			16 VariableDeclaration
@@ -6152,7 +6152,7 @@ parsed_smell,parsed_smell_identifiers,message
 				16 VariableDeclarator
 					16 EqualsValueClause
 						16 ObjectCreationExpression
-							16 IdentifierName OpenApiServerVariable",Non-constant fields should not be visible
+							16 IdentifierName OpenApiServerVariable",Refactor
 "
 		21 FieldDeclaration
 			21 VariableDeclaration
@@ -6169,7 +6169,7 @@ parsed_smell,parsed_smell_identifiers,message
 					21 EqualsValueClause
 						21 ObjectCreationExpression
 							21 IdentifierName OpenApiTag
-							21 ArgumentList",Non-constant fields should not be visible
+							21 ArgumentList",Refactor
 "
 		23 FieldDeclaration
 			23 VariableDeclaration
@@ -6184,7 +6184,7 @@ parsed_smell,parsed_smell_identifiers,message
 				23 VariableDeclarator
 					23 EqualsValueClause
 						23 ObjectCreationExpression
-							23 IdentifierName OpenApiTag",Non-constant fields should not be visible
+							23 IdentifierName OpenApiTag",Refactor
 "
 		34 FieldDeclaration
 			34 VariableDeclaration
@@ -6199,7 +6199,7 @@ parsed_smell,parsed_smell_identifiers,message
 				34 VariableDeclarator
 					34 EqualsValueClause
 						34 ObjectCreationExpression
-							34 IdentifierName OpenApiTag",Non-constant fields should not be visible
+							34 IdentifierName OpenApiTag",Refactor
 "
 		17 FieldDeclaration
 			17 VariableDeclaration
@@ -6214,7 +6214,7 @@ parsed_smell,parsed_smell_identifiers,message
 				17 VariableDeclarator
 					17 EqualsValueClause
 						17 ObjectCreationExpression
-							17 IdentifierName OpenApiXml",Non-constant fields should not be visible
+							17 IdentifierName OpenApiXml",Refactor
 "
 		30 FieldDeclaration
 			30 VariableDeclaration
@@ -6231,7 +6231,7 @@ parsed_smell,parsed_smell_identifiers,message
 					30 EqualsValueClause
 						30 ObjectCreationExpression
 							30 IdentifierName OpenApiXml
-							30 ArgumentList",Non-constant fields should not be visible
+							30 ArgumentList",Refactor
 "
 		17 PropertyDeclaration
 			17 IdentifierName
@@ -6244,7 +6244,7 @@ parsed_smell,parsed_smell_identifiers,message
 			17 ArrowExpressionClause
 				17 ObjectCreationExpression
 					17 IdentifierName OpenApiDocument
-					17 ArgumentList",Member 'OpenApiDocumentSample_1' does not access instance data and can be marked as static
+					17 ArgumentList",Refactor
 "
 		45 PropertyDeclaration
 			45 IdentifierName
@@ -6257,7 +6257,7 @@ parsed_smell,parsed_smell_identifiers,message
 			45 ArrowExpressionClause
 				45 ObjectCreationExpression
 					45 IdentifierName OpenApiDocument
-					45 ArgumentList",Member 'OpenApiDocumentSample_2' does not access instance data and can be marked as static
+					45 ArgumentList",Refactor
 "
 				103 ExpressionStatement
 					103 InvocationExpression
@@ -6286,7 +6286,7 @@ parsed_smell,parsed_smell_identifiers,message
 											103 IdentifierName errors
 											103 IdentifierName Count
 										103 ArgumentList
-									103 NumericLiteralExpression",Count() is used where Any() could be used instead to improve performance
+									103 NumericLiteralExpression",Refactor
 "
 				152 ExpressionStatement
 					152 InvocationExpression
@@ -6315,7 +6315,7 @@ parsed_smell,parsed_smell_identifiers,message
 											152 IdentifierName errors
 											152 IdentifierName Count
 										152 ArgumentList
-									152 NumericLiteralExpression",Count() is used where Any() could be used instead to improve performance
+									152 NumericLiteralExpression",Refactor
 "
 				66 ExpressionStatement
 					66 InvocationExpression
@@ -6354,11 +6354,11 @@ parsed_smell,parsed_smell_identifiers,message
 														66 IdentifierName visitor
 												66 IdentifierName CallStack
 											66 IdentifierName Count
-										66 ArgumentList","Use the ""Count"" property instead of Enumerable.Count()"
+										66 ArgumentList",Refactor
 "
 		153 MethodDeclaration
 			153 PredefinedType
 			153 ParameterList","
 		153 MethodDeclaration
 			153 PredefinedType
-			153 ParameterList",Member 'OpenApiWorkspacesShouldLoadDocumentFragments' does not access instance data and can be marked as static
+			153 ParameterList",Refactor

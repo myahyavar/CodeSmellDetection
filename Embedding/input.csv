@@ -1,0 +1,44 @@
+AST
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName"
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 IdentifierName
+				 VariableDeclarator
+					 EqualsValueClause
+						 ObjectCreationExpression
+							 IdentifierName"
+"
+		 FieldDeclaration
+			 VariableDeclaration
+				 PredefinedType
+				 VariableDeclarator"
+"
+		 MethodDeclaration
+			 PredefinedType
+			 ParameterList
+				 Parameter
+					 IdentifierName
+			 ArrowExpressionClause
+				 InvocationExpression
+					 IdentifierName
+					 ArgumentList
+						 Argument
+							 IdentifierName"
+"
+	 ClassDeclaration
+		 BaseList
+			 SimpleBaseType
+				 GenericName
+					 TypeArgumentList
+						 IdentifierName
+						 GenericName
+							 TypeArgumentList
+								 PredefinedType"
