@@ -1,5 +1,0 @@
-"component","startLine","endLine","message"
-BackgroundTransfer:Server/website/download.aspx,99,99,Add "lang" and/or "xml:lang" attributes to this "<html>" element
-BackgroundTransfer:Server/website/randomAccess.aspx,123,123,Add "lang" and/or "xml:lang" attributes to this "<html>" element
-BackgroundTransfer:Server/website/recoverableErrors.aspx,134,134,Add "lang" and/or "xml:lang" attributes to this "<html>" element
-BackgroundTransfer:Server/website/upload.aspx,48,48,Add "lang" and/or "xml:lang" attributes to this "<html>" element

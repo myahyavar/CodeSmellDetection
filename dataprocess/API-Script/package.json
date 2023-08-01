@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "dependencies": {
-    "@json2csv/plainjs": "^6.1.2"
-  }
-}
